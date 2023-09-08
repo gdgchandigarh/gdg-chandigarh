@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Roboto', Arial;
+}
+.section-subheading{
+    font-size: 1.1em;
+    color: #202124;
+}
+p{
+    font-size: 1.1em;
+}
+.section-title{
+    font-size: 44px;
+    font-weight: 400;
+}
+h1{
+    font-size: 36px;
+    font-size: 44px !important;
+    text-transform: none;
+    font-weight: 400 !important;
+}

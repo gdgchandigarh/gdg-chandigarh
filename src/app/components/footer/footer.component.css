@@ -1,0 +1,25 @@
+.arrow-list {
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+
+.arrow-list li::before {
+    content: ">";
+    display: inline-block;
+    font-weight: bold;
+
+}
+footer h6{
+    color:#5f6368;
+}
+
+.socials i{
+    font-weight: normal;
+    margin-right: 5%;
+    color: #5f6368;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,23 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+  }
+  .header-title{
+    color: white;
+  }
+  .header-hero{
+    height: 50vh;
+  }
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #fff; /* Icon color */
+    border-radius: 50%; /* Make it circular */
+    border:1px solid white ;
+    margin-right: 10px; /* Add spacing between icons */
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }

@@ -1,0 +1,42 @@
+.organizers-card {
+    width: 75%;
+    margin: auto;
+    padding: 5%;
+}
+
+.card-title {
+    font-size: 1em !important;
+    font-weight: 700;
+    padding-top: 3%;
+}
+.card-text{
+    font-size: .75em;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+.twitter-icon{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+}
+.image-container {
+    position: relative;
+  }
+  
+  .twitter-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white; /* Add a background color to make the icon more visible */
+    border-radius: 50%; /* Make it circular */
+    padding: 5px; /* Add some padding for better aesthetics */
+    width: 30px;
+    height: 30px;
+  }
+  
+  .twitter-icon a {
+    color: rgb(0, 110, 255); /* Icon color */
+    text-decoration: none;
+  }

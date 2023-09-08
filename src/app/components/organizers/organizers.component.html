@@ -1,0 +1,35 @@
+<section class="organizers py-3 my-3">
+    <div class="container">
+        <div class="row text-center pb-3 mb-3">
+            <div class="col-lg-12">
+                <h1 class="section-title">
+                    Organizers
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let organizer of organizers">
+                <div class="organizers-card">
+                    <div class="image-container">
+                        <img class="card-img-top rounded-circle" [src]="organizer.image"
+                            alt="{{ organizer.name }} Image">
+                        <div class="twitter-icon">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{ organizer.name }}</h5>
+                        <p class="card-text">{{ organizer.company }}</p>
+                        <p class="card-text">{{ organizer.designation }}</p>
+                        <a [href]="organizer.profile" class="btn btn-outline-primary my-3">Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <button class="btn btn-primary"><i class="fa fa-envelope"></i> Join Us</button>
+            </div>
+        </div>
+    </div>
+</section>

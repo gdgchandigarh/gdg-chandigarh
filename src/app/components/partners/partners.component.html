@@ -1,0 +1,23 @@
+<section class="partners py-3 my-3">
+    <div class="container">
+        <div class="row my-3 py-3">
+            <div class="col-lg-12">
+                <h1 class="section-title text-center">
+                    Partners
+                </h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6">
+                <div class="row">
+                    <!-- Use ngFor to iterate through the images array -->
+                    <div class="col-3" *ngFor="let image of images">
+                        <div class="partners-image">
+                            <img [src]="image" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
