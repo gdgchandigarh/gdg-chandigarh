@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'my_custom_font';
+    src: url('./assets/fonts/GoogleSansDisplay-Bold.ttf');
+    src: url('./assets/fonts/GoogleSansDisplay-Regular.ttf');
+  }
+
 body{
-    font-family: 'Roboto', Arial;
+    font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
+    font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
 }
 .section-subheading{
     font-size: 1.1em;
