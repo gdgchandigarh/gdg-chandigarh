@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './gdg-chandigarh/header/header.component';
-import { NavbarComponent } from './gdg-chandigarh/navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderSectionComponent } from './gdg-chandigarh/header-section/header-section.component';
 import { UpcomingEventsComponent } from './gdg-chandigarh/upcoming-events/upcoming-events.component';
 import { EventCardComponent } from './gdg-chandigarh/event-card/event-card.component';
