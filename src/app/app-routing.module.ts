@@ -24,7 +24,7 @@ const routes: Routes = [
     path: 'events', 
     component: EventLayoutComponent,
     children: [
-      { path: 'devfest', component: DevfestComponent},
+      { path: 'devfest/home', component: DevfestComponent},
     ]
   },
  

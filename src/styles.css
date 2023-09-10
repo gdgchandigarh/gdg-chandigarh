@@ -9,6 +9,7 @@
 body{
     font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
     font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
+    background-color: rgb(243, 246, 251) !important;
 }
 .section-subheading{
     font-size: 1.1em;
