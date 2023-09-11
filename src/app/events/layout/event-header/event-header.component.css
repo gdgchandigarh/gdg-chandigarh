@@ -1,0 +1,50 @@
+.nav-container{
+    width: 75%;
+    padding: 0.75%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.nav-item a{
+    color:#1976d2 !important;
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.active{
+    background-color:  #1976d223;
+}
+.nav-item a:hover{
+    color:#1976d2 !important;
+    background-color: #1976d23b;
+}
+nav{
+    position: fixed;
+    width:100%;
+}
+body{
+    background-color: rgb(243, 246, 251) !important;
+}
+.header-container img{
+    border-radius: 15px;
+}
+.header-container{
+    padding-top:7% ;
+}
+@media only screen and (max-width:1024px){
+    .header-container{
+        padding-top:10% ;
+    }
+}
+@media only screen and (max-width:768px){
+    .header-container{
+        padding-top:15% ;
+    }
+}
+@media only screen and (max-width:425px){
+    .header-container{
+        padding-top:20% ;
+    }
+}
