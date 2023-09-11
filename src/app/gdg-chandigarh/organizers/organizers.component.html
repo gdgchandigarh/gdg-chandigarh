@@ -2,14 +2,14 @@
     <div class="container">
         <div class="row text-center pb-3 mb-3">
             <div class="col-lg-12">
-                <h1 class="section-title">
+                <h1 class="section-title h1">
                     Organizers
                 </h1>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let organizer of organizers">
-                <div class="organizers-card">
+                <div class="organizers-card people-card">
                     <div class="image-container">
                         <img class="card-img-top rounded-circle" [src]="organizer.image"
                             alt="{{ organizer.name }} Image">
@@ -17,19 +17,48 @@
                             <a href=""><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title">{{ organizer.name }}</h5>
+                    <div class="card-body text-center people-card--text">
+                        <h5 class="card-title people-card--name">{{ organizer.name }}</h5>
                         <p class="card-text">{{ organizer.company }}</p>
                         <p class="card-text">{{ organizer.designation }}</p>
-                        <a [href]="organizer.profile" class="btn btn-outline-primary my-3">Profile</a>
+                        <!-- <a  class="btn btn-outline-primary my-3">Profile</a> -->
+                        <a  class="b btn btn-secondary" (click)="openModal(profileModal, organizer)" >View Profile</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row my-5">
             <div class="col-lg-12 d-flex justify-content-center">
-                <button class="btn btn-primary"><i class="fa fa-envelope"></i> Join Us</button>
+                <button class="btn btn-primary"><i class="fa fa-envelope"></i>Join Us</button>
             </div>
         </div>
     </div>
+   
+
+<!-- ... your existing code ... -->
+
+<!-- Profile Modal Template -->
+<ng-template #profileModal>
+   <section class="grid">
+  <div class="item">
+    <div class="image">
+      <a href="#">
+        <img [src]="selectedOrganizer?.image"alt="{{ selectedOrganizer?.name }} Image"/>
+      </a>
+    </div>
+    <div class="text">
+      <figcaption> 
+         <h2><a href="">{{ selectedOrganizer?.name }}</a></h2> 
+        <h4><a href="">{{ selectedOrganizer?.company }}</a></h4>
+        <h6>{{ selectedOrganizer?.designation }}</h6>
+       
+        <p>Adipiscing elit. Suspendisse tincidunt magna sit amet sem laoreet, a condimentum purus elementum. Duis ac finibus lorem, id dictum orci. In aliquet tempor velit in tempor. Nunc mattis lobortis mi magna sit amet.</p>
+        <a href="" class="fa fa-linkedin"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-facebook"></a>
+      </figcaption>
+    </div>
+  </div>
+</section>
+</ng-template>
 </section>

@@ -9,6 +9,7 @@
 body{
     font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
     font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
+    background-color: rgb(243, 246, 251) !important;
 }
 .section-subheading{
     font-size: 1.1em;
@@ -26,4 +27,15 @@ h1{
     font-size: 44px !important;
     text-transform: none;
     font-weight: 400 !important;
+}
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: white;
+}
+@media (min-width: 992px) {
+
+    .modal-lg,
+    .modal-xl {
+        --bs-modal-width: 365px !important;
+    }
 }
