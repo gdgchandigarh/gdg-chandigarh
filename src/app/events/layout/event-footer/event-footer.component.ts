@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class EventFooterComponent {
 
-  eventName = "Devfest";
-  eventYear = 2024;
+  eventName = "DevFest";
+  eventYear = 2023;
 }
