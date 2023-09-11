@@ -16,6 +16,7 @@ import { EventTeamComponent } from './events/event-team/event-team.component';
 const eventType= 'devfest';
 const routes: Routes = [
   { path: '', redirectTo: '/gdg-chandigarh/home', pathMatch: 'full' },
+  { path: 'events', redirectTo: `events/${eventType}/home`, pathMatch: 'full' },
   { 
     path: 'gdg-chandigarh', 
     component: GdgChandigarhComponent,
