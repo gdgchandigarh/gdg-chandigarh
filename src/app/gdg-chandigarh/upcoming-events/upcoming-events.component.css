@@ -1,0 +1,56 @@
+
+
+h1,h2,h3,h4{
+    font-family: "GoogleSansDisplay-Bold",sans-serif;
+}
+p{
+    font-family: "open sans",sans-serif;
+   
+}
+.description{
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #202124;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+.sec-head{
+    font-size: 21px;
+    font-weight: 700;
+    color: #202124;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.panel {
+    margin-bottom: 21px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body .date {
+    font-size: 10px;
+}
+
+.event .panel-body .date {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.general-card{
+    border-radius: 0 !important;
+    overflow: hidden;
+    border-radius: 8px !important;
+    border-width: 0 !important;
+    background-color: #FFFFFF !important;
+    border-color: #D3DCE4 !important;
+    box-shadow: none;
+}
+.chapter .event {
+    line-height: 1.7;
+}
