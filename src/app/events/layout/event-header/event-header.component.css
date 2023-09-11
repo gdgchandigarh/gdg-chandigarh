@@ -69,3 +69,23 @@ nav {
         padding-top: 20%;
     }
 }
+@media only screen and (min-width:1440px) {
+    .container{
+        max-width: 1550px !important;
+    }   
+}
+
+.btn-primary{
+    border-radius: 50px !important;
+}
+.section-title{
+    color: #212121!important;
+    caret-color: #212121!important;
+    font-size: 200%;
+    line-height: 40px;
+    font-weight: 800 !important;
+}
+.section-content{
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+}

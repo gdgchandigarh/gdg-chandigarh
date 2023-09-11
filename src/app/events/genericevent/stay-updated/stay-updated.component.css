@@ -29,6 +29,8 @@
     padding: 5%;
 }
 
+
+
 @media only screen and (max-width:425px) {
     .google-icons-section .col-1 {
         flex: 0 0 auto;
