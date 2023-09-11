@@ -1,0 +1,15 @@
+.custom-card {
+    background-color: #1976d21a;
+    padding: 7%;
+    border-radius: 15px;
+}
+
+.whatToExpect {
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.custom-card .cc-title {
+    font-size: 20px;
+    font-weight: 600;
+}

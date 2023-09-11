@@ -27,6 +27,10 @@ import { EventOrganizerComponent } from './events/event-organizer/event-organize
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
+import { AboutDevfestComponent } from './events/genericevent/about-devfest/about-devfest.component';
+import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-updated.component';
+import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
+import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what-to-expect.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +56,11 @@ import { EventFaqComponent } from './events/event-faq/event-faq.component';
     EventOrganizerComponent,
     EventAgendaComponent,
     EventTeamComponent,
-    EventFaqComponent
+    EventFaqComponent,
+    AboutDevfestComponent,
+    StayUpdatedComponent,
+    KeepInTouchComponent,
+    WhatToExpectComponent
   ],
   imports: [
     BrowserModule,

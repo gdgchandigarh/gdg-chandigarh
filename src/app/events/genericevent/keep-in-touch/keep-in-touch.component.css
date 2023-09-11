@@ -1,0 +1,9 @@
+.keepInTouch{
+    background-color: #1976d21a;
+    padding: 2%;
+    border-radius: 15px;
+}
+.keepInTouch i{
+    font-size: 20px;
+    margin-right: 1%;
+}
