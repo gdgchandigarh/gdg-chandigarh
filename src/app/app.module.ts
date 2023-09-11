@@ -27,6 +27,8 @@ import { EventOrganizerComponent } from './events/event-organizer/event-organize
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
+import { RegistrationComponent } from './gdg-chandigarh/upcoming-events/registration/registration.component';
+// import { AvatarComponent } from './gdg-chandigarh/upcoming-events/avatar/avatar.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { EventFaqComponent } from './events/event-faq/event-faq.component';
     EventOrganizerComponent,
     EventAgendaComponent,
     EventTeamComponent,
-    EventFaqComponent
+    EventFaqComponent,
+    RegistrationComponent,
+   
   ],
   imports: [
     BrowserModule,

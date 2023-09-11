@@ -1,11 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-    font-family: 'my_custom_font';
-    src: url('./assets/fonts/GoogleSansDisplay-Bold.ttf');
-    src: url('./assets/fonts/GoogleSansDisplay-Regular.ttf');
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../assets/fonts/OpenSans-Regular.woff') format('woff');
+         
+    font-weight: normal;
+    font-style: normal;
   }
 
+  *{
+    font-family: 'Open Sans' , 'Google Sans', sans-serif;
+    
+  }
 body{
     font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
     font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
