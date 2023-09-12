@@ -10,7 +10,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row event">
+                    <div class="row event" *ngFor="let event of UpcommingEvent">
                         <div
                             class="col-lg-3 col-md-6 col-sm-12 flex justify-content-center  panel panel-default general-card ml-sm-5">
 
@@ -24,145 +24,24 @@
                         <div class=" col-lg-7  col-md-6 col-sm-6 col-xs-12 pl-4 py-4">
                             <div class="well-middle">
                                 <div class="date">
-                                    <strong>Sep 16, 2023</strong>
-                                    - <span>Speaker Session / Tech Talk</span>
+                                    <strong>{{ event.date }}</strong>
+                                    - <span>{{ event.type }}</span>
 
                                 </div>
                                 <div class="single-well">
 
-                                    <h4 class="sec-head my-3">Introduction to Generative AI and Google PaLM</h4>
+                                    <h4 class="sec-head my-3">{{ event.name}}</h4>
 
                                     <p class="description my-3">
-                                        Introduction to Generative AI and Google PaLM This event will introduce you to
-                                        the basics of generative AI, a rapidly growing field of artificial intelligence
-                                        that is capable of generating text, images, or other media. We will discuss the
-                                        different types of generative AI models, and how they can be used to create new
-                                        and innovative products and services.
+                                        {{ event.desc }}
                                     </p>
 
-                                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        Register Now
-                                    </button> -->
-
-                                    <!-- 
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered modal-xl">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-
-                                                    <h5 class="modal-title" id="exampleModalLabel">Introduction to
-                                                        Generative AI and Google PaLM</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="image-container d-flex justify-content-center ">
-                                                    <img [src]="userAvatarUrl" alt="User Avatar" width="50%">
-                                                </div>
-                                                <div class="modal-body">
-                                                    <h2>About this event</h2>
-
-                                                    <p class="description my-3">
-                                                        Introduction to Generative AI and Google PaLM This event will
-                                                        introduce you to
-                                                        the basics of generative AI, a rapidly growing field of
-                                                        artificial intelligence
-                                                        that is capable of generating text, images, or other media. We
-                                                        will discuss the
-                                                        different types of generative AI models, and how they can be
-                                                        used to create new
-                                                        and innovative products and services.
-                                                    </p>
-                                                    <div >
-                                                        <h2 class="my-lg-4">Speakers</h2>
-                                                        <div>
-                                                        <div class="d-flex ">
-                                                            <div class="avatar-container d-flex">
-                                                                <img [src]="speakerAvatarUrl" alt="Avatar"
-                                                                    class="rounded-circle avatar-img">
-
-                                                            </div>
-                                                            <figure>
-                                                                <blockquote class="blockquote">
-                                                                  <h6 class="">Pranav Sharma</h6>
-                                                                </blockquote>
-                                                                <figcaption class="blockquote-footer">
-                                                                  Beckend enigneer at <cite title="Source Title">Naggarroo</cite>
-                                                                </figcaption>
-                                                              </figure>
-                                                           
-
-                                                        </div>
-                                                        <div class="d-flex ">
-                                                            <div class="avatar-container d-flex">
-                                                                <img [src]="speakerAvatarUrl" alt="Avatar"
-                                                                    class="rounded-circle avatar-img">
-
-                                                            </div>
-                                                            <figure>
-                                                                <blockquote class="blockquote">
-                                                                  <h6 class="">Pranav Sharma</h6>
-                                                                </blockquote>
-                                                                <figcaption class="blockquote-footer">
-                                                                  Beckend enigneer at <cite title="Source Title">Naggarroo</cite>
-                                                                </figcaption>
-                                                              </figure>
-                                                           
-
-                                                        </div>
-                                                        <div class="d-flex ">
-                                                            <div class="avatar-container d-flex">
-                                                                <img [src]="speakerAvatarUrl" alt="Avatar"
-                                                                    class="rounded-circle avatar-img">
-
-                                                            </div>
-                                                            <figure>
-                                                                <blockquote class="blockquote">
-                                                                  <h6 class="">Pranav Sharma</h6>
-                                                                </blockquote>
-                                                                <figcaption class="blockquote-footer">
-                                                                  Beckend enigneer at <cite title="Source Title">Naggarroo</cite>
-                                                                </figcaption>
-                                                              </figure>
-                                                           
-
-                                                        </div>
-                                                        <div class="d-flex ">
-                                                            <div class="avatar-container d-flex">
-                                                                <img [src]="speakerAvatarUrl" alt="Avatar"
-                                                                    class="rounded-circle avatar-img">
-
-                                                            </div>
-                                                            <figure>
-                                                                <blockquote class="blockquote">
-                                                                  <h6 class="">Pranav Sharma</h6>
-                                                                </blockquote>
-                                                                <figcaption class="blockquote-footer">
-                                                                  Beckend enigneer at <cite title="Source Title">Naggarroo</cite>
-                                                                </figcaption>
-                                                              </figure>
-                                                           
-
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-
-
+                                  
                                     <ng-template #longContent let-modal>
 
                                         <div class="modal-header">
                                             <div class="image-container d-flex justify-content-center ">
-                                                <img [src]="imageUrl" alt="My Image" width="100%">
+                                                <img [src]="event.image" alt="My Image" width="100%">
                                             </div>
 
                                         </div>
@@ -208,7 +87,7 @@
 
                                                     <div class="d-flex row ">
                                                         <div class=" col-1 avatar-container d-flex">
-                                                            <!-- <img [src]="avatarUrl" alt="Avatar" class="avatar"> -->
+                                                          
                                                             <img [src]="avatarUrl" alt="Avatar"
                                                                 class="rounded-circle avatar-img">
 
