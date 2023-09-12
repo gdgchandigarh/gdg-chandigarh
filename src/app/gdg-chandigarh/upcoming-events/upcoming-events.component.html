@@ -40,15 +40,15 @@
                                         and innovative products and services.
                                     </p>
 
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">
                                         Register Now
-                                    </button>
+                                    </button> -->
 
-
+                                    <!-- 
                                     <div class="modal fade" id="exampleModal" tabindex="-1"
                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered modal-md">
+                                        <div class="modal-dialog modal-dialog-centered modal-xl">
                                             <div class="modal-content">
                                                 <div class="modal-header">
 
@@ -155,19 +155,100 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
+
+
+                                    <ng-template #longContent let-modal>
+
+                                        <div class="modal-header">
+                                            <div class="image-container d-flex justify-content-center ">
+                                                <img [src]="imageUrl" alt="My Image" width="100%">
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-body px-5 ">
+                                            <div class="row py-4">
+                                                <div class="col-12 pb-2">
+                                                    <h4> Session 1 Details</h4>
+                                                    <div class="row ">
+                                                        <div class="col-12 text-muted text-sm">
+                                                            <i style="font-size:18px" class="fa">&#xf073;</i>
+
+                                                            Oct 22,2021 <i
+                                                                class="fa-regular fa-clock"></i> 06:00 PM - 07:00 PM
+                                                            (IST) 40 Min
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row py-4">
+                                                        <div class="col-12">
+                                                            <h4 class="pb-2">Overview</h4>
+                                                            <div class="row">
+                                                                <div class="col-12">Lorem ipsum dolor, sit amet
+                                                                    consectetur Lorem ipsum dolor sit amet consectetur
+                                                                    adipisicing elit. Sequi sed voluptas, similique,
+                                                                    temporibus necessitatibus officia magnam laboriosam
+                                                                    impedit voluptatibus omnis aspernatur tenetur atque
+                                                                    quibusdam libero exercitationem unde possimus dicta
+                                                                    itaque.F adipisicing elit. Iure commodi sunt soluta
+                                                                    veritatis cum dolore debitis sit! Nisi, rerum soluta
+                                                                    totam dolores aperiam nemo labore dicta fuga? Iure,
+                                                                    magnam veritatis.F</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <a href="#" class=" btn btn-secondary  btn-sm rounded-pill">web</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+
+                                                    <div class="d-flex row ">
+                                                        <div class=" col-1 avatar-container d-flex">
+                                                            <!-- <img [src]="avatarUrl" alt="Avatar" class="avatar"> -->
+                                                            <img [src]="avatarUrl" alt="Avatar"
+                                                                class="rounded-circle avatar-img">
+
+                                                        </div>
+                                                        <div class="col-7 ">
+                                                            <div class="row pl-5">
+                                                                <div class="col-12"><strong>Priyanshi Sharma</strong>
+                                                                </div>
+                                                                <div class="col-12 text-muted"><small>Web
+                                                                        Develoepr</small> </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                (click)="modal.close('Close click')">Close</button>
+                                        </div>
+                                    </ng-template>
+
+
+                                    <button class="btn btn-outline-primary mb-2 me-2"
+                                        (click)="openScrollableContent(longContent)">
+                                        Register Now
+                                    </button>
 
 
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
-
                 </div>
+
+
             </div>
-
-
         </div>
     </div>
 </section>
