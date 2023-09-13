@@ -19,11 +19,12 @@
     font-family: google-sans-bold;
 }
 
+
 body{
-    font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
-    font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
+    font-family: "google-sans-regular";
     background-color: rgb(243, 246, 251) !important;
 }
+
 .section-subheading{
     font-size: 1.1em;
     color: #202124;
@@ -40,4 +41,20 @@ h1{
     font-size: 44px !important;
     text-transform: none;
     font-weight: 400 !important;
+}
+.btn-primary{
+    border-radius: 50px !important;
+}
+.section-title{
+    color: #212121!important;
+    caret-color: #212121!important;
+    font-size: 200%;
+    line-height: 40px;
+}
+.section-content{
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+}
+a {
+    background-color: transparent;
 }

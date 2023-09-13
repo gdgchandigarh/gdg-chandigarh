@@ -1,0 +1,46 @@
+.counter-container {
+    text-align: center;
+    background-color: #1976d21a;
+    padding: 5%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10%;
+    border-radius:15px ;
+}
+.about-devfest .event-details{
+    margin-top: 6px !important;
+}
+.section-title span{
+    color:  #1976d2;
+}
+.event-details p{
+    font-size: 19px;
+    color: rgba(0,0,0,.6)!important;
+   margin-bottom: 0 !important;
+}
+
+.counter-container h2 {
+    color: #1976d2;
+}
+.about-devfest .section-content {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0,0,0,.6)!important;
+    margin-bottom: 16px;
+}
+.counter-container{
+    padding: 15%;
+}
+.counter-container h2{
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(66, 133, 244);
+}
+.counter-container p{
+    margin-top: 4px!important;
+    margin-bottom: 4px!important;
+}
+
+
+
+/*  */
