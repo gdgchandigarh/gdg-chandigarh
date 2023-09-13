@@ -27,6 +27,8 @@ import { EventOrganizerComponent } from './events/event-organizer/event-organize
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
+import { RegistrationComponent } from './gdg-chandigarh/upcoming-events/registration/registration.component';
+// import { AvatarComponent } from './gdg-chandigarh/upcoming-events/avatar/avatar.component';
 import { AboutDevfestComponent } from './events/genericevent/about-devfest/about-devfest.component';
 import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-updated.component';
 import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
@@ -60,7 +62,9 @@ import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what
     AboutDevfestComponent,
     StayUpdatedComponent,
     KeepInTouchComponent,
-    WhatToExpectComponent
+    WhatToExpectComponent,
+    RegistrationComponent,
+   
   ],
   imports: [
     BrowserModule,
