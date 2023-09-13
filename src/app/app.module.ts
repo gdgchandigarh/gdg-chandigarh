@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GdgChandigarhComponent } from './gdg-chandigarh/gdg-chandigarh.component';
 import { EventsComponent } from './events/events.component';
 import { FormsModule } from '@angular/forms';
+import { ModalModule } from 'ngx-bootstrap/modal'; // Import ModalModule
 import { EventLayoutComponent } from './events/layout/event-layout/event-layout.component';
 import { AboutComponent } from './gdg-chandigarh/about/about.component';
 import { EventFooterComponent } from './events/layout/event-footer/event-footer.component';
@@ -68,10 +69,12 @@ import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what
   ],
   imports: [
     BrowserModule,
+     ModalModule.forRoot(), // Add ModalModule to imports
     AppRoutingModule,
     FormsModule, // Make sure to import FormsModule
     BrowserAnimationsModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
