@@ -42,3 +42,22 @@ h1{
     text-transform: none;
     font-weight: 400 !important;
 }
+
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: white;
+}
+
+.modal {
+    --bs-modal-border-color: transparent !important;
+
+}
+
+.modal-content {
+    background-color: transparent !important;
+
+}
+
+.modal-dialog {
+    margin-top: 90%;
+}
