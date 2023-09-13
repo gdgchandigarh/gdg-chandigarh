@@ -18,11 +18,23 @@ import { EventsComponent } from './events/events.component';
 import { FormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal'; // Import ModalModule
 import { EventLayoutComponent } from './events/layout/event-layout/event-layout.component';
-import { EventHeaderComponent } from './events/layout/event-header/event-header.component';
 import { AboutComponent } from './gdg-chandigarh/about/about.component';
-import { DevfestComponent } from './events/devfest/devfest.component';
 import { EventFooterComponent } from './events/layout/event-footer/event-footer.component';
 import { HomeComponent } from './gdg-chandigarh/home/home.component';
+import { GenericeventComponent } from './events/genericevent/genericevent.component';
+import { EventHeaderComponent } from './events/layout/event-header/event-header.component';
+import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
+import { EventOrganizerComponent } from './events/event-organizer/event-organizer.component';
+import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
+import { EventTeamComponent } from './events/event-team/event-team.component';
+import { EventFaqComponent } from './events/event-faq/event-faq.component';
+import { RegistrationComponent } from './gdg-chandigarh/upcoming-events/registration/registration.component';
+// import { AvatarComponent } from './gdg-chandigarh/upcoming-events/avatar/avatar.component';
+import { AboutDevfestComponent } from './events/genericevent/about-devfest/about-devfest.component';
+import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-updated.component';
+import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
+import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what-to-expect.component';
+import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -39,11 +51,23 @@ import { HomeComponent } from './gdg-chandigarh/home/home.component';
     GdgChandigarhComponent,
     EventsComponent,
     EventLayoutComponent,
-    EventHeaderComponent,
     AboutComponent,
-    DevfestComponent,
     EventFooterComponent,
-    HomeComponent
+    HomeComponent,
+    GenericeventComponent,
+    EventHeaderComponent,
+    EventSpeakerComponent,
+    EventOrganizerComponent,
+    EventAgendaComponent,
+    EventTeamComponent,
+    EventFaqComponent,
+    AboutDevfestComponent,
+    StayUpdatedComponent,
+    KeepInTouchComponent,
+    WhatToExpectComponent,
+    RegistrationComponent,
+    SponsorsComponent,
+   
   ],
   imports: [
     BrowserModule,

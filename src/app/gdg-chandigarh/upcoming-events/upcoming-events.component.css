@@ -1,0 +1,67 @@
+
+.description{
+    font-size: 16px !important;
+    font-weight: 400;
+    color: #202124;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+.sec-head{
+    font-size: 21px;
+    font-weight: 700;
+    color: #202124;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.panel {
+    margin-bottom: 21px;
+    /* background-color: #fff; */
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body .date {
+    font-size: 10px;
+}
+
+.event .panel-body .date {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.rounded-img{
+    border-radius: 100%;
+}
+.general-card{
+   
+    border-radius: 100% !important;
+    overflow: hidden;
+
+    /* border-radius: 8px !important; */
+    /* border-width: 0 !important; */
+    /* background-color: #FFFFFF !important; */
+    /* border-color: #D3DCE4 !important; */
+    box-shadow: none;
+}
+.chapter .event {
+    line-height: 1.7;
+}
+/* avatar.component.css */
+.avatar-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .avatar-img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+  }
+  .modal-header{
+    padding: 0px !important;
+  }

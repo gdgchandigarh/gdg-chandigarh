@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class EventFooterComponent {
 
+  eventName = "DevFest";
+  eventYear = 2023;
 }

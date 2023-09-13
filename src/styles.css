@@ -1,16 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'google-sans-regular';
+    src: url(assets/fonts/GoogleSansDisplay-Regular.ttf);
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'my_custom_font';
-    src: url('./assets/fonts/GoogleSansDisplay-Bold.ttf');
-    src: url('./assets/fonts/GoogleSansDisplay-Regular.ttf');
-  }
+    font-family: 'google-sans-bold';
+    src: url(assets/fonts/GoogleSansDisplay-Bold.ttf);
+    font-display: swap;
+}
+
+.google-sans-regular{
+    font-family: google-sans-regular;
+}
+
+.google-sans-bold{
+    font-family: google-sans-bold;
+}
+
 
 body{
-    font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
-    font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;
+    font-family: "google-sans-regular";
     background-color: rgb(243, 246, 251) !important;
 }
+
 .section-subheading{
     font-size: 1.1em;
     color: #202124;
@@ -20,7 +34,6 @@ p{
 }
 .section-title{
     font-size: 44px;
-    font-weight: 400;
 }
 h1{
     font-size: 36px;
@@ -28,18 +41,25 @@ h1{
     text-transform: none;
     font-weight: 400 !important;
 }
-.bg-transparent {
-    --bs-bg-opacity: 1;
-    background-color: white;
+.btn-primary{
+    border-radius: 50px !important;
 }
-.modal{
-    --bs-modal-border-color: transparent !important;
-   
+.section-title{
+    color: #212121!important;
+    caret-color: #212121!important;
+    font-size: 200%;
+    line-height: 40px;
 }
-.modal-content {
-    background-color: transparent !important;
-    
+.section-content{
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
 }
-.modal-dialog{
-    margin-top: 90%;
+a {
+    background-color: transparent;
+}
+.text-grey{
+    color: rgba(0,0,0,.6)!important;
+}
+.text-dim{
+    color: rgba(0,0,0,0.87)!important;
 }

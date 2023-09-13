@@ -1,15 +1,133 @@
 <section class="upcoming-events py-3 my-3">
     <div class="container">
         <div class="row">
-            <h1 class="section-title">
-                Upcoming Events
-            </h1>
-            <p>
-                <b>
-                    There are currently no upcoming events. Please check again soon.
-                </b>
-            </p>
+            <div id="about" class="about-area area-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline ">
+                                <h2 class="google-sans-bold"> Upcoming Events</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row event" *ngFor="let event of UpcommingEvent">
+                        <div
+                            class="col-lg-3 col-md-6 col-sm-12 flex justify-content-center  panel panel-default general-card ml-sm-5">
+
+                            <div class="single-well image-container d-flex justify-content-center ">
+
+                                <img class="rounded-img py-4 ml-5" width="75%" [src]="userAvatarUrl" alt="User Avatar">
+
+                            </div>
+                        </div>
+
+                        <div class=" col-lg-7  col-md-6 col-sm-6 col-xs-12 pl-4 py-4">
+                            <div class="well-middle">
+                                <div class="date">
+                                    <strong>{{ event.date }}</strong>
+                                    - <span>{{ event.type }}</span>
+
+                                </div>
+                                <div class="single-well">
+
+                                    <h4 class="sec-head my-3 google-sans-bold">{{ event.name}}</h4>
+
+                                    <p class="description my-3 google-sans-regular">
+                                        {{ event.desc }}
+                                    </p>
+
+                                  
+                                    <ng-template #longContent let-modal>
+
+                                        <div class="modal-header">
+                                            <div class="image-container d-flex justify-content-center ">
+                                                <img [src]="event.image" alt="My Image" width="100%">
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-body px-5 ">
+                                            <div class="row py-4">
+                                                <div class="col-12 pb-2">
+                                                    <h4> Session 1 Details</h4>
+                                                    <div class="row ">
+                                                        <div class="col-12 text-muted text-sm">
+                                                            <i style="font-size:18px" class="fa">&#xf073;</i>
+
+                                                            Oct 22,2021 <i
+                                                                class="fa-regular fa-clock"></i> 06:00 PM - 07:00 PM
+                                                            (IST) 40 Min
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row py-4">
+                                                        <div class="col-12">
+                                                            <h4 class="pb-2">Overview</h4>
+                                                            <div class="row">
+                                                                <div class="col-12">Lorem ipsum dolor, sit amet
+                                                                    consectetur Lorem ipsum dolor sit amet consectetur
+                                                                    adipisicing elit. Sequi sed voluptas, similique,
+                                                                    temporibus necessitatibus officia magnam laboriosam
+                                                                    impedit voluptatibus omnis aspernatur tenetur atque
+                                                                    quibusdam libero exercitationem unde possimus dicta
+                                                                    itaque.F adipisicing elit. Iure commodi sunt soluta
+                                                                    veritatis cum dolore debitis sit! Nisi, rerum soluta
+                                                                    totam dolores aperiam nemo labore dicta fuga? Iure,
+                                                                    magnam veritatis.F</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <a href="#" class=" btn btn-secondary  btn-sm rounded-pill">web</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+
+                                                    <div class="d-flex row ">
+                                                        <div class=" col-1 avatar-container d-flex">
+                                                          
+                                                            <img [src]="avatarUrl" alt="Avatar"
+                                                                class="rounded-circle avatar-img">
+
+                                                        </div>
+                                                        <div class="col-7 ">
+                                                            <div class="row pl-5">
+                                                                <div class="col-12"><strong>Priyanshi Sharma</strong>
+                                                                </div>
+                                                                <div class="col-12 text-muted"><small>Web
+                                                                        Develoepr</small> </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                (click)="modal.close('Close click')">Close</button>
+                                        </div>
+                                    </ng-template>
+
+
+                                    <button class="btn btn-outline-primary mb-2 me-2"
+                                        (click)="openScrollableContent(longContent)">
+                                        Register Now
+                                    </button>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
         </div>
-        <button routerLink="/events" class="btn btn-primary">Devfest</button>
     </div>
-</section>  
+</section>

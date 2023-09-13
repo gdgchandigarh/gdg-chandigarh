@@ -1,0 +1,44 @@
+.stay-updated {
+    border-radius: 15px;
+}
+
+.logo-container {
+    border-radius: 100%;
+    padding-top: 10% !important;
+}
+
+.join-us {
+    background-color: #1976d21a;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.join-title {
+    font-size: 320%;
+    font-weight: bold;
+    line-height: 60px
+}
+
+.join-para {
+    font-size: 160%;
+}
+
+.gaping {
+
+    height: 100%;
+    padding: 5%;
+}
+
+
+
+@media only screen and (max-width:425px) {
+    .google-icons-section .col-1 {
+        flex: 0 0 auto;
+        width: 15.333333%;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .container{
+        max-width: 1550px !important;
+    }
+}
