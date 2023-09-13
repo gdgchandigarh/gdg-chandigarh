@@ -34,7 +34,6 @@ p{
 }
 .section-title{
     font-size: 44px;
-    font-weight: 400;
 }
 h1{
     font-size: 36px;
@@ -57,4 +56,10 @@ h1{
 }
 a {
     background-color: transparent;
+}
+.text-grey{
+    color: rgba(0,0,0,.6)!important;
+}
+.text-dim{
+    color: rgba(0,0,0,0.87)!important;
 }
