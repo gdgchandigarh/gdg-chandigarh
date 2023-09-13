@@ -254,5 +254,12 @@ a {
         width: 100%;
       }
     }
+         @media (max-width: 766px) {
   
-  
+    .w-75 {
+      width: 36% !important;
+    }
+        .goo-b{
+          font-size: 10px;
+        }
+  }
