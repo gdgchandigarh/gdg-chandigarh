@@ -1,18 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'google-sans-regular';
+    src: url(assets/fonts/GoogleSansDisplay-Regular.ttf);
+    font-display: swap;
+}
 
-/* @font-face {
-    font-family: 'Open Sans'; */
-    /* src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('../assets/fonts/OpenSans-Regular.woff') format('woff'); */
-/*          
-    font-weight: normal;
-    font-style: normal;
-  } */
+@font-face {
+    font-family: 'google-sans-bold';
+    src: url(assets/fonts/GoogleSansDisplay-Bold.ttf);
+    font-display: swap;
+}
 
-  *{
-    font-family: 'Open Sans' , 'Google Sans', sans-serif;
-    
-  }
+.google-sans-regular{
+    font-family: google-sans-regular;
+}
+
+.google-sans-bold{
+    font-family: google-sans-bold;
+}
+
 body{
     font-family: 'my_custom_font', 'GoogleSansDisplay-Regular' ;
     font-family: 'my_custom_font', 'GoogleSansDisplay-Bold' ;

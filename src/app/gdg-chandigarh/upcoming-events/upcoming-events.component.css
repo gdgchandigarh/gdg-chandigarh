@@ -1,17 +1,6 @@
-body {
-    font-family: 'Open Sans' , sans-serif;
-    
-  }
 
-h1,h2,h3,h4{
-    font-family: "GoogleSansDisplay-Bold",sans-serif;
-}
-p{
-    font-family: "open sans",sans-serif;
-   
-}
 .description{
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: 400;
     color: #202124;
     margin-bottom: 1.5rem;
