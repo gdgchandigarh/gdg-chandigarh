@@ -39,26 +39,52 @@
 
 <!-- Profile Modal Template -->
 <ng-template #profileModal>
-   <section class="grid">
-  <div class="item">
-    <div class="image">
-      <a href="#">
-        <img [src]="selectedOrganizer?.image"alt="{{ selectedOrganizer?.name }} Image"/>
-      </a>
-    </div>
-    <div class="text">
-      <figcaption> 
-         <h2><a href="">{{ selectedOrganizer?.name }}</a></h2> 
-        <h4><a href="">{{ selectedOrganizer?.company }}</a></h4>
-        <h6>{{ selectedOrganizer?.designation }}</h6>
-       
-        <p>Adipiscing elit. Suspendisse tincidunt magna sit amet sem laoreet, a condimentum purus elementum. Duis ac finibus lorem, id dictum orci. In aliquet tempor velit in tempor. Nunc mattis lobortis mi magna sit amet.</p>
-        <a href="" class="fa fa-linkedin"></a>
-        <a href="" class="fa fa-twitter"></a>
-        <a href="" class="fa fa-facebook"></a>
-      </figcaption>
-    </div>
-  </div>
-</section>
+   <section class="border-0">
+      <div class="container-fluid bg align-middle d-flex align-items-center border-0">
+        <div class="container  py-lg-5 py-md-4  bg-white br-a">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-2 col-sm-12 col-md-2 p-0 mt-2 text-center  text-md-start text-lg-end">
+               
+                 <img [src]="selectedOrganizer?.image"alt="{{ selectedOrganizer?.name }} Image" class="rounded-circle w-75"/>
+              </div>
+              <div class="col-lg-10 col-md-10 justify-content-center text-center text-lg-start mt-4 mt-lg-0 mt-md-0 text-md-start d-flex flex-column col-sm-12">
+                <h2 class="fw-bold fs-5 mb-0">{{ selectedOrganizer?.name }}</h2>
+                <p class="tg mb-0 goo">{{ selectedOrganizer?.company }}</p>
+                <p class="tg mb-0 goo-a">
+                  {{ selectedOrganizer?.designation }}
+                </p>
+              </div> 
+
+            </div>
+            <div class="row container">
+                <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
+                    <h5>Bio</h5>
+                   <div class="container">
+                     <p class="tg mb-0 goo-b ">
+                        <!-- {{ selectedOrganizer?.bio }} -->
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi cum ipsum aut pariatur? Eos animi repellat assumenda excepturi sequi laboriosam ducimus ipsum, debitis et perspiciatis fugiat, fuga quos sed fugit!
+                        
+                    </p>
+                   </div>
+                </div>
+            </div>
+            <div class="spacer-a"></div>
+            <div class="spacer-a"></div>
+            <div class="container">
+              <div class="col-lg-2 col-md-6 col-sm-12 justify-content-around d-flex">
+                <a href=""><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-xl grey fa-twitter"></i></a>
+                <a href=""><i class="fa-solid  fa=xl grey fa-globe"></i></a>
+              </div>
+            </div>
+            <div class="spacer-a"></div>
+            <div class="container text-end mb-0"(click)="modalRef?.hide()">
+              <p class="mb-0" > <span aria-hidden="true">CLOSE</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </ng-template>
 </section>

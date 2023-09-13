@@ -7,6 +7,42 @@
     margin: 24px;
     
 }
+     .tg {
+       color: rgb(128, 128, 128);
+     }
+  
+        .modal {
+          --bs-modal-border-color: transparent !important;
+          padding-top: 7% !important;
+        }
+  
+     .br-a {
+       border-radius: 10px;
+       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.397);
+     }
+  
+     .spacer-a {
+       width: 100%;
+       padding: 10px;
+     }
+  
+     .goo-a {
+       margin-top: -4px;
+       font-size: smaller;
+     }
+
+    .goo-b{
+      font-size: small;
+    }
+  
+     .goo {
+       margin-top: -1px;
+       font-size: smaller;
+     }
+  
+     .grey {
+       color: grey;
+     }
 .h1{
     
     font-size: 44px !important;
