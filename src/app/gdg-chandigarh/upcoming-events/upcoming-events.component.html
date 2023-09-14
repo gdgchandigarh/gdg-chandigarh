@@ -106,17 +106,21 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary google-sans-regular"
+                                            >RSVP</button>
                                             <button type="button" class="btn btn-light"
                                                 (click)="modal.close('Close click')">Close</button>
                                         </div>
                                     </ng-template>
 
-
-                                    <button class="btn btn-outline-primary mb-2 me-2"
+                                    <div class="container d-flex">
+                                        <button class="btn btn-primary google-sans-regular mb-2 me-2"
                                         [disabled]="!event.isActive"
                                         (click)="openScrollableContent(longContent)">
                                         Register Now
                                     </button>
+                                    </div>
+                                    
 
 
                                 </div>
