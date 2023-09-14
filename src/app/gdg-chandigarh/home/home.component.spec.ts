@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { PastEventsComponent } from '../past-events/past-events.component';
 import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {

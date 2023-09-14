@@ -1,0 +1,19 @@
+.icons img{
+    width:7%;
+    margin: 4px;
+}
+.custom-container {
+    max-width: 70%; /* Set your custom max-width */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add padding as needed */
+}
+.read-more-content {
+    display: none;
+}
+
+/* Style the "Read More" link */
+.read-more-link {
+    color: rgb(45, 108, 233);
+    cursor: pointer;
+}
