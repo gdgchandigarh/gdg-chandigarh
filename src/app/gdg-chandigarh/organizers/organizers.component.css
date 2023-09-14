@@ -2,6 +2,14 @@
   --bs-bg-opacity: 1;
   background-color: white !important;
 }
+.mob{
+      position: absolute;
+        top: 60px;
+      
+}
+.cur{
+  cursor: pointer;
+}
 
 .image{
   overflow: hidden;
