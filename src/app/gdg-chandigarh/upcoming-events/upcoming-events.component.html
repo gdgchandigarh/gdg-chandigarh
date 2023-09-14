@@ -23,7 +23,7 @@
 
                         <div class=" col-lg-7  col-md-6 col-sm-6 col-xs-12 pl-4 py-4">
                             <div class="well-middle">
-                                <div class="date">
+                                <div class="date google-sans-regular">
                                     <strong>{{ event.date }}</strong>
                                     - <span>{{ event.type }}</span>
 
@@ -48,13 +48,13 @@
                                         <div class="modal-body px-5 ">
                                             <div class="row py-4">
                                                 <div class="col-12 pb-2">
-                                                    <h4> Session 1 Details</h4>
+                                                    <h4 class="google-sans-bold"> Session 1 Details</h4>
                                                     <div class="row ">
                                                         <div class="col-12 text-muted text-sm">
                                                             <i style="font-size:18px" class="fa">&#xf073;</i>
 
                                                             Oct 22,2021 <i
-                                                                class="fa-regular fa-clock"></i> 06:00 PM - 07:00 PM
+                                                                class="fa-regular fa-clock google-sans-regular"></i> 06:00 PM - 07:00 PM
                                                             (IST) 40 Min
                                                         </div>
 
@@ -63,7 +63,7 @@
                                                         <div class="col-12">
                                                             <h4 class="pb-2">Overview</h4>
                                                             <div class="row">
-                                                                <div class="col-12">Lorem ipsum dolor, sit amet
+                                                                <div class="col-12 google-sans-regular">Lorem ipsum dolor, sit amet
                                                                     consectetur Lorem ipsum dolor sit amet consectetur
                                                                     adipisicing elit. Sequi sed voluptas, similique,
                                                                     temporibus necessitatibus officia magnam laboriosam
@@ -94,7 +94,7 @@
                                                         </div>
                                                         <div class="col-7 ">
                                                             <div class="row pl-5">
-                                                                <div class="col-12"><strong>Priyanshi Sharma</strong>
+                                                                <div class="col-12 google-sans-bold"><strong>Priyanshi Sharma</strong>
                                                                 </div>
                                                                 <div class="col-12 text-muted"><small>Web
                                                                         Develoepr</small> </div>
@@ -113,6 +113,7 @@
 
 
                                     <button class="btn btn-outline-primary mb-2 me-2"
+                                        [disabled]="!event.isActive"
                                         (click)="openScrollableContent(longContent)">
                                         Register Now
                                     </button>
