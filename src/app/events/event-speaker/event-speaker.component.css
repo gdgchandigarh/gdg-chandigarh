@@ -1,0 +1,62 @@
+.speaker-card {
+    background-color: #fff;
+    padding:10%;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.speaker-image {
+    width: 60%;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.speaker-image-modal{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.speaker-card p {
+    margin-bottom: 0px !important;
+} 
+.modal-content{
+    padding: 5%;
+    max-height: 80vh; overflow-y: auto;
+}  
+.socials i{
+    margin-right: 2%;
+    font-size: 20px;
+}
+.close-button{
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+.sessions-card{
+    background-color: #1976d21a;
+    border-radius: 10px ;
+    padding: 1%;
+    padding-left: 3%;
+    padding-bottom: 3% !important;
+    margin-top: 5%;
+}
+.sessions-card p{
+    margin-top: 1px !important;
+    font-size: 80%;
+}
+.speaker-designation{
+    margin-top: 5px !important;
+}
+.sessions-card-duration{
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 5px !important;
+}
+@media only screen and (max-width:425px) {
+     .col-lg-2 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}

@@ -24,16 +24,19 @@ export class UpcomingEventsComponent {
         desc: " Introduction to Generative AI and Google PaLM This event will introduce you to the basics of generative AI, a rapidly growing field of artificial intelligence that is capable of generating text, images, or other media.We will discuss the different types of generative AI models, and how they can be used to create new and innovative products and services.",
         location: "Chandigarh",
         org: "GDG Chandigarh",
+        isActive: true
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-goog/events/star%20keras%20flat_IEuAtQd.jpg",
+        image: 'assets/img.png',
         date: "SEP 02, 2023",
-        type: "Tech-Talk/ Speaker Session",
+        type: "Devfest 2023",
         name: "Keras Community Day",
         desc: " Introduction to Generative AI and Google PaLM This event will introduce you to the basics of generative AI, a rapidly growing field of artificial intelligence that is capable of generating text, images, or other media.We will discuss the different types of generative AI models, and how they can be used to create new and innovative products and services.",
         location: "Chandigarh",
         org: "GDG Chandigarh",
+        route: '/events',
+        isActive: true
     },
 
 ];
