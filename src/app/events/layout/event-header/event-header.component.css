@@ -1,14 +1,9 @@
 .nav-container {
-    width: 55% !important;
-    padding: 0.5%;
-    padding-left: 0.75%;
-    padding-right: 0.75%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
     background-color: #fff;
     border-radius: 15px;
     /* box-shadow: none; */
     transition:0.3s ease box-shadow;
+    width: 100%;
 }
 .nav-container.box-shadow{
     box-shadow: 5px 5px 5px #00000025;
@@ -26,6 +21,12 @@
     margin-right: 5%;
     font-size: 80%;
 }
+.small-font{
+font-size: 80%;
+}
+.navbar-brand{
+    margin-right: 2%;
+}
 .nav-item a{
     padding-left: 5%;
     padding-right: 5%;
@@ -35,7 +36,7 @@
     background-color: #1976d223;
 }
 
-.nav-item a:hover {
+.nav-item:hover {
     color: #1976d2 !important;
     background-color: #1976d23b;
 }
@@ -45,12 +46,7 @@ nav {
     width: 100%;
 }
 
-@media only screen and (max-width:1440px) {
-    .nav-container {
-        width: 75% !important;
-        padding: 1%;
-    }
-}
+
 
 @media only screen and (max-width:1024px) {
     .nav-container {
@@ -103,4 +99,28 @@ nav {
 .section-content{
     font-size: 16px;
     color: rgba(0,0,0,.87);
+}
+@media only screen and (min-width:1024px) {
+    .tablet{
+        display: none;
+    }
+    .tablet button{
+        width: 100%;
+        margin-top: auto !important;
+    }
+}
+@media only screen and (max-width:1023px) {
+    .desktop{
+        display: none;
+    }
+    .nav-item a {
+        color: #1976d2 !important;
+        transition-duration: 0.5s;
+        border-radius: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 80%;
+        text-align: left;
+    }
+
 }

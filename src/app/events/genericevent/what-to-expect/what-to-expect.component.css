@@ -20,3 +20,9 @@
         max-width: 1550px !important;
     }
 }
+@media only screen  and (max-width:425px){
+    .container{
+        max-width: 90%;
+        padding: 5%;
+    }
+}
