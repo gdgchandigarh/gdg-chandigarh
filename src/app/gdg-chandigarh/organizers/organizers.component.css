@@ -1,20 +1,25 @@
-*{
-  font-family: 'Google Sans', 'Open Sans';
+.bg-transparent {
+  --bs-bg-opacity: 1;
+  background-color: white !important;
 }
+.mob{
+      position: absolute;
+        top: 60px;
+      
+}
+.cur{
+  cursor: pointer;
+}
+
 .image{
   overflow: hidden;
     border-radius: 8px;
     margin: 24px;
     
 }
-     .tg {
+  .tg {
        color: rgb(128, 128, 128);
      }
-  
-        .modal {
-          --bs-modal-border-color: transparent !important;
-          padding-top: 7% !important;
-        }
   
      .br-a {
        border-radius: 10px;

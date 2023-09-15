@@ -20,6 +20,10 @@
 }
 
 
+body{
+    font-family: "google-sans-regular";
+    background-color: rgb(243, 246, 251) !important;
+}
 
 .section-subheading{
     font-size: 1.1em;
@@ -37,8 +41,19 @@ h1{
     text-transform: none;
     font-weight: 400 !important;
 }
-
-
+.btn-primary{
+    border-radius: 50px !important;
+}
+.section-title{
+    color: #212121!important;
+    caret-color: #212121!important;
+    font-size: 200%;
+    line-height: 40px;
+}
+.section-content{
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+}
 a {
     background-color: transparent;
 }
