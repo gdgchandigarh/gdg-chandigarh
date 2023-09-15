@@ -10,8 +10,7 @@ footer h6{
 
 .socials i{
     font-weight: normal;
-    /* margin-right: 5%; */
-
+    
 }
 
 footer ul li a {
@@ -30,3 +29,13 @@ footer ul li ::before {
   .endFooter{
     font-size:smaller ;
   }
+  .wm
+  {
+    width:max-content;
+  }
+  @media only screen and (max-width:700px)
+ {
+    .wm{
+        width:50%;
+      }
+ }
