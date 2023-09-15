@@ -34,6 +34,7 @@ import { AboutDevfestComponent } from './events/genericevent/about-devfest/about
 import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-updated.component';
 import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
 import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what-to-expect.component';
+import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what
     KeepInTouchComponent,
     WhatToExpectComponent,
     RegistrationComponent,
+    SponsorsComponent,
    
   ],
   imports: [

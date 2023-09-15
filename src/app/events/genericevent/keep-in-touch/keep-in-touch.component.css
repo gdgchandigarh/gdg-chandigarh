@@ -7,3 +7,8 @@
     font-size: 20px;
     margin-right: 1%;
 }
+@media only screen and (min-width:1440px) {
+    .container{
+        max-width: 1550px !important;
+    }
+}

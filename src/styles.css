@@ -34,7 +34,6 @@ p{
 }
 .section-title{
     font-size: 44px;
-    font-weight: 400;
 }
 h1{
     font-size: 36px;
@@ -43,21 +42,13 @@ h1{
     font-weight: 400 !important;
 }
 
-.bg-transparent {
-    --bs-bg-opacity: 1;
-    background-color: white;
+
+a {
+    background-color: transparent;
 }
-
-.modal {
-    --bs-modal-border-color: transparent !important;
-
+.text-grey{
+    color: rgba(0,0,0,.6)!important;
 }
-
-.modal-content {
-    background-color: transparent !important;
-
-}
-
-.modal-dialog {
-    margin-top: 90%;
+.text-dim{
+    color: rgba(0,0,0,0.87)!important;
 }

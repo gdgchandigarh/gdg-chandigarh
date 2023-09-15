@@ -42,10 +42,6 @@
     border-radius: 100% !important;
     overflow: hidden;
 
-    /* border-radius: 8px !important; */
-    /* border-width: 0 !important; */
-    /* background-color: #FFFFFF !important; */
-    /* border-color: #D3DCE4 !important; */
     box-shadow: none;
 }
 .chapter .event {
@@ -59,7 +55,7 @@
   }
   
   .avatar-img {
-    width: 50px; /* Adjust the size as needed */
+    width: 50px;
     height: 50px;
   }
   .modal-header{
