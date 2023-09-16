@@ -20,7 +20,8 @@
 } 
 .modal-content{
     padding: 5%;
-    max-height: 80vh; overflow-y: auto;
+    max-height: 80vh;
+    overflow-y: auto;
 }  
 .socials i{
     margin-right: 2%;
