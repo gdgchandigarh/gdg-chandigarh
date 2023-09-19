@@ -1,5 +1,5 @@
 <nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
-  <div class="container nav-container py-1">
+  <div class="container-fluid nav-container">
     <a class="navbar-brand google-sans-regular text-grey" href="#">Devfest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,7 +29,7 @@
         </li>
       </ul>
       <form class="d-flex">
-        <button class="btn btn-primary google-sans-regular small-font" type="submit">Register Now</button>
+        <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>
       </form>
     </div>
   </div>
@@ -78,6 +78,33 @@
     </div>
   </div>
 </nav>
-<div class="container header-container">
-  <img src="https://devfest23-demo.web.app/img/cover.df98feff.png" alt="" srcset="" width="100%">
-</div>
+<section class="header-section bg-white">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-4 col-md-12 desktop-view left-header">
+              <img src="https://developers.google.com/community/devfest/images/devfest-about-background-left.svg"
+                  alt="" srcset="" >
+          </div>
+          <div class="col-lg-4 col-md-12 tablet-view">
+              <img src="https://developers.google.com/community/devfest/images/devfest-about-header-mobile.svg"
+              alt="" srcset=""> 
+          </div>
+          <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center px-4">
+              <div class="text-content">
+                  <p class="header-title google-sans-bold">
+                      Learn, build, and connect
+                  </p>
+                  <p class="header-content google-sans-regular">
+                      DevFest is a global community-driven tech conference, hosted by the Google Developer Groups (GDG)
+                      community. Each DevFest event is crafted by its GDG organizers to fit the learning needs and
+                      interests of their local developer community, with a strong focus on knowledge exchange, networking,
+                      and learning about Google developer technologies
+                  </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-12 d-flex justify-content-end desktop-view right-image">
+              <img src="https://developers.google.com/community/devfest/images/devfest-about-background-right.svg" alt="" srcset="" height="100%">
+          </div>
+      </div>
+  </div>
+</section>

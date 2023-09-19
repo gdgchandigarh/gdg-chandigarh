@@ -1,11 +1,35 @@
+.devfest-footer{
+    border-top: 0.25px solid #5f636840;
+    padding-top: 2%;
+}
+
 footer ul li{
-    display: inline;
     margin-right: 2%;
 }
 footer ul li a {
     text-decoration: none;
     color: black;
+    
 }
-footer{
-    padding: 1%;
+.devfest-footer ul li{
+    list-style: none;
+    margin-bottom: 2%;
+    font-size: 80%;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+ .heading-list{
+    font-size: 110% !important;
+}
+.footer-two{
+     border-top: 0.25px solid #5f636840;
+     border-bottom: 0.25px solid #5f636840;
+     padding-top: 1%;
+}
+.footer-two ul li{
+    display: inline;
+    margin-right: 2%;   
+}
+.logo-footer{
+    font-size: 110% !important;
 }

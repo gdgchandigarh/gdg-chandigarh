@@ -35,6 +35,8 @@ import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-up
 import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
 import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what-to-expect.component';
 import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
+import { FeaturedProductsComponent } from './events/genericevent/featured-products/featured-products.component';
+import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +69,8 @@ import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.compo
     WhatToExpectComponent,
     RegistrationComponent,
     SponsorsComponent,
+    FeaturedProductsComponent,
+    HelpfulResourcesComponent,
    
   ],
   imports: [
