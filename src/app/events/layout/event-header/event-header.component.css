@@ -119,6 +119,9 @@ nav{
     .header-content{
         font-size: 80%;
     }
+    .tablet .nav-item{
+        border-bottom: #5f636867 solid 1px;
+    }
 }
 @media only screen and (max-width:450px){
     .left-image{
