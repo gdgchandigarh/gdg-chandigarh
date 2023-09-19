@@ -3,15 +3,27 @@
     transition-duration: 0.5s;
     margin-left: 5%;
     margin-right: 5%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .nav-item a:hover{
     color:#5f6368 !important;
-    border-bottom:solid 4px #5f6368;
+    border-bottom: #5f6368 solid 2.5px;
+    margin: 0% 20% !important;
 }
 .active{
-    border-bottom:solid 4px  #5f6368;
-    color: #242628 !important;
+    /* background-image: linear-gradient(to right, transparent 20%, #5f6368 20%, #5f6368 80%, transparent 90%); */
+    /* background-position: bottom center; /* Center the gradient at the bottom */
+   /* background-size: 100% 5px; /* Adjust the thickness of the border as needed */
+   /* background-repeat: no-repeat;
+    color: #242628 !important; */
+    border-bottom: #5f6368 solid 2.5px;
+   margin: 0% 20% !important;
+    transition-duration: 0.5s;
 }
 nav{
     position: fixed;
@@ -19,6 +31,7 @@ nav{
     padding-bottom: 0px !important;
     padding-top: 0px !important;
     box-shadow: 5px 5px 5px #0000001d;
+    border-bottom: solid 1px #5f636869;
 }
 .tablet{
     display: none;
@@ -32,79 +45,73 @@ nav{
     }
 }
 
-.header-section{
+.event-header-section{
+    height: 75vh;
+    padding-top:2.5%;
+}
+.event-header-section .row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.left-image{
+    background-image: url('https://developers.google.com/community/devfest/images/devfest-header-left.svg');
+    background-size:contain;
     background-repeat: no-repeat;
-    height: 40vh;
-    padding-top:2%;
+    height: 600px;
 }
-.tablet-view{
-    display: none;
+.right-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://developers.google.com/community/devfest/images/devfest-header-right.svg');
+    background-position: center right;
 }
-.desktop-view img{
-    height: 100%;
+.event-header-section p{
+    margin-bottom:16px;
+    padding-bottom: 0px !important;
 }
-.container-fluid{
-    height: 100% !important;
-}
-.header-div{
-    height: 100%;
-    padding-top: 2%;
-}   
 .header-title{
     font-size: 300%;
-    margin-bottom: 0px !important;
-    padding-left: 20%;
 }
-.header-content{
-    padding-left: 20%;
+.header-text{
+    width: fit-content;
+    padding-right: 40%;
 }
-.yellow-dash{
-    background-color:#fbbc04;
-    width:75px;
-    height: 5px;
-    margin-left: 20%;
+.col-lg-5{
+    align-items: center;
 }
-@media only screen and (max-width:1440px){
-    .desktop-view img{
-        width: 100% !important;
-        height: auto;
+@media only screen and (max-width:1500px){
+    .event-header-section
+    {
+        padding-top: 4%;
     }
     .right-image{
-        display: none !important;
+        display: none;
     }
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 50%;
+    .col-lg-5{
+        flex: 0 0 auto !important;
+        width: 50% !important;
+        align-items: center;
     }
-    .header-title{
-        padding-left: 0px !important;
-    }
-    .header-content{
-        padding-left: 0px !important;
-    }
-    .yellow-dash{
-        margin-left: 0px !important;
+    .header-text{
+        width: fit-content;
+        padding-right: 0%;
     }
 }
-@media only screen and (max-width:1024px){
-    .header-title{
-        font-size: 225%;
-        margin-top: 5%;
+@media only screen and (max-width:1024px) {
+    .event-header-section{
+        padding-top: 5.5%;
+    }
+    .col-lg-5{
+        align-items: start;
     }
 }
 @media only screen and (max-width:768px) {
-    .desktop-view{
-        display: none;
+    .col-lg-5{
+        width: 100% !important;
     }
-    .tablet-view{
-        display: block; 
-    }
-    .tablet-view img{
-        width: 100%;
-    }
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 100%;
+    .left-image{
+        height: 40vh;
+        background-image: url('https://developers.google.com/community/devfest/images/devfest-header-mobile.svg');
     }
     .header-title{
         font-size: 200%;
@@ -112,12 +119,15 @@ nav{
     .header-content{
         font-size: 80%;
     }
-    .yellow-dash{
-        display: none;
+}
+@media only screen and (max-width:450px){
+    .left-image{
+        height: 25vh;
     }
-    .header-section{
-        margin-bottom:10% ;
+    .header-title{
+        font-size: 150%;
     }
-    
-  
+    .header-content{
+        font-size: 80%;
+    }
 }
