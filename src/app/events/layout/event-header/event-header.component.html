@@ -15,18 +15,10 @@
              [routerLinkActiveOptions]="{exact: true}"
              aria-current="page">Home</a>
         </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
+        <li class="nav-item d-flex justify-content-center" *ngFor="let nav of navMenu">
+          <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
         </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
-        </li>
+        
       </ul>
       <form class="d-flex">
         <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>

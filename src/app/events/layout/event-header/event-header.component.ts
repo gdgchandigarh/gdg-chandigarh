@@ -7,6 +7,28 @@ import { Component,HostListener } from '@angular/core';
 })
 export class EventHeaderComponent {
   boxShadowStyle: any = {}; // 
+  navMenu = [
+    {
+      route: 'speaker',
+      itemName: 'Speakers'
+    },
+    {
+      route: 'organizer',
+      itemName: 'Organizers'
+    },
+    {
+      route: 'agenda',
+      itemName: 'Agenda'
+    },
+    {
+      route: 'faq',
+      itemName: 'FAQ',
+    },
+    {
+      route: 'teams',
+      itemName: 'Teams',
+    }
+  ] 
   
 
   onScroll(event: any) {
