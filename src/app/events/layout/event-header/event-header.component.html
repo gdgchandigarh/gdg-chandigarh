@@ -1,6 +1,6 @@
 <nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
   <div class="container-fluid nav-container">
-    <a class="navbar-brand google-sans-regular text-grey" href="#">Devfest Chandigarh</a>
+    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">Devfest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -9,23 +9,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link px-2 active d-flex justify-content-center" routerLink="devfest/home"
-            aria-current="page">Home</a>
+          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home"
+             routerLinkActive="active" 
+             [routerLinkActiveOptions]="{exact: true}"
+             aria-current="page">Home</a>
         </li>
         <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLink="devfest/speaker">Speakers</a>
+          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
         </li>
         <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLink="devfest/agenda">Schedule</a>
+          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
         </li>
         <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLink="devfest/home">Badge</a>
+          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
         </li>
         <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLink="devfest/teams">Team</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLink="devfest/faq">FAQ's</a>
+          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -34,6 +33,7 @@
     </div>
   </div>
 </nav>
+
 <nav class="navbar tablet bg-light fixed-top">
   <div class="container-fluid d-inline">
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -45,39 +45,39 @@
    
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-regular">DevFest Chandigarh</h5>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold">DevFest Chandigarh</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
-          <li class="nav-item d-flex justify-content-start">
+          <li class="nav-item d-flex justify-content-start" aria-label="Close">
             <a class="nav-link  px-2" routerLink="devfest/home"
+              routerLinkActive="active" 
+              [routerLinkActiveOptions]="{exact: true}"
               aria-current="page">Home</a>
           </li>
           <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLink="devfest/speaker">Speakers</a>
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
           </li>
           <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLink="devfest/agenda">Schedule</a>
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
           </li>
           <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLink="devfest/home">Badge</a>
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
           </li>
           <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link  px-2" routerLink="devfest/teams">Team</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link  px-2" routerLink="devfest/faq">FAQ's</a>
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
           </li>
           <li class="nav-item">
             
           </li>
         </ul>
-        <a class="nav-link py-4 px-2 mt-auto" routerLink="devfest/"><button class="btn bg-primary text-light w-100">Register Here</button></a>
+        <a class="nav-link py-4 px-2 mt-auto" href=""><button class="btn bg-primary text-light w-100">Register Here</button></a>
       </div>
     </div>
   </div>
 </nav>
+
 <section class="event-header-section bg-white google-sans-regular">
   <div class="row">
       <div class="col-lg-5 left-image">

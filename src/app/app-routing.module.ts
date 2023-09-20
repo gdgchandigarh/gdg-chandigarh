@@ -14,6 +14,7 @@ import { EventFaqComponent } from './events/event-faq/event-faq.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 
 const eventType= 'devfest';
+
 const routes: Routes = [
   { path: '', redirectTo: '/gdg-chandigarh/home', pathMatch: 'full' },
   { path: 'events', redirectTo: `events/${eventType}/home`, pathMatch: 'full' },
@@ -32,11 +33,11 @@ const routes: Routes = [
     component: EventLayoutComponent,
     children: [
       { path: `${eventType}/home`, component: GenericeventComponent},
-      { path: 'devfest/speaker', component: EventSpeakerComponent},
-      { path: 'devfest/organizer', component: EventOrganizerComponent},
-      { path: 'devfest/agenda', component: EventAgendaComponent},
-      { path: 'devfest/faq', component: EventFaqComponent},
-      { path: 'devfest/teams', component: EventTeamComponent},
+      { path: `${eventType}/speaker`, component: EventSpeakerComponent},
+      { path: `${eventType}/organizer`, component: EventOrganizerComponent},
+      { path: `${eventType}/agenda`, component: EventAgendaComponent},
+      { path: `${eventType}/faq`, component: EventFaqComponent},
+      { path: `${eventType}/teams`, component: EventTeamComponent},
     ]
   },
  

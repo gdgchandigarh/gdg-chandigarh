@@ -10,15 +10,15 @@
     </div>
     <div class="row my-3 py-3">
         <div class="col-lg-2 col-sm-6">
-            <div class="speaker-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="speaker-card" *ngFor="let speaker of speakers" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <!-- Button trigger modal -->
 
                 <div class="row d-flex justify-content-center">
-                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/loveleen_kaur_suWZnDN.jpeg" srcset="" class="speaker-image">
+                    <img src="{{speaker.image}}" srcset="" class="speaker-image">
                 </div>
 
-                <p class="speaker-name text-center google-sans-bold">Loveleen Kaur</p>
-                <p class="speaker-designation text-center google-sans-regular">Astrotalk</p>
+                <p class="speaker-name text-center google-sans-bold">{{speaker.name}}</p>
+                <p class="speaker-designation text-center google-sans-regular">{{speaker.company}}</p>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -27,12 +27,12 @@
                         <div class="modal-content">
                             <div class="row">
                                 <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/loveleen_kaur_suWZnDN.jpeg"
+                                    <img src="{{speaker.image}}"
                                         alt="" srcset="" class="speaker-image-modal">
                                 </div>
                                 <div class="col-9">
-                                    <p class="speaker-name google-sans-bold">Loveleen Kaur</p>
-                                    <p class="speaker-designation google-sans-regular">Astrotalk</p>
+                                    <p class="speaker-name google-sans-bold">{{speaker.name}}</p>
+                                    <p class="speaker-designation google-sans-regular">{{speaker.company}}</p>
                                 </div>
                             </div>
                             <div class="row my-3">
