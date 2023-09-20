@@ -36,6 +36,8 @@ import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what
 import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
 import { FeaturedProductsComponent } from './events/genericevent/featured-products/featured-products.component';
 import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
+import { CounterHeaderComponent } from './events/genericevent/counter-header/counter-header.component';
+import { DateCounterComponent } from './events/genericevent/date-counter/date-counter.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +71,9 @@ import { HelpfulResourcesComponent } from './events/genericevent/helpful-resourc
     RegistrationComponent,
     SponsorsComponent,
     FeaturedProductsComponent,
-    HelpfulResourcesComponent
+    HelpfulResourcesComponent,
+    CounterHeaderComponent,
+    DateCounterComponent
    
   ],
   imports: [

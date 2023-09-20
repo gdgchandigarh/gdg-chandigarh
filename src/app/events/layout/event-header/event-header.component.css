@@ -119,18 +119,36 @@ nav{
     .header-content{
         font-size: 80%;
     }
+    .navbar{
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
     .tablet .nav-item{
         border-bottom: #5f636867 solid 1px;
+    }
+    .active{
+        margin-left: 0px !important;
+        border-bottom: none;
+    }
+    .nav-item a{
+        margin-left: 0px !important;
     }
 }
 @media only screen and (max-width:450px){
     .left-image{
         height: 25vh;
     }
+    .event-header-section{
+        height: 63vh;
+    }
     .header-title{
         font-size: 150%;
     }
     .header-content{
         font-size: 80%;
+    }
+    .offcanvas{
+        width: 60% !important;
     }
 }

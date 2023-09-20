@@ -1,0 +1,17 @@
+.accordian-button{
+    background-color:transparent;
+}
+.accordion-header button{
+    font-size:75% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.accordion-body{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.accordion-header{
+    border-bottom: 1px solid #5f636836;
+}

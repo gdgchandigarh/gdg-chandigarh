@@ -1,0 +1,29 @@
+.date-container{
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 90%;
+    padding: 3%;
+    margin-bottom:10% ;
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.date-time-section{
+    background-image: url('https://developers.google.com/community/devfest/images/countdown-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.date-time-section .container{
+    width: 50%;
+}
+.counter-title{
+    font-size: 300%;
+    font-weight: bold;
+}
+.counter-content{
+    font-weight: bold;
+}
+.date-time-section p{
+    margin-bottom: 0px !important;
+}
