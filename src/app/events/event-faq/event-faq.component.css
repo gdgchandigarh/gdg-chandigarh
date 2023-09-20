@@ -15,3 +15,6 @@
 .accordion-header{
     border-bottom: 1px solid #5f636836;
 }
+.tablet .nav-link{
+    width: 100%;
+}
