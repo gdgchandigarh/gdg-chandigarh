@@ -1,36 +1,110 @@
-<nav class="navbar navbar-expand-lg navbar-light" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
-    <div class="container nav-container">
-      <a class="navbar-brand px-2" href="#">Devfest Chandigarh</a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars "></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
+  <div class="container-fluid nav-container">
+    <img src="../../../../assets/logo.png" height="25px" width="45px"> &nbsp; &nbsp; 
+    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">Devfest Chandigarh</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fa fa-bars "></i>
+    </button>
+    <div class="collapse navbar-collapse google-sans-bold" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home"
+             routerLinkActive="active" 
+             [routerLinkActiveOptions]="{exact: true}"
+             aria-current="page">Home</a>
+        </li>
+        <li class="nav-item d-flex justify-content-center">
+          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
+        </li>
+        <li class="nav-item d-flex justify-content-center">
+          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
+        </li>
+        <li class="nav-item d-flex justify-content-center">
+          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
+        </li>
+        <li class="nav-item d-flex justify-content-center">
+          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar tablet bg-light fixed-top">
+  <div class="container-fluid d-inline">
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+    aria-controls="offcanvasNavbar">
+    <i class="fa-bars fa"></i>
+  </button>
+    
+  <a class="navbar-brand px-1" href="#">Devfest Chandigarh</a>
+   
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold">DevFest Chandigarh</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body google-sans-bold">
+        <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
+          <li class="nav-item d-flex justify-content-start" aria-label="Close">
+            <a class="nav-link  px-2" routerLink="devfest/home"
+              routerLinkActive="active" 
+              [routerLinkActiveOptions]="{exact: true}"
+              aria-current="page">Home</a>
+          </li>
+          <li class="nav-item d-flex justify-content-start">
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
+          </li>
+          <li class="nav-item d-flex justify-content-start">
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
+          </li>
+          <li class="nav-item d-flex justify-content-start">
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
+          </li>
+          <li class="nav-item d-flex justify-content-start">
+            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link px-2 active d-flex justify-content-center" routerLink="devfest/home" aria-current="page">Home</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-            <a class="nav-link px-2" routerLink="devfest/speaker">Speakers</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-            <a class="nav-link px-2"  routerLink="devfest/agenda">Schedule</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-            <a class="nav-link px-2" routerLink="devfest/home">Badge</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-            <a class="nav-link  px-2" routerLink="devfest/teams">Team</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-            <a class="nav-link  px-2" routerLink="devfest/faq">FAQ's</a>
-        </li>
+            
+          </li>
         </ul>
-        <form class="d-flex">
-          <button class="btn btn-primary" type="submit">Register Now</button>
-        </form>
+        <a class="nav-link py-4 px-2 mt-auto" href=""><button class="btn bg-primary text-light w-100">Register Here</button></a>
       </div>
     </div>
-  </nav>
-  <div class="container header-container">
-    <img src="https://devfest23-demo.web.app/img/cover.df98feff.png" alt="" srcset="" width="100%">
-</div>
+  </div>
+</nav>
+
+<section class="event-header-section bg-white google-sans-regular">
+  <div class="row">
+      <div class="col-lg-5 left-image">
+      </div>
+      <div class="col-lg-5 d-flex justify-content-center">
+         <div class="header-text">
+          <p class="header-title google-sans-bold">
+              DevFest 2023: Coming soon!
+          </p>
+          <p class="header-content">
+              DevFests are local conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest is
+              crafted by its local organizers to fit the needs and interests of its local developer community. Whether
+              it be through hands-on learning experiences, technical talks delivered in local languages by experts, or
+              by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on
+              Google's developer tools.
+
+              
+          </p>
+          <p class="header-content">
+              DevFest opens for registration on October 2, 2023. Check back for updates!
+          </p>
+          <button class="btn btn-primary btn-sm rounded-0">Learn More</button>
+         </div>
+      </div>
+      <div class="col-lg-2 right-image">
+
+      </div>
+  </div>
+</section>

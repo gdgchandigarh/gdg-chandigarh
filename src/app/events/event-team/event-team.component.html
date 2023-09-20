@@ -1,1 +1,143 @@
-<p>event-team works!</p>
+<div class="container">
+    <div class="row pt-3 text-center">
+        <h2 class="google-sans-bold text-dim">
+            Core Team
+        </h2>
+        <p class="section-content google-sans-regular">
+            Meet the dedicated individuals who make our event possible.
+        </p>
+        <div class="row my-6 py-3">
+            <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of volunteers">
+                <div class="volunteer-card"  data-bs-toggle="modal">
+                    <!-- Button trigger modal -->
+    
+                    <div class="row d-flex justify-content-center">
+                        <img src="{{volunteer.image}}" srcset="" class="volunteer-image">
+                    </div>
+    
+                    <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>
+                    <p class="volunteer-designation text-center google-sans-regular">{{volunteer.company}}</p>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col-2 d-flex justify-content-center align-items-center">
+                                        <img src="{{volunteer.image}}"
+                                            alt="" srcset="" class="volunteer-image-modal">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="volunteer-name google-sans-bold">{{volunteer.name}}</p>
+                                        <p class="volunteer-designation google-sans-regular">{{volunteer.company}}</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <p class="google-sans-bold">
+                                        Bio
+                                    </p>
+                                    <p class="google-sans-regular">
+                                       {{volunteer.bio}}
+                                    </p>
+                                </div>
+                                <div class="row socials">
+                                    <p>
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="row">
+                                        <p class="title py-3 google-sans-bold">
+                                            Sessions
+                                        </p>
+                                        <div class="row google-sans-regular">
+                                            <div class="col-6" *ngFor="let session of volunteer.sessions">
+                                                <div class="sessions-card">
+                                                    <p>{{session.sessionTopic}}</p>
+                                                    <p class="sessions-card-duration">{{session.sessionDuration}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="close-button" data-bs-dismiss="modal"><span class="google-sans-bold">CLOSE</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="section-title pt-5 google-sans-bold">
+            Volunteers
+        </p>
+        <div class="row my-6 py-3">
+            <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of volunteers">
+                <div class="volunteer-card"  data-bs-toggle="modal">
+                    <!-- Button trigger modal -->
+    
+                    <div class="row d-flex justify-content-center">
+                        <img src="{{volunteer.image}}" srcset="" class="volunteer-image">
+                    </div>
+    
+                    <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>
+                    <p class="volunteer-designation text-center google-sans-regular">{{volunteer.company}}</p>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col-2 d-flex justify-content-center align-items-center">
+                                        <img src="{{volunteer.image}}"
+                                            alt="" srcset="" class="volunteer-image-modal">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="volunteer-name google-sans-bold">{{volunteer.name}}</p>
+                                        <p class="volunteer-designation google-sans-regular">{{volunteer.company}}</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <p class="google-sans-bold">
+                                        Bio
+                                    </p>
+                                    <p class="google-sans-regular">
+                                       {{volunteer.bio}}
+                                    </p>
+                                </div>
+                                <div class="row socials">
+                                    <p>
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="row">
+                                        <p class="title py-3 google-sans-bold">
+                                            Sessions
+                                        </p>
+                                        <div class="row google-sans-regular">
+                                            <div class="col-6" *ngFor="let session of volunteer.sessions">
+                                                <div class="sessions-card">
+                                                    <p>{{session.sessionTopic}}</p>
+                                                    <p class="sessions-card-duration">{{session.sessionDuration}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="close-button" data-bs-dismiss="modal"><span class="google-sans-bold">CLOSE</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+</div>
+</div>

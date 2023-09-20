@@ -1,69 +1,36 @@
-.date{
-    border-bottom:  #1976d2 solid 3px;
-    width: fit-content;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.agenda-time{
+    color: #f9ab00;
+    font-size: 110%;
 }
-.date-of-event{
-    border-radius: 15px;
+.section-title{
+    font-size: 250%;
 }
-.time-table{
-    border-radius: 20px;
-    width: 100%;
-    padding-left: 1%;
-    padding-right: 1%;
+.agenda-title{
+    font-size: 175%;
+    padding-left: 0px !important;
 }
-.date-and-time p{
-    margin-bottom: 0px !important;
-    text-align: right;
+.agenda-speaker{
+    color: #5f6368;
+    font-size: 100%;
+    text-transform: uppercase;
 }
-.endtime{
-    font-size: 75%;
+.agenda-row p{
+    margin-bottom: 8px !important;
 }
-.time-zone{
-    font-size: 90%;
+.yellow-underline{
+            width: fit-content;
+            padding: 10px; /* Add padding to create space for the rounded ends */
+            background-image: linear-gradient(to right, transparent 10%, #f9ab00 20%, #f9ab00 80%, transparent 90%);
+            background-position: bottom center; /* Center the gradient at the bottom */
+            background-size: 100% 1px; /* Adjust the thickness of the border as needed */
+            background-repeat: no-repeat;
 }
-.left-section{
-    border-right: solid 1px #00000029;
-    border-bottom: solid 1px #00000029;
-}
-.right-section{
-    border-bottom: solid 1px #00000029;
-    text-align-last: left;
-}
-.trainer-capsule{
-    border-radius: 20px;
-    border:  solid 1px #00000029;
-    padding-left: 0%!important;
- 
-}
-.topic-capsule{
-    border-radius: 20px;
-    border:  solid 1px #00000029;
-    width: auto !important;
-    background-color: #00000010;
-    margin-left: 1%;
-
-}
-.trainer-capsule img{
-    border-radius: 100%;
-    width: 25%;
-    
-}
-.trainer-capsule span{
-    font-size: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.topic-capsule span{
-    font-size: 80%;
-    padding: 2px;
-}
-@media only screen and (max-width:425px) {
-    .col-sm-4 {
-        flex: 0 0 auto;
-        width: 33%;
+@media only screen and (max-width:768px) {
+    .agenda-title{
+        font-size: 125%;
+    }
+    .section-title{
+        font-size: 150%;
+        padding-left: 0px !important;
     }
 }

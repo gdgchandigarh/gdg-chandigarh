@@ -3,7 +3,7 @@
     margin: 4px;
 }
 .custom-container {
-    max-width: 70%; /* Set your custom max-width */
+    max-width: 80%; /* Set your custom max-width */
     margin-left: auto;
     margin-right: auto;
     padding: 20px; /* Add padding as needed */
@@ -179,4 +179,9 @@ position: relative;
     width: 40px;
     height: 1px;
     background-color: #bbbbbb;
+}
+@media only screen and (max-width:456px)
+{
+    .custom-container {
+        max-width: 100%; /* Set your custom max-width */}
 }

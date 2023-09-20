@@ -29,12 +29,13 @@ import { EventAgendaComponent } from './events/event-agenda/event-agenda.compone
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
 import { RegistrationComponent } from './gdg-chandigarh/upcoming-events/registration/registration.component';
-// import { AvatarComponent } from './gdg-chandigarh/upcoming-events/avatar/avatar.component';
 import { AboutDevfestComponent } from './events/genericevent/about-devfest/about-devfest.component';
 import { StayUpdatedComponent } from './events/genericevent/stay-updated/stay-updated.component';
 import { KeepInTouchComponent } from './events/genericevent/keep-in-touch/keep-in-touch.component';
 import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what-to-expect.component';
 import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
+import { FeaturedProductsComponent } from './events/genericevent/featured-products/featured-products.component';
+import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,8 @@ import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.compo
     WhatToExpectComponent,
     RegistrationComponent,
     SponsorsComponent,
+    FeaturedProductsComponent,
+    HelpfulResourcesComponent
    
   ],
   imports: [

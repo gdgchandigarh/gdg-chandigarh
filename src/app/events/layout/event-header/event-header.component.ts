@@ -7,6 +7,7 @@ import { Component,HostListener } from '@angular/core';
 })
 export class EventHeaderComponent {
   boxShadowStyle: any = {}; // 
+  
 
   onScroll(event: any) {
     const scrollY = event.target.scrollTop;

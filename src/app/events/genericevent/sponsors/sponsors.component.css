@@ -10,8 +10,9 @@
         margin-top: 5%;
     }
 }
-@media only screen and (min-width:1440px) {
+@media only screen  and (max-width:425px){
     .container{
-        max-width: 1550px !important;
+        max-width: 90%;
+        padding: 5%;
     }
 }
