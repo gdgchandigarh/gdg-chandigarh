@@ -13,8 +13,8 @@ export class EventHeaderComponent {
       itemName: 'Speakers'
     },
     {
-      route: 'organizer',
-      itemName: 'Organizers'
+      route: 'teams',
+      itemName: 'Teams',
     },
     {
       route: 'agenda',
@@ -23,13 +23,18 @@ export class EventHeaderComponent {
     {
       route: 'faq',
       itemName: 'FAQ',
-    },
-    {
-      route: 'teams',
-      itemName: 'Teams',
     }
   ] 
-  
+    
+  eventHeaderDescription = `DevFests are local conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest is
+                            crafted by its local organizers to fit the needs and interests of its local developer community. Whether
+                            it be through hands-on learning experiences, technical talks delivered in local languages by experts, or
+                            by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on
+                            Google's developer tools.`; 
+
+  eventName = `DevFest 2023`;
+
+  eventheaderBottom = ` DevFest opens for registration on October 2, 2023. Check back for updates!`;
 
   onScroll(event: any) {
     const scrollY = event.target.scrollTop;

@@ -8,7 +8,6 @@ import { EventLayoutComponent } from './events/layout/event-layout/event-layout.
 import { HomeComponent } from './gdg-chandigarh/home/home.component';
 import { GenericeventComponent } from './events/genericevent/genericevent.component';
 import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
-import { EventOrganizerComponent } from './events/event-organizer/event-organizer.component';
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
@@ -34,7 +33,6 @@ const routes: Routes = [
     children: [
       { path: `${eventType}/home`, component: GenericeventComponent},
       { path: `${eventType}/speaker`, component: EventSpeakerComponent},
-      { path: `${eventType}/organizer`, component: EventOrganizerComponent},
       { path: `${eventType}/agenda`, component: EventAgendaComponent},
       { path: `${eventType}/faq`, component: EventFaqComponent},
       { path: `${eventType}/teams`, component: EventTeamComponent},

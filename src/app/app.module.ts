@@ -24,7 +24,6 @@ import { HomeComponent } from './gdg-chandigarh/home/home.component';
 import { GenericeventComponent } from './events/genericevent/genericevent.component';
 import { EventHeaderComponent } from './events/layout/event-header/event-header.component';
 import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
-import { EventOrganizerComponent } from './events/event-organizer/event-organizer.component';
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
@@ -60,7 +59,6 @@ import { DateCounterComponent } from './events/genericevent/date-counter/date-co
     GenericeventComponent,
     EventHeaderComponent,
     EventSpeakerComponent,
-    EventOrganizerComponent,
     EventAgendaComponent,
     EventTeamComponent,
     EventFaqComponent,
