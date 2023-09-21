@@ -1,5 +1,4 @@
 .devfest-footer{
-    border-top: 0.25px solid #5f636840;
     padding-top: 2%;
 }
 
@@ -32,4 +31,13 @@ footer ul li a {
 }
 .logo-footer{
     font-size: 110% !important;
+}
+a {
+    color: black; /* Default color */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue; /* Color on hover */
 }

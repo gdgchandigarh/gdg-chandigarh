@@ -9,16 +9,16 @@ export class EventHeaderComponent {
   boxShadowStyle: any = {}; // 
   navMenu = [
     {
+      route: 'agenda',
+      itemName: 'Agenda'
+    },
+    {
       route: 'speaker',
       itemName: 'Speakers'
     },
     {
       route: 'teams',
-      itemName: 'Teams',
-    },
-    {
-      route: 'agenda',
-      itemName: 'Agenda'
+      itemName: 'Team',
     },
     {
       route: 'faq',
@@ -26,13 +26,12 @@ export class EventHeaderComponent {
     }
   ] 
     
-  eventHeaderDescription = `DevFests are local conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest is
-                            crafted by its local organizers to fit the needs and interests of its local developer community. Whether
-                            it be through hands-on learning experiences, technical talks delivered in local languages by experts, or
-                            by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on
-                            Google's developer tools.`; 
+  eventHeaderDescription = `Google Developer Groups Chandigarh is going to host the annual flagship event DevFest Chandigarh (India). 
+                            It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.`; 
 
-  eventName = `DevFest 2023`;
+  eventName = `DevFest`;
+  eventYear = `2023`;
+  eventPlace = `Chandigarh`;
 
   eventheaderBottom = ` DevFest opens for registration on October 2, 2023. Check back for updates!`;
 

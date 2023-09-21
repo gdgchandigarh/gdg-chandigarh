@@ -14,7 +14,7 @@ export class DateCounterComponent implements OnInit {
   };
 
   // Set the target date to October 28, 2023, at 10 AM
-  targetDate: Date = new Date('2023-10-28T10:00:00');
+  targetDate: Date = new Date('2023-12-09T09:00:00');
 
   ngOnInit() {
     // Update countdown every second

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-devfest.component.css']
 })
 export class AboutDevfestComponent {
-
+eventDate = `December 9, 2023`;
+eventTime = `9:00 AM - 5:00 PM`;
 }
