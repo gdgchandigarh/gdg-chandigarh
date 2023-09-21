@@ -1,13 +1,13 @@
 <nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
   <div class="container-fluid nav-container">
     <img src="../../../../assets/logo.png" height="25px" width="45px"> &nbsp; &nbsp; 
-    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">Devfest Chandigarh</a>
+    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation">
       <i class="fa fa-bars "></i>
     </button>
-    <div class="collapse navbar-collapse google-sans-bold" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse google-sans-regular" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home"
@@ -15,18 +15,10 @@
              [routerLinkActiveOptions]="{exact: true}"
              aria-current="page">Home</a>
         </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
+        <li class="nav-item d-flex justify-content-center" *ngFor="let nav of navMenu">
+          <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
         </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
-        </li>
-        <li class="nav-item d-flex justify-content-center">
-          <a class="nav-link  px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
-        </li>
+        
       </ul>
       <form class="d-flex">
         <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>
@@ -42,32 +34,31 @@
     <i class="fa-bars fa"></i>
   </button>
     
-  <a class="navbar-brand px-1" href="#">Devfest Chandigarh</a>
+  <a class="navbar-brand px-1" href="#"><img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg" alt="" srcset="" width="175px"></a>
    
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold">DevFest Chandigarh</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold"><img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg" alt="" srcset="" width="200px"></h5>
+       </div>
       <div class="offcanvas-body google-sans-bold">
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
-          <li class="nav-item d-flex justify-content-start" aria-label="Close">
-            <a class="nav-link  px-2" routerLink="devfest/home"
-              routerLinkActive="active" 
-              [routerLinkActiveOptions]="{exact: true}"
+          <li  data-bs-dismiss="offcanvas"  routerLink="devfest/home"
+          routerLinkActive="active" 
+          [routerLinkActiveOptions]="{exact: true}" aria-label="Close" class="nav-item d-flex justify-content-start" aria-label="Close">
+            <a class="nav-link"
               aria-current="page">Home</a>
           </li>
-          <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/speaker">Speakers</a>
+          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/speaker" data-bs-dismiss="offcanvas" aria-label="Close">
+            <a class="nav-link" >Speakers</a>
           </li>
-          <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/agenda">Schedule</a>
+          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/agenda"  data-bs-dismiss="offcanvas" aria-label="Close">
+            <a class="nav-link" >Schedule</a>
           </li>
-          <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/teams">Team</a>
+          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/teams" data-bs-dismiss="offcanvas" aria-label="Close">
+            <a class="nav-link" >Team</a>
           </li>
-          <li class="nav-item d-flex justify-content-start">
-            <a class="nav-link px-2" routerLinkActive="active" routerLink="devfest/faq">FAQ's</a>
+          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/faq" data-bs-dismiss="offcanvas" aria-label="Close">
+            <a class="nav-link" >FAQ's</a>
           </li>
           <li class="nav-item">
             
@@ -86,21 +77,15 @@
       <div class="col-lg-5 d-flex justify-content-center">
          <div class="header-text">
           <p class="header-title google-sans-bold">
-              DevFest 2023: Coming soon!
+             {{eventName}} {{eventPlace}}: Coming soon!
           </p>
           <p class="header-content">
-              DevFests are local conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest is
-              crafted by its local organizers to fit the needs and interests of its local developer community. Whether
-              it be through hands-on learning experiences, technical talks delivered in local languages by experts, or
-              by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on
-              Google's developer tools.
-
-              
+              {{eventHeaderDescription}}
           </p>
           <p class="header-content">
-              DevFest opens for registration on October 2, 2023. Check back for updates!
+              <!-- {{eventheaderBottom}} -->
           </p>
-          <button class="btn btn-primary btn-sm rounded-0">Learn More</button>
+          <a href="https://developers.google.com/community/devfest" target="_blank" class="btn btn-primary btn-sm rounded-0">Learn More</a>
          </div>
       </div>
       <div class="col-lg-2 right-image">

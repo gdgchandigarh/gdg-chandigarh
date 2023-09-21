@@ -1,1 +1,16 @@
-<p>event-faq works!</p>
+<section class="py-5 bg-light google-sans-regular">
+    <div class="container pb-3">
+      <div class="accordion bg-transparent" id="accordionExample">
+        <div class="accordion-item bg-transparent border-0" *ngFor="let item of faqQuestions; let i = index">
+          <h2 class="accordion-header bg-transparent" [id]="'heading' + i">
+            <button class="accordion-button bg-transparent" type="button" [attr.data-bs-toggle]="'collapse'" [attr.data-bs-target]="'#collapse' + i" [attr.aria-expanded]="i === 0 ? 'true' : 'false'" [attr.aria-controls]="'collapse' + i">
+              {{ item.question }}
+            </button>
+          </h2>
+          <div [id]="'collapse' + i" class="accordion-collapse collapse" [attr.aria-labelledby]="'heading' + i" data-bs-parent="#accordionExample" [ngClass]="{'show': i === 0}">
+            <div class="accordion-body" [innerHTML]="item.answer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

@@ -13,7 +13,7 @@
 .nav-item a:hover{
     color:#5f6368 !important;
     border-bottom: #5f6368 solid 2.5px;
-    margin: 0% 20% !important;
+    /* margin: 0% 20% !important; */
 }
 .active{
     /* background-image: linear-gradient(to right, transparent 20%, #5f6368 20%, #5f6368 80%, transparent 90%); */
@@ -43,6 +43,11 @@ nav{
     .tablet{
         display: block;
     }
+    .nav-item a:hover{
+        color:#5f6368 !important;
+        border-bottom: #5f6368 solid 0px;
+        /* margin: 0% 20% !important; */
+    }
 }
 
 .event-header-section{
@@ -70,7 +75,7 @@ nav{
     padding-bottom: 0px !important;
 }
 .header-title{
-    font-size: 300%;
+    font-size: 290%;
 }
 .header-text{
     width: fit-content;
@@ -119,18 +124,36 @@ nav{
     .header-content{
         font-size: 80%;
     }
+    .navbar{
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
     .tablet .nav-item{
         border-bottom: #5f636867 solid 1px;
+    }
+    .active{
+        margin-left: 0px !important;
+        border-bottom: none;
+    }
+    .nav-item a{
+        margin-left: 0px !important;
     }
 }
 @media only screen and (max-width:450px){
     .left-image{
         height: 25vh;
     }
+    .event-header-section{
+        height: 63vh;
+    }
     .header-title{
         font-size: 150%;
     }
     .header-content{
         font-size: 80%;
+    }
+    .offcanvas{
+        width: 60% !important;
     }
 }

@@ -24,7 +24,6 @@ import { HomeComponent } from './gdg-chandigarh/home/home.component';
 import { GenericeventComponent } from './events/genericevent/genericevent.component';
 import { EventHeaderComponent } from './events/layout/event-header/event-header.component';
 import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
-import { EventOrganizerComponent } from './events/event-organizer/event-organizer.component';
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
@@ -36,6 +35,8 @@ import { WhatToExpectComponent } from './events/genericevent/what-to-expect/what
 import { SponsorsComponent } from './events/genericevent/sponsors/sponsors.component';
 import { FeaturedProductsComponent } from './events/genericevent/featured-products/featured-products.component';
 import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
+import { CounterHeaderComponent } from './events/genericevent/counter-header/counter-header.component';
+import { DateCounterComponent } from './events/genericevent/date-counter/date-counter.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,6 @@ import { HelpfulResourcesComponent } from './events/genericevent/helpful-resourc
     GenericeventComponent,
     EventHeaderComponent,
     EventSpeakerComponent,
-    EventOrganizerComponent,
     EventAgendaComponent,
     EventTeamComponent,
     EventFaqComponent,
@@ -69,7 +69,9 @@ import { HelpfulResourcesComponent } from './events/genericevent/helpful-resourc
     RegistrationComponent,
     SponsorsComponent,
     FeaturedProductsComponent,
-    HelpfulResourcesComponent
+    HelpfulResourcesComponent,
+    CounterHeaderComponent,
+    DateCounterComponent
    
   ],
   imports: [
