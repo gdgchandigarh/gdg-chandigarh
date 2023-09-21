@@ -37,6 +37,7 @@ import { FeaturedProductsComponent } from './events/genericevent/featured-produc
 import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
 import { CounterHeaderComponent } from './events/genericevent/counter-header/counter-header.component';
 import { DateCounterComponent } from './events/genericevent/date-counter/date-counter.component';
+import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { DateCounterComponent } from './events/genericevent/date-counter/date-co
     FeaturedProductsComponent,
     HelpfulResourcesComponent,
     CounterHeaderComponent,
-    DateCounterComponent
+    DateCounterComponent,
+    EventSponsorsComponent
    
   ],
   imports: [

@@ -23,6 +23,10 @@ export class EventHeaderComponent {
     {
       route: 'faq',
       itemName: 'FAQ',
+    },
+    {
+      route:'sponsors',
+      itemName:'Sponsors'
     }
   ] 
     
