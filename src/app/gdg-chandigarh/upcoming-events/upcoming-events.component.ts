@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -16,66 +17,26 @@ export class UpcomingEventsComponent {
 
   UpcommingEvent = [
     {
-        id: 1,
-        image: 'assets/img.png',
-        date: "SEP 02, 2023",
-        type: "Tech-Talk/ Speaker Session",
-        name: "Introduction to Generative AI and Google PaLM",
-        desc: " Introduction to Generative AI and Google PaLM This event will introduce you to the basics of generative AI, a rapidly growing field of artificial intelligence that is capable of generating text, images, or other media.We will discuss the different types of generative AI models, and how they can be used to create new and innovative products and services.",
-        location: "Chandigarh",
-        org: "GDG Chandigarh",
-        isActive: true
-    },
-    {
-        id: 2,
-        image: 'assets/img.png',
-        date: "SEP 02, 2023",
-        type: "Devfest 2023",
-        name: "Keras Community Day",
-        desc: " Introduction to Generative AI and Google PaLM This event will introduce you to the basics of generative AI, a rapidly growing field of artificial intelligence that is capable of generating text, images, or other media.We will discuss the different types of generative AI models, and how they can be used to create new and innovative products and services.",
-        location: "Chandigarh",
-        org: "GDG Chandigarh",
-        route: '/events',
-        isActive: true
-    },
+      id: 1,
+      image: 'assets/devfest.png',
+      date: "Dec 09, 2023",
+      type: "Devfest 2023",
+      name: "DevFest Chandigarh",
+      desc: " Introduction to Generative AI and Google PaLM This event will introduce you to the basics of generative AI, a rapidly growing field of artificial intelligence that is capable of generating text, images, or other media.We will discuss the different types of generative AI models, and how they can be used to create new and innovative products and services.",
+      location: "Chandigarh",
+      org: "GDG Chandigarh",
+      route: '/events',
+      isActive: true
+  }
+  
 
 ];
 
-  constructor(private modalService: NgbModal) {}
+  constructor(private router: Router) {}
 
-  openBackDropCustomClass(content: any) {
-    this.modalService.open(content, { backdropClass: 'light-blue-backdrop' });
+
+  openScrollableContent() {
+    this.router.navigate(['/events']);
   }
 
-  openWindowCustomClass(content: any) {
-    this.modalService.open(content, { windowClass: 'dark-modal' });
-  }
-
-  openSm(content: any) {
-    this.modalService.open(content, { size: 'sm' });
-  }
-
-  openLg(content: any) {
-    this.modalService.open(content, { size: 'lg' });
-  }
-
-  openXl(content: any) {
-    this.modalService.open(content, { size: 'xl' });
-  }
-
-  openFullscreen(content: any) {
-    this.modalService.open(content, { fullscreen: true });
-  }
-
-  openVerticallyCentered(content: any) {
-    this.modalService.open(content,  { centered: true });
-  }
-
-  openScrollableContent(longContent: any) {
-    this.modalService.open(longContent, {size : 'lg', scrollable: true });
-  }
-
-  openModalDialogCustomClass(content: any) {
-    this.modalService.open(content, { modalDialogClass: 'dark-modal' });
-  }
 }
