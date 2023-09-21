@@ -38,6 +38,8 @@ import { HelpfulResourcesComponent } from './events/genericevent/helpful-resourc
 import { CounterHeaderComponent } from './events/genericevent/counter-header/counter-header.component';
 import { DateCounterComponent } from './events/genericevent/date-counter/date-counter.component';
 import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.component';
+import { AttendeesComponent } from './events/genericevent/attendees/attendees.component';
+import { EventHighlightsComponent } from './events/genericevent/event-highlights/event-highlights.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +75,9 @@ import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.c
     HelpfulResourcesComponent,
     CounterHeaderComponent,
     DateCounterComponent,
-    EventSponsorsComponent
+    EventSponsorsComponent,
+    AttendeesComponent,
+    EventHighlightsComponent
    
   ],
   imports: [
