@@ -48,6 +48,9 @@ nav{
         border-bottom: #5f6368 solid 0px;
         /* margin: 0% 20% !important; */
     }
+    .active{
+        margin: 0% 0% !important;
+    }
 }
 
 .event-header-section{
