@@ -21,13 +21,14 @@ export class EventHeaderComponent {
       itemName: 'Team',
     },
     {
-      route: 'faq',
-      itemName: 'FAQ',
-    },
-    {
       route:'sponsors',
       itemName:'Sponsors'
+    },
+    {
+      route: 'faq',
+      itemName: 'FAQ',
     }
+    
   ] 
     
   eventHeaderDescription = `Google Developer Groups Chandigarh is going to host the annual flagship event DevFest Chandigarh (India). 
