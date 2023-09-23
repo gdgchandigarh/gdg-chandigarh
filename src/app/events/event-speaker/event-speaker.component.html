@@ -1,4 +1,4 @@
-<section class="bg-light pb-5">
+<section class="bg-light py-5">
     <div class="container pb-3">
         <div class="row pt-3 text-center">
             <p class="section-title pt-5 google-sans-bold text-dim">
@@ -22,68 +22,70 @@
                     <p class="speaker-designation text-center google-sans-regular pb-2">{{speaker.company}}</p>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                   
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
 
-                            <div class="modal-content">
-                                <div class="modal-header p-0 border-0">
-                                    <img src="{{speaker.imageHeader}}" alt="" srcset="" width="100%">
+                    <div class="modal-content">
+                        <div class="modal-header p-0 border-0">
+                            <img src="{{speaker.imageHeader}}" alt="" srcset="" width="100%">
+                        </div>
+                        <div class="container my-3 px-lg-4 fixed-content">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-6 my-auto">
+                                    <p class="speaker-name google-sans-bold">{{speaker.name}}</p>
+                                    <p class="speaker-designation google-sans-regular">{{speaker.company}}</p>
                                 </div>
-                                <div class="container my-3 px-lg-4 fixed-content">
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6 my-auto">
-                                            <p class="speaker-name google-sans-bold">{{speaker.name}}</p>
-                                            <p class="speaker-designation google-sans-regular">{{speaker.company}}</p>
-                                        </div>
-                                        <div class="col-6 socials d-flex justify-content-end align-items-center">
-                                            
-                                                <i class="fa fa-twitter"></i>
-                                                <i class="fa fa-linkedin"></i>
-                                                <i class="fa fa-instagram"></i>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <p class="google-sans-bold">
-                                            Bio
-                                        </p>
-                                        <p class="google-sans-regular" style="text-align:justify;">
-                                            {{speaker.bio}}
-                                        </p>
-                                    </div>
-                                    <!-- <div class="row socials">
-                                        <p>
-                                            <i class="fa fa-twitter"></i>
-                                            <i class="fa fa-linkedin"></i>
-                                            <i class="fa fa-instagram"></i>
-                                        </p>
-                                    </div> -->
-                                    <div class="row">
-                                        <div class="row">
-                                            <p class="title pt-3 google-sans-bold">
-                                                Sessions
-                                            </p>
-                                            <div class="row google-sans-regular">
-                                                <div class="col-6" *ngFor="let session of speaker.sessions">
-                                                    <div class="sessions-card">
-                                                        <p>{{session.sessionTopic}}</p>
-                                                        <p class="sessions-card-duration">{{session.sessionDuration}}
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                <div class="col-6 socials d-flex justify-content-end text-grey align-items-center">
+                                    
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <p class="google-sans-bold">
+                                    Bio
+                                </p>
+                                <p class="google-sans-regular" style="text-align:justify;">
+                                    {{speaker.bio}}
+                                </p>
+                            </div>
+                            <!-- <div class="row socials">
+                                <p>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-instagram"></i>
+                                </p>
+                            </div> -->
+                            <div class="row">
+                                <div class="row">
+                                    <p class="title google-sans-bold">
+                                        Sessions
+                                    </p>
+                                    <div class="row google-sans-regular">
+                                        <div class="col-6" *ngFor="let session of speaker.sessions">
+                                            <div class="sessions-card">
+                                                <p>{{session.sessionTopic}}</p>
+                                                <p class="sessions-card-duration">{{session.sessionDuration}}
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="button" class="close-button my-3" data-bs-dismiss="modal"><span
-                                            class="google-sans-bold">CLOSE</span></button>
-
                                 </div>
                             </div>
+                            <button type="button" class="close-button my-3" data-bs-dismiss="modal"><span
+                                    class="google-sans-bold">CLOSE</span></button>
+
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
+            
         </div>
     </div>
 </section>

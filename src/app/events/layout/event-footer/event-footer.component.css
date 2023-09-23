@@ -1,9 +1,11 @@
 .devfest-footer{
-    padding-top: 2%;
+    padding-top: 0%;
 }
 
 footer ul li{
     margin-right: 2%;
+    display: flex;
+    align-items: center;
 }
 footer ul li a {
     text-decoration: none;
@@ -23,7 +25,7 @@ footer ul li a {
 .footer-two{
      border-top: 0.25px solid #5f636840;
      border-bottom: 0.25px solid #5f636840;
-     padding-top: 1%;
+     padding-top: 0%;
 }
 .footer-two ul li{
     display: inline;
