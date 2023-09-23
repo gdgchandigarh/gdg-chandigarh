@@ -1,6 +1,9 @@
 .about-devfest .event-details{
     margin-top: 6px !important;
 }
+.section-title{
+    font-size: 275%;
+}
 .section-title span{
     color:  #1976d2;
 }
@@ -9,12 +12,57 @@
     color: rgba(0,0,0,.6)!important;
    margin-bottom: 0 !important;
 }
+.event-details{
+    margin-bottom: 16px;
+}
 .written-content{
-    padding-left: 10%;
+    padding-left: 5%;
 }
 @media only screen and (max-width:768px) {
     .written-content{
         padding-left: 1.5%;
         padding-top: 5%;
+    }
+}
+.right-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://developers.google.com/community/devfest/images/devfest-header-right.svg');
+    background-position: center right;
+}
+@media only screen and (max-width:1500px){
+    .right-image{
+        display: none;
+        
+    }
+    .col-lg-5{
+        flex: 0 0 auto !important;
+        width: 50% !important;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:1025px){
+    .section-title{
+        font-size: 200%;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+    }
+    .written-content{
+        padding: 1%;
+    }
+    .event-details{
+        margin-bottom: 8px;
+    }
+    .event-details p{
+        font-size: 110%;
+    }
+}
+@media only screen and (max-width:800px) {
+    .col-lg-5{
+        width: 100% !important;
+    }
+    .written-content{
+        padding: 2%;
     }
 }
