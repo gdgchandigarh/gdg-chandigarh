@@ -35,7 +35,7 @@ const routes: Routes = [
       { path: `${eventType}/speaker`, component: EventSpeakerComponent},
       { path: `${eventType}/agenda`, component: EventAgendaComponent},
       { path: `${eventType}/faq`, component: EventFaqComponent},
-      { path: `${eventType}/teams`, component: EventTeamComponent},
+      { path: `${eventType}/team`, component: EventTeamComponent},
       { path: `${eventType}/sponsors`, component: EventSponsorsComponent},
     ]
   },

@@ -11,7 +11,7 @@
                 Meet the dedicated individuals who make our event possible.
             </p>
             <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-lg-start">
-                <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of volunteers">
+                <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of organizers">
                     <div class="volunteer-card bg-white rounded-3"  data-bs-toggle="modal">
                         <!-- Button trigger modal -->
         
@@ -51,21 +51,6 @@
                                             <i class="fa fa-linkedin"></i>
                                             <i class="fa fa-instagram"></i>
                                         </p>
-                                    </div>
-                                    <div class="row">
-                                        <div class="row">
-                                            <p class="title py-3 google-sans-bold">
-                                                Sessions
-                                            </p>
-                                            <div class="row google-sans-regular">
-                                                <div class="col-6" *ngFor="let session of volunteer.sessions">
-                                                    <div class="sessions-card">
-                                                        <p>{{session.sessionTopic}}</p>
-                                                        <p class="sessions-card-duration">{{session.sessionDuration}}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                     <button type="button" class="close-button" data-bs-dismiss="modal"><span class="google-sans-bold">CLOSE</span></button>
                                 </div>
@@ -88,7 +73,7 @@
                         </div>
         
                         <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>
-                        <p class="volunteer-designation text-center google-sans-regular">{{volunteer.company}}</p>
+                        <p class="volunteer-designation text-center google-sans-regular">{{volunteer.college}}</p>
         
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -102,7 +87,7 @@
                                         </div>
                                         <div class="col-9">
                                             <p class="volunteer-name google-sans-bold">{{volunteer.name}}</p>
-                                            <p class="volunteer-designation google-sans-regular">{{volunteer.company}}</p>
+                                            <p class="volunteer-designation google-sans-regular">{{volunteer.college}}</p>
                                         </div>
                                     </div>
                                     <div class="row my-3">
@@ -125,14 +110,7 @@
                                             <p class="title py-3 google-sans-bold">
                                                 Sessions
                                             </p>
-                                            <div class="row google-sans-regular">
-                                                <div class="col-6" *ngFor="let session of volunteer.sessions">
-                                                    <div class="sessions-card">
-                                                        <p>{{session.sessionTopic}}</p>
-                                                        <p class="sessions-card-duration">{{session.sessionDuration}}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                     <button type="button" class="close-button" data-bs-dismiss="modal"><span class="google-sans-bold">CLOSE</span></button>

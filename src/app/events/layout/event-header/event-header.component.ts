@@ -17,7 +17,7 @@ export class EventHeaderComponent {
       itemName: 'Speakers'
     },
     {
-      route: 'teams',
+      route: 'team',
       itemName: 'Team',
     },
     {
