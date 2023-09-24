@@ -41,6 +41,7 @@ import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.c
 import { AttendeesComponent } from './events/genericevent/attendees/attendees.component';
 import { EventHighlightsComponent } from './events/genericevent/event-highlights/event-highlights.component';
 import { EventPageHeaderComponent } from './events/layout/event-page-header/event-page-header.component';
+import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { EventPageHeaderComponent } from './events/layout/event-page-header/even
     EventSponsorsComponent,
     AttendeesComponent,
     EventHighlightsComponent,
-    EventPageHeaderComponent
+    EventPageHeaderComponent,
+    ComingSoonComponent
    
   ],
   imports: [

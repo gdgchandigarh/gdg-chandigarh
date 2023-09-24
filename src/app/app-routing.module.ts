@@ -12,6 +12,7 @@ import { EventAgendaComponent } from './events/event-agenda/event-agenda.compone
 import { EventFaqComponent } from './events/event-faq/event-faq.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.component';
+import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
 const eventType= 'devfest';
 
 const routes: Routes = [
@@ -37,6 +38,7 @@ const routes: Routes = [
       { path: `${eventType}/faq`, component: EventFaqComponent},
       { path: `${eventType}/team`, component: EventTeamComponent},
       { path: `${eventType}/sponsors`, component: EventSponsorsComponent},
+      {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
     ]
   },
  
