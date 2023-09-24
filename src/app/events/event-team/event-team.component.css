@@ -1,19 +1,40 @@
 .volunteer-card img{
     border-radius: 100%;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     width: 80%;
     margin:auto;
 }
 .volunteer-card{
-    background-color: #fff;
-    padding:2.5%;
+    padding: 5%;
     padding-bottom: 5%;
-    border-radius: 15px;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-bottom: 7.5%;
+}
+.volunteer-name{
+    font-size: 90%;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+.socials i{
+    margin-right: 5%;
+    font-size: 20px;
+    color: grey;
+}
+.volunteer-designation{
+    font-size: 80%;
+}
+
+.close-button{
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+.modal-content{
+    padding: 5%;
+}
+
+img.volunteer-image-modal {
+    border-radius: 100%;
 }
 @media only screen and (max-width:425px){
     .col-sm-6{

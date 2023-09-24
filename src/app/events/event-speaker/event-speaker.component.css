@@ -25,9 +25,7 @@
 .speaker-card p {
     margin-bottom: 0px !important;
 } 
-.modal-content{
-    /* padding: 5%; */
-}
+
 .fixed-content{
     max-height: 50vh;
     overflow-y: auto; 

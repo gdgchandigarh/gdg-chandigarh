@@ -117,7 +117,7 @@ volunteers = [
   },
   {
     id:10,
-    image:"../../../assets/volunteers/Himanshu.jpeg",
+    image:"../../../assets/volunteers/Himanshu Verma.jpg",
     name:"Himanshu Verma",
     college:"Chitkara University",
     designation:"Video Editor",
@@ -179,7 +179,7 @@ volunteers = [
 
 
 organizers = [
-  {
+{
   id: 1,
   image:"../../../assets/organizers/Kamal Vaid.png",
   name:"Kamal Vaid",
@@ -192,7 +192,7 @@ organizers = [
   bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
 },
 {
-  id:4,
+  id:2,
   image:"../../../assets/organizers/Yatin.jpeg",
   name:"Yatin Nayyar",
   company:"Wipro",
@@ -204,7 +204,7 @@ organizers = [
   bio: "Yatin is a Project Engineer by profession having 2+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
 },
 {
-  id:2,
+  id:3,
   image:"../../../assets/organizers/Loveleen.jpeg",
   name:"Loveleen Kaur",
   company:"Astrotalk",
@@ -216,7 +216,7 @@ organizers = [
   bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Senior Android Developer with 5 years of experience. She is Co-Organizer of GDG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career."
 },
 {
-  id:3,
+  id:4,
   image:"../../../assets/organizers/Pranav.png",
   name:"Pranav Kumar Verma",
   company:"Nagarro",
