@@ -35,7 +35,7 @@
         display: none;
         
     }
-    .col-lg-5{
+    .col-lg-6{
         flex: 0 0 auto !important;
         width: 50% !important;
         align-items: center;
@@ -59,7 +59,7 @@
     }
 }
 @media only screen and (max-width:800px) {
-    .col-lg-5{
+    .col-lg-6{
         width: 100% !important;
     }
     .written-content{
