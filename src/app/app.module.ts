@@ -40,6 +40,7 @@ import { DateCounterComponent } from './events/genericevent/date-counter/date-co
 import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.component';
 import { AttendeesComponent } from './events/genericevent/attendees/attendees.component';
 import { EventHighlightsComponent } from './events/genericevent/event-highlights/event-highlights.component';
+import { EventPageHeaderComponent } from './events/layout/event-page-header/event-page-header.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { EventHighlightsComponent } from './events/genericevent/event-highlights
     DateCounterComponent,
     EventSponsorsComponent,
     AttendeesComponent,
-    EventHighlightsComponent
+    EventHighlightsComponent,
+    EventPageHeaderComponent
    
   ],
   imports: [
