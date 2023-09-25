@@ -1,8 +1,8 @@
 <app-event-page-header></app-event-page-header>
 <section class="bg-light py-5">
     <div class="container pb-3">
-        <div class="row pt-3 text-center">
-            <p class="section-title pt-5 google-sans-bold text-dim">
+        <div class="row text-center">
+            <p class="section-title google-sans-bold text-dim">
                 Speakers
             </p>
             <p class="section-content google-sans-regular">
@@ -10,8 +10,8 @@
                 helped solve it with you.
             </p>
         </div>
-        <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-sm-start">
-            <div class="col-lg-2 col-sm-6" *ngFor="let speaker of speakers">
+        <div class="row py-3 d-flex justify-content-lg-center justify-content-sm-start">
+            <div class="col-lg-2 col-sm-6 mb-3" *ngFor="let speaker of speakers">
                 <div class="speaker-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <!-- Button trigger modal -->
 
