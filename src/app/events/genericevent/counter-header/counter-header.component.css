@@ -44,7 +44,7 @@
 @media only screen and (max-width:1025px){
     .section-title{
         font-size: 200%;
-        margin-top: 0px;
+        margin-top: 16px;
         padding-top: 0px;
         margin-bottom: 8px;
     }
@@ -64,5 +64,14 @@
     }
     .written-content{
         padding: 2%;
+    }
+    .section-title{
+        padding-top: 0px !important;
+    }
+}
+@media only screen and (max-width:425px){
+    .container-fluid{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
