@@ -42,6 +42,12 @@ import { AttendeesComponent } from './events/genericevent/attendees/attendees.co
 import { EventHighlightsComponent } from './events/genericevent/event-highlights/event-highlights.component';
 import { EventPageHeaderComponent } from './events/layout/event-page-header/event-page-header.component';
 import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAnalytics,getAnalytics,ScreenTrackingService,UserTrackingService } from '@angular/fire/analytics';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 
 @NgModule({
   declarations: [
@@ -89,10 +95,14 @@ import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.com
      ModalModule.forRoot(), // Add ModalModule to imports
     AppRoutingModule,
     FormsModule, // Make sure to import FormsModule
-    BrowserAnimationsModule
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule,
+    BrowserAnimationsModule, provideFirebaseApp(() => initializeApp(environment.firebase)), provideAnalytics(() => getAnalytics()), provideFirestore(() => getFirestore())
   ],
   
-  providers: [],
+  providers: [
+    ScreenTrackingService,UserTrackingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
