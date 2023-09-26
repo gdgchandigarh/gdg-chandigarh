@@ -33,11 +33,11 @@ const routes: Routes = [
     component: EventLayoutComponent,
     children: [
       { path: `${eventType}/home`, component: GenericeventComponent},
-      { path: `${eventType}/speaker`, component: EventSpeakerComponent},
-      { path: `${eventType}/agenda`, component: EventAgendaComponent},
+      { path: `${eventType}/speaker`, component: ComingSoonComponent},
+      { path: `${eventType}/agenda`, component: ComingSoonComponent},
       { path: `${eventType}/faq`, component: EventFaqComponent},
       { path: `${eventType}/team`, component: EventTeamComponent},
-      { path: `${eventType}/sponsors`, component: EventSponsorsComponent},
+      { path: `${eventType}/sponsors`, component: ComingSoonComponent},
       {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
     ]
   },
