@@ -37,7 +37,10 @@ export class AppComponent {
       return 'Sponsors | DevFest Chandigarh 2023';
     } else if (url.includes('/events/devfest/faq')) {
       return 'FAQ | DevFest Chandigarh 2023';
-    } else {
+    } else if(url.includes('events/devfest/coming-soon')) {
+      return 'Coming-Soon | DevFest Chandigarh 2023';
+    }
+      else {
       return 'GDG Chandigarh'; // Default title
     }
   }

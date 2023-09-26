@@ -119,9 +119,9 @@
                                         <div class="row socials">
 
                                             <p class="my-auto">
-                                                <a target="_blank" href="{{volunteer.twitter}}"><i
+                                                <a *ngIf="volunteer.twitter!==''"  target="_blank" href="{{volunteer.twitter}}"><i
                                                         class="fa fa-twitter"></i></a>
-                                                <a target="_blank" href="{{volunteer.twitter}}"><i
+                                                <a target="_blank" href="{{volunteer.linkedin}}"><i
                                                         class="fa fa-linkedin"></i> </a>
                                             </p>
 
