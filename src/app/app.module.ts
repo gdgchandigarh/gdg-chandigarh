@@ -45,6 +45,11 @@ import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.com
 import { environment } from '../environments/environment';
 import {AngularFireAnalyticsModule, ScreenTrackingService, UserTrackingService} from "@angular/fire/compat/analytics";
 import {AngularFireModule} from "@angular/fire/compat";
+import { AboutGdgComponent } from './gdg-chandigarh/home/about-gdg/about-gdg.component';
+import { EventsGdgComponent } from './gdg-chandigarh/home/events-gdg/events-gdg.component';
+import { FindEventComponent } from './gdg-chandigarh/home/find-event/find-event.component';
+import { JoinCommunityComponent } from './gdg-chandigarh/home/join-community/join-community.component';
+import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-touch.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +89,12 @@ import {AngularFireModule} from "@angular/fire/compat";
     AttendeesComponent,
     EventHighlightsComponent,
     EventPageHeaderComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    AboutGdgComponent,
+    EventsGdgComponent,
+    FindEventComponent,
+    JoinCommunityComponent,
+    GetInTouchComponent
    
   ],
   imports: [

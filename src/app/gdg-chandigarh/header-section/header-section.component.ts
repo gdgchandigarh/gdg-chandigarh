@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-section.component.css']
 })
 export class HeaderSectionComponent {
-
+  videoUrl = '../../assets/build-smarter.mp4'
 }
