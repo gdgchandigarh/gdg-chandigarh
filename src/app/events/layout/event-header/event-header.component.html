@@ -1,6 +1,6 @@
 <nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
   <div class="container-fluid nav-container">
-    <img src="../../../../assets/logo.png" height="25px" width="45px"> &nbsp; &nbsp; 
+    <img src="../../../../assets/logo.png" height="25px"> &nbsp; &nbsp; 
     <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,26 +42,14 @@
        </div>
       <div class="offcanvas-body google-sans-bold">
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
-          <li  data-bs-dismiss="offcanvas"  routerLink="devfest/home"
-          routerLinkActive="active" 
-          [routerLinkActiveOptions]="{exact: true}" aria-label="Close" class="nav-item d-flex justify-content-start" aria-label="Close">
-            <a class="nav-link"
-              aria-current="page">Home</a>
+          <li class="nav-item">
+            <a class="nav-link px-2 d-flex justify-content-start" routerLink="devfest/home"
+               routerLinkActive="active" 
+               [routerLinkActiveOptions]="{exact: true}"
+               aria-current="page">Home</a>
           </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/speaker" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Speakers</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/agenda"  data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Schedule</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/team" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Team</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/faq" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >FAQ's</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/sponsors" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Sponsors</a>
+          <li class="nav-item d-flex justify-content-start" *ngFor="let nav of navMenu">
+            <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
           </li>
         </ul>
         <!-- <a class="nav-link py-4 px-2 mt-auto" href=""><button class="btn bg-primary text-light w-100">Register Here</button></a> -->

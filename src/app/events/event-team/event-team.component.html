@@ -9,141 +9,143 @@
             <p class="section-content google-sans-regular">
                 Meet the dedicated individuals who make our event possible.
             </p>
-            <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-sm-start">
-                <div class="col-lg-2 col-sm-6" *ngFor="let organizer of organizers">
-                    <div class="volunteer-card bg-white rounded-3" data-bs-toggle="modal"
-                        [attr.data-bs-target]="'#organizerModal' + organizer.id">
-                        <!-- Button trigger modal -->
+        </div>
+        <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-sm-start">
+            <div class="col-lg-2 col-sm-6" *ngFor="let organizer of organizers">
+                <div class="volunteer-card bg-white rounded-3" data-bs-toggle="modal"
+                    [attr.data-bs-target]="'#organizerModal' + organizer.id">
+                    <!-- Button trigger modal -->
 
-                        <div class="row d-flex justify-content-center">
-                            <img src="{{organizer.image}}" srcset="" class="volunteer-image">
-                        </div>
-
-                        <p class="volunteer-name text-center google-sans-bold">{{organizer.name}}</p>
-                        <p class="volunteer-designation text-center google-sans-regular">{{organizer.company}}</p>
-
-                        <!-- Modal -->
-
-
+                    <div class="row d-flex justify-content-center">
+                        <img src="{{organizer.image}}" srcset="" class="volunteer-image">
                     </div>
-                    <div class="modal fade text-start" [id]="'organizerModal' + organizer.id" tabindex="-1"
-                        aria-labelledby="[add unique labels]" aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="row">
-                                    <div class="col-9">
 
-                                        <div class=" d-flex justify-content-start">
+                    <p class="volunteer-name text-center google-sans-bold">{{organizer.name}}</p>
+                    <p class="volunteer-designation text-center google-sans-regular">{{organizer.company}}</p>
 
-                                            <img src="{{organizer.image}}" srcset="" class="volunteer-image-modal">
+                    <!-- Modal -->
 
-                                            <div class=" d-flex align-items-center justify-content-start ">
-                                                <div class="pt-2">
-                                                    <p class="volunteer-name google-sans-bold">{{organizer.name}}</p>
-                                                    <p class="volunteer-designation google-sans-regular">
-                                                        {{organizer.company}}</p>
 
-                                                </div>
+                </div>
+                <div class="modal fade text-start" [id]="'organizerModal' + organizer.id" tabindex="-1"
+                    aria-labelledby="[add unique labels]" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col-9">
+
+                                    <div class=" d-flex justify-content-start">
+
+                                        <img src="{{organizer.image}}" srcset="" class="volunteer-image-modal">
+
+                                        <div class=" d-flex align-items-center justify-content-start ">
+                                            <div class="pt-2">
+                                                <p class="volunteer-name google-sans-bold">{{organizer.name}}</p>
+                                                <p class="volunteer-designation google-sans-regular">
+                                                    {{organizer.company}}</p>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 my-auto text-end">
-                                        <div class="row socials">
+                                </div>
+                                <div class="col-3 my-auto text-end">
+                                    <div class="row socials">
 
-                                            <p class="my-auto">
-                                                <a target="_blank" href="{{organizer.twitter}}"><i
-                                                        class="fa fa-twitter"></i></a>
-                                                <a target="_blank" href="{{organizer.twitter}}"><i
-                                                        class="fa fa-linkedin"></i> </a>
-                                            </p>
+                                        <p class="my-auto">
+                                            <a target="_blank" href="{{organizer.twitter}}"><i
+                                                    class="fa fa-twitter"></i></a>
+                                            <a target="_blank" href="{{organizer.twitter}}"><i
+                                                    class="fa fa-linkedin"></i> </a>
+                                        </p>
 
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="row my-3">
-                                    <p class="google-sans-regular">
-                                        {{organizer.bio}}
-                                    </p>
-                                </div>
-
-                                <button type="button" class="close-button" data-bs-dismiss="modal"><span
-                                        class="google-sans-bold">CLOSE</span></button>
                             </div>
+                            <div class="row my-3">
+                                <p class="google-sans-regular">
+                                    {{organizer.bio}}
+                                </p>
+                            </div>
+
+                            <button type="button" class="close-button" data-bs-dismiss="modal"><span
+                                    class="google-sans-bold">CLOSE</span></button>
                         </div>
                     </div>
-
                 </div>
-            </div>
 
+            </div>
+        </div>
+
+        <div class="row text-center">
             <p class="section-title pt-5 google-sans-bold">
                 Volunteers
             </p>
-            <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-md-start">
-                <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of volunteers">
-                    <div class="volunteer-card bg-white rounded-3" data-bs-toggle="modal"
-                        [attr.data-bs-target]="'#volunteerModal' + volunteer.id">
-                        <!-- Button trigger modal -->
+        </div>
+        <div class="row my-6 py-3 d-flex justify-content-lg-center justify-content-md-start">
+            <div class="col-lg-2 col-sm-6" *ngFor="let volunteer of volunteers">
+                <div class="volunteer-card bg-white rounded-3" data-bs-toggle="modal"
+                    [attr.data-bs-target]="'#volunteerModal' + volunteer.id">
+                    <!-- Button trigger modal -->
 
-                        <div class="row d-flex justify-content-center">
-                            <img src="{{volunteer.image}}" srcset="" class="volunteer-image">
-                        </div>
-
-                        <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>
-                        <p class="volunteer-designation text-center google-sans-regular">{{volunteer.college}}</p>
-
-                        <!-- Modal -->
-
+                    <div class="row d-flex justify-content-center">
+                        <img src="{{volunteer.image}}" srcset="" class="volunteer-image">
                     </div>
-                    <div class="modal fade text-start" [id]="'volunteerModal' + volunteer.id" tabindex="-1"
-                        aria-labelledby="[add unique labels]" aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <div class=" d-flex justify-content-start">
 
-                                            <img src="{{volunteer.image}}" srcset="" class="volunteer-image-modal">
+                    <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>
+                    <p class="volunteer-designation text-center google-sans-regular">{{volunteer.college}}</p>
 
-                                            <div class=" d-flex align-items-center justify-content-start ">
-                                                <div class="pt-2">
-                                                    <p class="volunteer-name google-sans-bold">{{volunteer.name}}</p>
-                                                    <p class="volunteer-designation google-sans-regular">
-                                                        {{volunteer.college}}</p>
+                    <!-- Modal -->
 
-                                                </div>
+                </div>
+                <div class="modal fade text-start" [id]="'volunteerModal' + volunteer.id" tabindex="-1"
+                    aria-labelledby="[add unique labels]" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class=" d-flex justify-content-start">
+
+                                        <img src="{{volunteer.image}}" srcset="" class="volunteer-image-modal">
+
+                                        <div class=" d-flex align-items-center justify-content-start ">
+                                            <div class="pt-2">
+                                                <p class="volunteer-name google-sans-bold">{{volunteer.name}}</p>
+                                                <p class="volunteer-designation google-sans-regular">
+                                                    {{volunteer.college}}</p>
+
                                             </div>
                                         </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-3 my-auto text-end">
+                                    <div class="row socials">
+
+                                        <p class="my-auto">
+                                            <a *ngIf="volunteer.twitter!==''" target="_blank"
+                                                href="{{volunteer.twitter}}"><i class="fa fa-twitter"></i></a>
+                                            <a target="_blank" href="{{volunteer.linkedin}}"><i
+                                                    class="fa fa-linkedin"></i> </a>
+                                        </p>
 
                                     </div>
-                                    <div class="col-3 my-auto text-end">
-                                        <div class="row socials">
-
-                                            <p class="my-auto">
-                                                <a *ngIf="volunteer.twitter!==''"  target="_blank" href="{{volunteer.twitter}}"><i
-                                                        class="fa fa-twitter"></i></a>
-                                                <a target="_blank" href="{{volunteer.linkedin}}"><i
-                                                        class="fa fa-linkedin"></i> </a>
-                                            </p>
-
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="row my-3">
-
-                                    <p class="google-sans-regular justified-text">
-                                        {{volunteer.bio}}
-                                    </p>
-                                </div>
-
-                                <button type="button" class="close-button" data-bs-dismiss="modal"><span
-                                        class="google-sans-bold">CLOSE</span></button>
                             </div>
+                            <div class="row my-3">
+
+                                <p class="google-sans-regular justified-text">
+                                    {{volunteer.bio}}
+                                </p>
+                            </div>
+
+                            <button type="button" class="close-button" data-bs-dismiss="modal"><span
+                                    class="google-sans-bold">CLOSE</span></button>
                         </div>
                     </div>
                 </div>
-
             </div>
 
         </div>
+
     </div>
 </section>

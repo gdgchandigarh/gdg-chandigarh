@@ -59,6 +59,7 @@
     }
 }
 @media only screen and (max-width:800px) {
+    
     .col-lg-6{
         width: 100% !important;
     }
@@ -69,7 +70,10 @@
         padding-top: 0px !important;
     }
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:450px){
+    .counter-header .row{
+        flex-direction: column-reverse;
+    }
     .container-fluid{
         padding-top: 3rem;
         padding-bottom: 3rem;

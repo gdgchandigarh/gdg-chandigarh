@@ -31,10 +31,10 @@
         overflow-y:auto ;
     } 
     .accordion-header{
-        font-size: 80%;
+        font-size: 95%;
     }
     .accordion-body{
-        font-size: 50%;
+        font-size: 75%;
     }
 
 }

@@ -53,14 +53,14 @@ volunteers = [
   },
   {
     id:5,
-    image:"../../../assets/volunteers/Yashasvini.jpeg",
+    image:"../../../assets/volunteers/Yashasvini.jpg",
     name:"Yashasvini",
     college:"GDSC CGC CEC",
     designation:"GDSC Lead",
     profile:"",
     twitter:"",
     linkedin: "https://www.linkedin.com/in/yashasvini121/",
-    bio: "I am GDSC Lead at CGC CEC."
+    bio: "I am GDSC Lead at CGC CEC, Python Developer, AWS AI & ML Scholar."
   },
   {
     id:6,

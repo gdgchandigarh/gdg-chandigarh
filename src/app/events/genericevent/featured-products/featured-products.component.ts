@@ -29,7 +29,7 @@ featuredTopics = [
   },
   {
     topicName:  `ML`,
-    logo: `https://io.google/2022/app/images/machinelearning-logo.svg`,
+    logo: `https://developers.google.com/static/focus/images/makersuite.png`,
     description: `ML is Google's machine learning expertise, enabling data-driven decisions and predictive capabilities in applications and services.`
   },
   {
