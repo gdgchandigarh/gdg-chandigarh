@@ -1,41 +1,65 @@
-.arrow-list {
-    list-style-type: none;
-    padding-left: 0px !important;
+.devfest-footer{
+  padding-top: 0%;
 }
-
-
-footer h6{
-    color:#5f6368;
+.font-lg{
+  font-size: 100% !important;
 }
-
-.socials i{
-    font-weight: normal;
-    
+.socio-list{
+  text-align: right;
 }
-
+footer ul li{
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+}
 footer ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
+  text-decoration: none;
+  color: black;
+  
+}
+.devfest-footer ul li{
+  list-style: none;
+  margin-bottom: 2%;
+  font-size: 80%;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+.heading-list{
+  font-size: 110% !important;
+}
+.footer-two{
+   border-top: 0.25px solid #5f636840;
+   border-bottom: 0.25px solid #5f636840;
+   padding-top: 0%;
+}
+.footer-two ul li{
+  display: inline;
+  margin-right: 2%;   
+}
+.logo-footer{
+  font-size: 110% !important;
+}
+a {
+  color: black; /* Default color */
+  cursor: pointer;
+  text-decoration: none;
 }
 
-footer ul li ::before {
-    content: ">";
-    color: black;
-    margin: 0 5px 0 -15px;
-    text-decoration: none;
-    font-size: 17px;
+a:hover {
+  color: blue; /* Color on hover */
+}
+@media only screen and (max-width:768px){
+   ul li{
+    display: block !important;
   }
-  .endFooter{
-    font-size:smaller ;
+  ul{
+    padding-left: 0px;
   }
-  .wm
-  {
-    width:max-content;
+  
+  .socio-list{
+    text-align: left;
   }
-  @media only screen and (max-width:700px)
- {
-    .wm{
-        width:50%;
-      }
- }
+  .socio-list li{
+    display: inline !important;
+  }
+}
