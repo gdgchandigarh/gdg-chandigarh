@@ -39,7 +39,25 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+.socio-list{
+    text-align: right;
+  }
 
 a:hover {
     color: blue; /* Color on hover */
 }
+@media only screen and (max-width:768px){
+    ul li{
+     display: block !important;
+   }
+   ul{
+     padding-left: 0px;
+   }
+   
+   .socio-list{
+     text-align: left;
+   }
+   .socio-list li{
+     display: inline !important;
+   }
+ }

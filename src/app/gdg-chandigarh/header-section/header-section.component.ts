@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderSectionComponent {
   videoUrl = '../../assets/Learn.mp4'
+  gifUrl= '../../assets/Learn.gif'
 }
