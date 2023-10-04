@@ -1,4 +1,4 @@
-.socio-icons i{
+.socio-icons i {
   margin-right: 2%;
   width: 40px;
   height: 40px;
@@ -8,4 +8,31 @@
   align-items: center;
   justify-content: center;
   color: black;
+}
+
+.gdg-header .container {
+  width: 40%;
+}
+
+video {
+  width: 100%;
+}
+@media only screen and (max-width:1440px) {
+  .gdg-header .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .gdg-header .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:820px) {
+  .gdg-header .container {
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    width: 100% !important;
+  }
 }
