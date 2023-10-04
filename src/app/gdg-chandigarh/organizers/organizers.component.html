@@ -8,14 +8,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let organizer of organizers">
+            <div class="col-lg-3 col-md-6 col-xs-6" *ngFor="let organizer of organizers">
                 <div class="organizers-card people-card">
-                    <div class="image-container">
-                        <img class="card-img-top rounded-circle" [src]="organizer.image"
-                            alt="{{ organizer.name }} Image">
-                        <div class="twitter-icon">
+                    <div class="image-section {{organizer.name}}">
+                        
+                        <!-- <div class="twitter-icon">
                             <a href=""><i class="fa fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-body text-center people-card--text">
                         <h5 class="card-title people-card--name google-sans-bold">{{ organizer.name }}</h5>

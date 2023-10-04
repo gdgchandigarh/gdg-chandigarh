@@ -100,3 +100,11 @@
   .modal-header{
     padding: 0px !important;
   }
+  .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  button{
+    width: fit-content
+  }

@@ -53,6 +53,15 @@ export class OrganizersComponent {
       profile:"",
       twitter:"",
     },
+    {
+      id:6,
+      image:"https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/featured_attendees/MEK_8972%20%281%29.JPG",
+      name:"Yatin Nayyar",
+      company:"Nagarro",
+      designation:"Senior Engineer",
+      profile:"",
+      twitter:"",
+    },
   ];
 
  modalRef: BsModalRef | null = null;
