@@ -16,7 +16,7 @@
              aria-current="page">Home</a>
         </li>
         <li class="nav-item d-flex justify-content-center" *ngFor="let nav of navMenu">
-          <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
+          <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
         </li>
         
       </ul>
@@ -49,10 +49,10 @@
                aria-current="page">Home</a>
           </li>
           <li class="nav-item d-flex justify-content-start" *ngFor="let nav of navMenu">
-            <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
+            <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
           </li>
         </ul>
-        <!-- <a class="nav-link py-4 px-2 mt-auto" href=""><button class="btn bg-primary text-light w-100">Register Here</button></a> -->
+        <!-- <a (click)="onRegisterClick()" class="nav-link py-4 px-2 mt-auto" href=""><button disabled class="btn bg-primary text-light w-100">Registeration Coming Soon</button></a> -->
       </div>
     </div>
   </div>

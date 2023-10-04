@@ -17,7 +17,7 @@
                     <!-- Button trigger modal -->
 
                     <div class="row d-flex justify-content-center">
-                        <img src="{{organizer.image}}" srcset="" class="volunteer-image">
+                        <img (click)="onClick('organizer_click')" src="{{organizer.image}}" srcset="" class="volunteer-image">
                     </div>
 
                     <p class="volunteer-name text-center google-sans-bold">{{organizer.name}}</p>
@@ -88,7 +88,7 @@
                     <!-- Button trigger modal -->
 
                     <div class="row d-flex justify-content-center">
-                        <img src="{{volunteer.image}}" srcset="" class="volunteer-image">
+                        <img (click)="onClick('team_click')" src="{{volunteer.image}}" srcset="" class="volunteer-image">
                     </div>
 
                     <p class="volunteer-name text-center google-sans-bold">{{volunteer.name}}</p>

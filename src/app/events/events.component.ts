@@ -11,7 +11,7 @@ export class EventsComponent implements OnInit {
     
   }
   ngOnInit(): void {
-    this.analytics.logEvent('event_app_home', {"component": "EventComponent"});
+    this.analytics.logEvent('event_home_open', {"component": "EventComponent"});
   }
 
 

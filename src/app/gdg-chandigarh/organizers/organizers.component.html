@@ -57,9 +57,7 @@
                  <div class="container">
                   <h6 class="google-sans-bold">Bio</h6>
                    <p class="tg mb-0 goo-b google-sans-regular">
-                      <!-- {{ selectedOrganizer?.bio }} -->
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi cum ipsum aut pariatur? Eos animi repellat assumenda excepturi sequi laboriosam ducimus ipsum, debitis et perspiciatis fugiat, fuga quos sed fugit!
-                      
+                      {{ selectedOrganizer?.bio }}
                   </p>
                  </div>
               </div>
@@ -68,12 +66,11 @@
           <div class="spacer-a"></div>
           <div class="container">
             <div class="col-lg-2 col-md-6 col-sm-12   d-flex">
-              <a href="" class="mx-2"><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
-              <a href=""  class="mx-2"><i class="fa-brands fa-xl grey fa-twitter"></i></a>
-              <a href=""  class="mx-2"><i class="fa-solid  fa=xl grey fa-globe"></i></a>
+              <a target="_blank" href="{{selectedOrganizer.linkedin}}" class="mx-2"><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
+              <a target="_blank" href="{{selectedOrganizer.twitter}}"  class="mx-2"><i class="fa-brands fa-xl grey fa-twitter"></i></a>
             </div>
           </div>
-           <div class="container text-end mb-0"(click)="modalRef?.hide()">
+           <div class="container text-end mb-0" (click)="modalRef?.hide()">
             <div class="mb-0 cur" > <span class="google-sans-regular" aria-hidden="true">CLOSE</span></div>
           </div>
           <div class="spacer-a"></div>

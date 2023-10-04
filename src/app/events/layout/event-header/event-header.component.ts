@@ -1,4 +1,5 @@
 import { Component,HostListener } from '@angular/core';
+import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
 
 @Component({
   selector: 'app-event-header',
@@ -40,6 +41,13 @@ export class EventHeaderComponent {
 
   eventheaderBottom = ` DevFest opens for registration on October 2, 2023. Check back for updates!`;
 
+  constructor(private analytics: AngularFireAnalytics) {
+  }
+
+  onRegisterClick() {
+    this.analytics.logEvent('register_button_click_mobile', {"component": "EventComponent"});
+  }
+
   onScroll(event: any) {
     const scrollY = event.target.scrollTop;
 
@@ -49,6 +57,22 @@ export class EventHeaderComponent {
       };
     } else {
       this.boxShadowStyle = {};
+    }
+  }
+
+  onClick(eventName: string) {
+    if(eventName === 'Agenda') {
+      this.analytics.logEvent('event_nav_agenda_click', {"component": "EventComponent"});
+    } else if(eventName === 'Speakers') {
+      this.analytics.logEvent('event_nav_speakers_click', {"component": "EventComponent"});
+    } else if(eventName === 'Team') {
+      this.analytics.logEvent('event_nav_team_click', {"component": "EventComponent"});
+    } else if(eventName === 'Sponsors') {
+      this.analytics.logEvent('event_nav_sponsors_click', {"component": "EventComponent"});
+    } else if(eventName === 'FAQ') {
+      this.analytics.logEvent('event_nav_faq_click', {"component": "EventComponent"});
+    } else {
+      this.analytics.logEvent('event_nav_home_click', {"component": "EventComponent"});
     }
   }
 }

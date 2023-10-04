@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
 
 @Component({
   selector: 'app-event-team',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./event-team.component.css']
 })
 export class EventTeamComponent {
+  constructor(private analytics: AngularFireAnalytics) {
+    
+  }
 volunteers = [
     {
     id:1,
@@ -281,4 +285,7 @@ organizers = [
 }
 ];
 
+onClick(eventType: string) {
+  this.analytics.logEvent(eventType, {"component": "EventComponent"});
+}
 }
