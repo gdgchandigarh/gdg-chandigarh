@@ -192,6 +192,18 @@ volunteers = [
     linkedin: "https://www.linkedin.com/in/gurkirat-singh-b581b6251",
     
     bio: "I am a B.Tech (CSE) 1st Year Student at LKCTC, Jalandhar. I want to be a successful developer in Machine Learning & Robotics in future. I am pretty good at camera operating & editing."
+  },
+  {
+    id:17,
+    image:"../../../assets/volunteers/Atul.jpeg",
+    name:"Atul Raj",
+    college:"CU",
+    designation:"Student",
+    profile:"",
+    twitter:" https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
+    linkedin: "https://www.linkedin.com/in/atul-raj-095322229",
+    
+    bio: "I'm a 3rd-year Computer Science student with a passion for web design and development. I bring a unique blend of technical expertise and business acumen to the table, along with a knack for event organization. With a keen interest in startups and entrepreneurship, I'm an IEEE member and a dedicated networker, ready to embark on a journey into product management."
   }
 ];
 
@@ -210,7 +222,7 @@ organizers = [
 },
 {
   id:2,
-  image:"../../../assets/organizers/Yatin.jpeg",
+  image:"../../../assets/organizers/yatin.webp",
   name:"Yatin Nayyar",
   company:"Wipro",
   designation:"Project Engineer",
@@ -222,7 +234,7 @@ organizers = [
 },
 {
   id:3,
-  image:"../../../assets/organizers/Loveleen.jpeg",
+  image:"../../../assets/organizers/loveleen.webp",
   name:"Loveleen Kaur",
   company:"Astrotalk",
   designation:"Senior Engineer",
@@ -245,7 +257,7 @@ organizers = [
 },
 {
   id:5,
-  image:"../../../assets/organizers/Harneet.jpeg",
+  image:"../../../assets/organizers/harneet.webp",
   name:"Harneet Singh",
   company:"KPMG",
   designation:"Associate Consultant",
@@ -257,7 +269,7 @@ organizers = [
 },
 {
   id:6,
-  image:"../../../assets/organizers/Ayush.jpeg",
+  image:"../../../assets/organizers/ayush.webp",
   name:"Ayush Sharma",
   company:"IBM",
   designation:"Application Developer",
