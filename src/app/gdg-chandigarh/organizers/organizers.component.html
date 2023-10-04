@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-xs-6" *ngFor="let organizer of organizers">
-                <div class="organizers-card people-card">
+            <div class="col-lg-3 col-md-6 col-xs-6 organizers-card" *ngFor="let organizer of organizers">
+                <div class=" people-card">
                     <div class="image-section {{organizer.name}}">
                         
                         <!-- <div class="twitter-icon">
@@ -17,9 +17,10 @@
                         </div> -->
                     </div>
                     <div class="card-body text-center people-card--text">
-                        <h5 class="card-title people-card--name google-sans-bold">{{ organizer.name }}</h5>
-                        <p class="card-text google-sans-regular">{{ organizer.company }}</p>
-                        <p class="card-text google-sans-regular">{{ organizer.designation }}</p>
+                        <p class="cc-title google-sans-bold">{{ organizer.name }}</p>
+                        <p class="cc-content google-sans-regular">{{ organizer.designation }}</p>
+                        <p class="cc-content google-sans-regular">{{ organizer.company }}</p>
+                       
                         <!-- <a  class="btn btn-outline-primary my-3">Profile</a> -->
                         <button  class="btn btn-primary google-sans-regular" (click)="openModal(profileModal, organizer)" >View Profile</button>
                         <!-- <a  class="b btn btn-secondary" (click)="openModal(profileModal, organizer)" >View Profile</a> -->

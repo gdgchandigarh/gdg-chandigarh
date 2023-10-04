@@ -47,7 +47,7 @@ export class OrganizersComponent implements AfterViewInit {
     {
       id:4,
       image:"../../../assets/organizers/Pranav.png",
-      name:"Pranav Kumar",
+      name:"Pranav Kumar Verma",
       company:"Nagarro",
       designation:"Software Engineer",
       profile:"",
