@@ -1,4 +1,4 @@
-import { Component, TemplateRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, TemplateRef } from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 @Component({
@@ -6,7 +6,7 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
   templateUrl: './organizers.component.html',
   styleUrls: ['./organizers.component.css']
 })
-export class OrganizersComponent {
+export class OrganizersComponent implements AfterViewInit {
   organizers = [
       {
       id:1,
@@ -67,12 +67,24 @@ export class OrganizersComponent {
  modalRef: BsModalRef | null = null;
  selectedOrganizer: any; // Define selectedOrganizer
 
-  constructor(private modalService: BsModalService) {}
+  constructor(private modalService: BsModalService, private el: ElementRef) {}
 
   openModal(template: TemplateRef<any>, organizer: any) {
     this.selectedOrganizer = organizer;
     this.modalRef = this.modalService.show(template);
     this.modalRef?.setClass('modal-lg'); // Use optional chaining operator to access modalRef
   }
+
+  ngAfterViewInit(): void {
+    this.scrollToSection('organizers');
+  }
+
+  scrollToSection(sectionId: string): void {
+    const targetElement = this.el.nativeElement.querySelector('#' + sectionId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    }
+  }
+
   
 }

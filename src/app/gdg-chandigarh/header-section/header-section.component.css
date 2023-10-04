@@ -1,4 +1,4 @@
-.socio-icons i {
+.socio-icons a {
   margin-right: 2%;
   width: 40px;
   height: 40px;
@@ -35,4 +35,8 @@ video {
     margin-top: 7.5%;
     width: 100% !important;
   }
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }

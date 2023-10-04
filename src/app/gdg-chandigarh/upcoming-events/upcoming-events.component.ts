@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
@@ -9,7 +9,7 @@ templateUrl: './upcoming-events.component.html',
     styleUrls: ['./upcoming-events.component.css']
 })
 
-export class UpcomingEventsComponent {
+export class UpcomingEventsComponent implements AfterViewInit {
   userAvatarUrl: string = "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-08-26%2520at%25202.32.23%2520AM.jpeg";
   imageUrl = 'assets/img.png';
   avatarUrl = 'assets/OIP.jpeg'
@@ -30,10 +30,20 @@ export class UpcomingEventsComponent {
   }
   
 
-];
+ ];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private el: ElementRef) {}
 
+  ngAfterViewInit(): void {
+    this.scrollToSection('upcoming-events');
+  }
+
+  scrollToSection(sectionId: string): void {
+    const targetElement = this.el.nativeElement.querySelector('#' + sectionId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    }
+  }
 
   openScrollableContent() {
     this.router.navigate(['/events']);
