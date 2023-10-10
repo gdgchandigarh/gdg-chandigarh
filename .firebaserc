@@ -1,14 +1,5 @@
 {
   "projects": {
-    "default": "gdg-chandigarh-6a6cb"
-  },
-  "targets": {
-    "gdg-chandigarh-6a6cb": {
-      "hosting": {
-        "my-angular-app": [
-          "gdg-chandigarh-6a6cb"
-        ]
-      }
-    }
+    "default": "gdg-chandigarh-a5ebe"
   }
 }
