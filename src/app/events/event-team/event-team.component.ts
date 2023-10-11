@@ -261,6 +261,29 @@ organizers = [
 },
 {
   id:5,
+  image:"../../../assets/organizers/Cherish.jpeg",
+  name:"Cherish Santoshi",
+  company:"DevNetwork",
+  designation:"Advisory Board Member",
+  profile:"",
+  twitter:"https://twitter.com/CherishSantoshi",
+  linkedin: "https://www.linkedin.com/in/cherishsantoshi/",
+  bio: "An experienced Program Manager currently managing programs for 5 million developers across the globe. I'm passionate about building and scaling tech-communities and promoting technical education."
+},
+{
+  id:6,
+  image:"../../../assets/organizers/Aashi.jpeg",
+  name:"Aashi",
+  company:"MedEnGauge Healthcare Pvt Ltd",
+  designation:"Co-Founder",
+  profile:"",
+  twitter:"https://twitter.com/AashiDutt",
+  linkedin: "https://www.linkedin.com/in/aashi-dutt",
+  
+  bio: "Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ML enthusiast who loves to work on real world problems."
+},
+{
+  id:7,
   image:"../../../assets/organizers/harneet.webp",
   name:"Harneet Singh",
   company:"KPMG",
@@ -272,7 +295,7 @@ organizers = [
   bio: "By profession I'm working as Associate Consultant in KPMG. I believe in the theory of sharing whatever you have learnt from everywhere."
 },
 {
-  id:6,
+  id:8,
   image:"../../../assets/organizers/ayush.webp",
   name:"Ayush Sharma",
   company:"IBM",
@@ -282,29 +305,6 @@ organizers = [
   linkedin: "https://www.linkedin.com/in/sharmaayush981/",
   
   bio: "Ayush is an Application Developer in IBM. He is Co Lead - Meta Developer Circle (Chandigarh). He is Certified Java & Cloud full stack Developer. He is Core Team Lead (Google Developers Group-Chandigarh)."
-},
-{
-  id:7,
-  image:"../../../assets/organizers/Cherish.jpeg",
-  name:"Cherish Santoshi",
-  company:"DevNetwork",
-  designation:"Advisory Board Member",
-  profile:"",
-  twitter:"https://twitter.com/CherishSantoshi",
-  linkedin: "https://www.linkedin.com/in/cherishsantoshi/",
-  bio: "An experienced Program Manager currently managing programs for 5 million developers across the globe. I'm passionate about building and scaling tech-communities and promoting technical education."
-},
-{
-  id:8,
-  image:"../../../assets/organizers/Aashi.jpeg",
-  name:"Aashi",
-  company:"MedEnGauge Healthcare Pvt Ltd",
-  designation:"Co-Founder",
-  profile:"",
-  twitter:"https://twitter.com/AashiDutt",
-  linkedin: "https://www.linkedin.com/in/aashi-dutt",
-  
-  bio: "Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ML enthusiast who loves to work on real world problems."
 }
 ];
 

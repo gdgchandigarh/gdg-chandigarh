@@ -23,14 +23,14 @@ featuredTopics = [
     description: `Firebase is an app development platform that helps you build and grow apps and games users love. Widely used in mobile, web.`
   },
   {
-    topicName:  `AI`,
+    topicName:  `PaLM`,
     logo: `../../../../assets/palm-logo.svg`,
-    description: `AI is Google's pioneering field in computer science, creating intelligent machines and enhancing various technologies.`
+    description: `PaLM is Google's pioneering field in computer science, creating intelligent machines and enhancing various technologies.`
   },
   {
-    topicName:  `ML`,
+    topicName:  `MakerSuite`,
     logo: `https://developers.google.com/static/focus/images/makersuite.png`,
-    description: `ML is Google's machine learning expertise, enabling data-driven decisions and predictive capabilities in applications and services.`
+    description: `MakerSuite is Google's expertise, enabling data-driven decisions and predictive capabilities in applications and services.`
   },
   {
     topicName:  `Web`,
