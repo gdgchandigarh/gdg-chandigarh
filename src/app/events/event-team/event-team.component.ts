@@ -204,9 +204,8 @@ volunteers = [
     college:"CU",
     designation:"Student",
     profile:"",
-    twitter:" https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
+    twitter:"https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
     linkedin: "https://www.linkedin.com/in/atul-raj-095322229",
-    
     bio: "I'm a 3rd-year Computer Science student with a passion for web design and development. I bring a unique blend of technical expertise and business acumen to the table, along with a knack for event organization. With a keen interest in startups and entrepreneurship, I'm an IEEE member and a dedicated networker, ready to embark on a journey into product management."
   }
 ];
