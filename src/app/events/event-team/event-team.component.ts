@@ -204,9 +204,8 @@ volunteers = [
     college:"CU",
     designation:"Student",
     profile:"",
-    twitter:" https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
+    twitter:"https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
     linkedin: "https://www.linkedin.com/in/atul-raj-095322229",
-    
     bio: "I'm a 3rd-year Computer Science student with a passion for web design and development. I bring a unique blend of technical expertise and business acumen to the table, along with a knack for event organization. With a keen interest in startups and entrepreneurship, I'm an IEEE member and a dedicated networker, ready to embark on a journey into product management."
   }
 ];
@@ -261,6 +260,29 @@ organizers = [
 },
 {
   id:5,
+  image:"../../../assets/organizers/Cherish.jpeg",
+  name:"Cherish Santoshi",
+  company:"DevNetwork",
+  designation:"Advisory Board Member",
+  profile:"",
+  twitter:"https://twitter.com/CherishSantoshi",
+  linkedin: "https://www.linkedin.com/in/cherishsantoshi/",
+  bio: "An experienced Program Manager currently managing programs for 5 million developers across the globe. I'm passionate about building and scaling tech-communities and promoting technical education."
+},
+{
+  id:6,
+  image:"../../../assets/organizers/Aashi.jpeg",
+  name:"Aashi",
+  company:"MedEnGauge Healthcare Pvt Ltd",
+  designation:"Co-Founder",
+  profile:"",
+  twitter:"https://twitter.com/AashiDutt",
+  linkedin: "https://www.linkedin.com/in/aashi-dutt",
+  
+  bio: "Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ML enthusiast who loves to work on real world problems."
+},
+{
+  id:7,
   image:"../../../assets/organizers/harneet.webp",
   name:"Harneet Singh",
   company:"KPMG",
@@ -272,7 +294,7 @@ organizers = [
   bio: "By profession I'm working as Associate Consultant in KPMG. I believe in the theory of sharing whatever you have learnt from everywhere."
 },
 {
-  id:6,
+  id:8,
   image:"../../../assets/organizers/ayush.webp",
   name:"Ayush Sharma",
   company:"IBM",
