@@ -53,7 +53,7 @@ volunteers = [
     profile:"",
     twitter:"",
     linkedin: "https://www.linkedin.com/in/vrinda-vritti-b3149021b/",
-    bio: "Hey there! My name is Vrinda, and I am currently pursuing CSE with a specialization in AI at Chitkara University. I am deeply passionate about AI and machine learning, as demonstrated by my participation in several hackathons and reaching the grand finale of SIH. Additionally, my role as content head at GDSC, Chitkara University has allowed me to develop my leadership and communication skills while working with individuals from diverse backgrounds."
+    bio: "Hey there! My name is Vrinda, and I am currently pursuing CSE with a specialization in AI at Chitkara University. I am deeply passionate about AI and machine learning, as demonstrated by my participation in several hackathons and reaching the grand finale of SIH. Additionally, my role as content lead at GDSC, Chitkara University has allowed me to develop my leadership and communication skills while working with individuals from diverse backgrounds."
   },
   {
     id:5,
