@@ -1,15 +1,5 @@
 {
   "projects": {
-    "default": "gdg-chandigarh-staging"
-  },
-  "targets": {
-    "gdg-chandigarh-a5ebe": {
-      "hosting": {
-        "staging": [
-          "gdg-chandigarh-staging"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "gdg-chandigarh-a5ebe"
+  }
 }
