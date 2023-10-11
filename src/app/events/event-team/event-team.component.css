@@ -9,6 +9,8 @@
     padding: 5%;
     padding-bottom: 5%;
     margin-bottom: 7.5%;
+    height: 100%;
+
 }
 .volunteer-name{
     font-size: 90%;
@@ -22,6 +24,7 @@
 }
 .volunteer-designation{
     font-size: 80%;
+    margin-bottom: 3px;
 }
 
 .close-button{
@@ -38,7 +41,7 @@ img.volunteer-image-modal {
 }
 @media only screen and (max-width:768px){
     .volunteer-image-modal{
-        width: 25% !important;
+        width: 30% !important;
         margin-right: 5%;
     }
 }
@@ -48,7 +51,7 @@ img.volunteer-image-modal {
         width: 50%;
     }
     .volunteer-image-modal{
-        width: 25% !important;
+        width: 30% !important;
         margin-right: 5%;
     }
 }

@@ -53,7 +53,7 @@ volunteers = [
     profile:"",
     twitter:"",
     linkedin: "https://www.linkedin.com/in/vrinda-vritti-b3149021b/",
-    bio: "Hey there! My name is Vrinda, and I am currently pursuing CSE with a specialization in AI at Chitkara University. I am deeply passionate about AI and machine learning, as demonstrated by my participation in several hackathons and reaching the grand finale of SIH. Additionally, my role as content lead at GDSC, Chitkara University has allowed me to develop my leadership and communication skills while working with individuals from diverse backgrounds."
+    bio: "Hey there! My name is Vrinda, and I am currently pursuing CSE with a specialization in AI at Chitkara University. I am deeply passionate about AI and machine learning, as demonstrated by my participation in several hackathons and reaching the grand finale of SIH. Additionally, my role as the Lead at GDSC, Chitkara University has allowed me to develop my leadership and communication skills while working with individuals from diverse backgrounds."
   },
   {
     id:5,
@@ -62,7 +62,7 @@ volunteers = [
     college:"GDSC CGC CEC",
     designation:"GDSC Lead",
     profile:"",
-    twitter:"",
+    twitter:"https://twitter.com/yashasvini121",
     linkedin: "https://www.linkedin.com/in/yashasvini121/",
     bio: "I am GDSC Lead at CGC CEC, Python Developer, AWS AI & ML Scholar."
   },
@@ -154,7 +154,7 @@ volunteers = [
     image:"../../../assets/volunteers/Yashika.jpeg",
     name:"Yashika",
     college:"Chitkara University",
-    designation:"Core Team Member @GDSC CUIET",
+    designation:"Core Team Member GDSC CUIET",
     profile:"",
     twitter:"https://twitter.com/rainbowinordeal",
     linkedin: "https://www.linkedin.com/in/yashika-mukhija-37a48521b/",
@@ -169,7 +169,7 @@ volunteers = [
     designation:"Flutter Developer",
     profile:"",
     twitter:"https://twitter.com/GauravB50930591",
-    linkedin: "www.linkedin.com/in/gaurav-kumar-biswas-37106a1b7",
+    linkedin: "https://www.linkedin.com/in/gaurav-kumar-biswas-37106a1b7/",
     
     bio: "Software Engineer in training with a passion for esports. I have experience in developing application using Flutter, Dart, Java as well as I am an experienced GFX / VFX artist basically work for Gaming Industries. I am also eager to learn new things and I am always looking for ways to improve my skills."
   },
@@ -195,7 +195,7 @@ volunteers = [
     twitter:"https://twitter.com/GurkiratM1450?t=jh15cddd3hvBdHWIVwPYJg&s=08",
     linkedin: "https://www.linkedin.com/in/gurkirat-singh-b581b6251",
     
-    bio: "I am a B.Tech (CSE) 1st Year Student at LKCTC, Jalandhar. I want to be a successful developer in Machine Learning & Robotics in future. I am pretty good at camera operating & editing."
+    bio: "I am a B.Tech (CSE) 2nd Year Student at LKCTC, Jalandhar. I want to be a successful developer in Machine Learning & Robotics in future. I am pretty good at camera operating & editing."
   },
   {
     id:17,

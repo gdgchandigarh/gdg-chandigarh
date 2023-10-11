@@ -23,7 +23,7 @@ export class EventHeaderComponent {
     },
     {
       route:'sponsors',
-      itemName:'Sponsors'
+      itemName:'Partners'
     },
     {
       route: 'faq',
