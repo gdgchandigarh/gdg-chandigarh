@@ -51,6 +51,16 @@ nav{
     .active{
         margin: 0% 0% !important;
     }
+    .navbar-brand{
+        font-size: 15px;
+        margin-top: 0.25%;
+
+    }
+    img{
+       margin-bottom: 0px;
+       margin-right: 0.5%;
+       height:15px;
+    }
 }
 
 .event-header-section{
@@ -158,5 +168,15 @@ nav{
     }
     .offcanvas{
         width: 60% !important;
+    }
+    .navbar-brand{
+        font-size: 15px;
+        margin-top: 0.25%;
+
+    }
+    img{
+       margin-bottom: 0px;
+       margin-right: 0.5%;
+       height:15px;
     }
 }
