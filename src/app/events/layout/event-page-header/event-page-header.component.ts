@@ -16,6 +16,9 @@ export class EventPageHeaderComponent implements OnInit {
     const lastSegment = segments[segments.length - 1];
     const lastName = lastSegment.path;
     this.pathName  = lastName.charAt(0).toUpperCase() + lastName.slice(1);
+    if(this.pathName==="Sponsors"){
+      this.pathName = "Partners";
+    }
   });
 }
 }

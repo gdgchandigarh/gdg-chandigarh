@@ -34,7 +34,7 @@ const routes: Routes = [
       { path: `${eventType}/agenda`, component: ComingSoonComponent},
       { path: `${eventType}/faq`, component: EventFaqComponent},
       { path: `${eventType}/team`, component: EventTeamComponent},
-      { path: `${eventType}/sponsors`, component: ComingSoonComponent},
+      { path: `${eventType}/partners`, component: ComingSoonComponent},
       {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
     ]
   },

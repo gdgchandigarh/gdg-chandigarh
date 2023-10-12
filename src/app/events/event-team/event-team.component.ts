@@ -97,7 +97,7 @@ volunteers = [
     designation:"Full Stack Developer",
     profile:"",
     twitter:"",
-    linkedin: "www.linkedin.com/in/naveen-jaiswal/",
+    linkedin: "https://www.linkedin.com/in/naveen-jaiswal/",
     
     bio: "Naveen Jaiswal, a passionate tech enthusiast and GDSC-SVIET Tech Lead, specializes in MERN Stack web development, open-source contributor with a deep passion for innovative development."
   },
