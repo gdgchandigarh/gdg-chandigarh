@@ -233,7 +233,7 @@ organizers = [
   twitter:"https://twitter.com/hifiveyatin",
   linkedin: "https://www.linkedin.com/in/hifiveyatin/",
   
-  bio: "Yatin is a Project Engineer by profession having 2+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
+  bio: "Yatin is a Project Engineer by profession having 3+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
 },
 {
   id:3,
