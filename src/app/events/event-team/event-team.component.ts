@@ -247,17 +247,17 @@ organizers = [
   
   bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Senior Android Developer with 5 years of experience. She is Co-Organizer of GDG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career."
 },
-// {
-//   id:4,
-//   image:"../../../assets/organizers/Pranav.png",
-//   name:"Pranav Kumar Verma",
-//   company:"Nagarro",
-//   designation:"Software Engineer",
-//   profile:"",
-//   linkedin:"https://www.linkedin.com/in/pranav-kumar-verma/",
-//   twitter: "https://twitter.com/prnvkmr954",
-//   bio: "Pranav is a Senior Engineer by profession having 6.7 years of experience in corporate field. He loves programming and developing games. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. His hobbies are reading books playing games."
-// },
+{
+  id:4,
+  image:"../../../assets/organizers/Pranav.png",
+  name:"Pranav Kumar Verma",
+  company:"Nagarro",
+  designation:"Software Engineer",
+  profile:"",
+  linkedin:"https://www.linkedin.com/in/pranav-kumar-verma/",
+  twitter: "https://twitter.com/prnvkmr954",
+  bio: "Pranav is a Senior Engineer by profession having 6.7 years of experience in corporate field. He loves programming and developing games. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. His hobbies are reading books playing games."
+},
 {
   id:5,
   image:"../../../assets/organizers/Cherish.jpeg",
