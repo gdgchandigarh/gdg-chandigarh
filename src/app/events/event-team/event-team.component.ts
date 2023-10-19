@@ -207,7 +207,29 @@ volunteers = [
     twitter:"https://x.com/Atulraj58333219?t=fo3WjB_rMSK_xU0oDA09Ow&s=09",
     linkedin: "https://www.linkedin.com/in/atul-raj-095322229",
     bio: "I'm a 3rd-year Computer Science student with a passion for web design and development. I bring a unique blend of technical expertise and business acumen to the table, along with a knack for event organization. With a keen interest in startups and entrepreneurship, I'm an IEEE member and a dedicated networker, ready to embark on a journey into product management."
-  }
+  },
+  {
+    id:18,
+    image:"../../../assets/volunteers/Adarsh.jpeg",
+    name:"Adarsh Kumar Pandey",
+    college:"Coding Bits",
+    designation:"Student",
+    profile:"",
+    twitter:"https://twitter.com/adarshpandey191",
+    linkedin: "https://www.linkedin.com/company/coding-bits/",
+    bio: "I am Adarsh Kumar Pandey, the Founder and CEO-to-be of 'Coding Bits.' We are in the process of crafting a dynamic programming language learning platform."
+  },
+  {
+    id:19,
+    image:"../../../assets/volunteers/HarshitMahajan.png",
+    name:"Harshit Mahajan",
+    college:"Bluelearn",
+    designation:"Community Manager",
+    profile:"",
+    twitter:"https://twitter.com/HarshitMahajan_",
+    linkedin: "https://www.linkedin.com/in/hm1104/",
+    bio: "An Artificial Intelligence and data sccience Student"
+  },
 ];
 
 organizers = [
@@ -220,7 +242,6 @@ organizers = [
   profile:"",
   twitter:"https://twitter.com/cammykamal",
   linkedin: "https://www.linkedin.com/in/kamal-vaid/",
-  
   bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
 },
 {
@@ -232,7 +253,6 @@ organizers = [
   profile:"",
   twitter:"https://twitter.com/hifiveyatin",
   linkedin: "https://www.linkedin.com/in/hifiveyatin/",
-  
   bio: "Yatin is a Project Engineer by profession having 3+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
 },
 {
