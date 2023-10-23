@@ -57,27 +57,10 @@
             </p>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" >
-                <div class="sponsor-image">
-                    <a href=""> <div class="com-image-container" style="background-image: url(https://secure.meetupstatic.com/photos/event/6/c/7/1/clean_493947761.webp);"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" >
-                <div class="sponsor-image">
-                    <a href=""> <div class="com-image-container" style="background-image: url(https://secure.meetupstatic.com/photos/event/6/c/7/1/clean_493947761.webp);"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" >
-                <div class="sponsor-image">
-                    <a href=""> <div class="com-image-container" style="background-image: url(https://secure.meetupstatic.com/photos/event/6/c/7/1/clean_493947761.webp);"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" >
-                <div class="sponsor-image">
-                    <a href=""> <div class="com-image-container" style="background-image: url(https://secure.meetupstatic.com/photos/event/6/c/7/1/clean_493947761.webp);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.communityPartners">
+                <div class="p-0 mb-3">
+                    <a [href]="community.communityUrl">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%" class="rounded-3">
                     </a>
                 </div>
             </div>

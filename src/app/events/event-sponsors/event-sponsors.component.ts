@@ -90,13 +90,13 @@ export class EventSponsorsComponent {
         "communityDescription": "",
         "communityUrl": ""
       },
-      // {
-      //   "communityId": "10",
-      //   "communityName": "Chitkara University",
-      //   "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-      //   "communityDescription": "",
-      //   "communityUrl": ""
-      // },
+      {
+        "communityId": "10",
+        "communityName": "Chitkara University",
+        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityDescription": "",
+        "communityUrl": ""
+      },
       {
         "communityId": "11",
         "communityName": "DAV Institute of Engineering & Technology",
@@ -179,56 +179,56 @@ export class EventSponsorsComponent {
       {
         "communityId": "1",
         "communityName": "TFUG Chandigarh",
-        "coummunityImage": "https://secure.meetupstatic.com/photos/event/6/c/7/1/clean_493947761.webp",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfug.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "2",
         "communityName": "D4 Community",
-        "coummunityImage": "https://media.licdn.com/dms/image/C4D0BAQEo-hXou9aHDg/company-logo_200_200/0/1664104382379?e=1705536000&v=beta&t=xhRvWL1yqCeSSFRGGwCPPBORJgEcTffviMbuj66v8fQ",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/D4.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "3",
         "communityName": "Coding Bits",
-        "coummunityImage": "https://media.licdn.com/dms/image/D4D0BAQETnzX9qxZD4Q/company-logo_200_200/0/1697400395829?e=1705536000&v=beta&t=odl0oMm8pglPqjqNWhv5Nbl8tgy3ETjSyWJ9xCH2nfI",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/codingbits.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "4",
         "communityName": "Papaya Coders",
-        "coummunityImage": "https://papaya-coders.b-cdn.net/wp-content/uploads/2023/06/papayacoders-logo-e1686920327207.png.webp",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/papaya.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "5",
         "communityName": "Hack The Mountains",
-        "coummunityImage": "https://htm-4-images.s3.amazonaws.com/img/HTMLOGHO_%20NEW.png",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/Hack.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "6",
         "communityName": "Web 3 Punjab",
-        "coummunityImage": "https://media.licdn.com/dms/image/C4D0BAQGn5DdkKxY4Fw/company-logo_200_200/0/1669107465566?e=1705536000&v=beta&t=NibqUy8RVVi6cwIqCJRyCu2lRch9vLBxVGMiW5rMfyI",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/w3.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "7",
         "communityName": "CU IEEE",
-        "coummunityImage": "https://edu.ieee.org/in-cu/wp-content/uploads/sites/833/2022/03/cropped-Frame-1-1.png",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/ieee.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
       {
         "communityId": "8",
         "communityName": "Bizarre Coders",
-        "coummunityImage": "https://media.licdn.com/dms/image/D4D0BAQG5Mc2hMxJSHA/company-logo_200_200/0/1684650743069?e=1705536000&v=beta&t=Yd0mhNpUsH76LNUxA4rmawYe6M42JfJwbOstzKvl-sc",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/bizzare.jpg",
         "communityDescription": "",
         "communityUrl": ""
       },
