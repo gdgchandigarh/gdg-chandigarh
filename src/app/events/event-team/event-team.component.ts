@@ -228,7 +228,18 @@ volunteers = [
     profile:"",
     twitter:"https://twitter.com/HarshitMahajan_",
     linkedin: "https://www.linkedin.com/in/hm1104/",
-    bio: "An Artificial Intelligence and data sccience Student"
+    bio: "An Artificial Intelligence and data science Student"
+  },
+  {
+    id:20,
+    image:"../../../assets/volunteers/Twinkle.jpg",
+    name:"Twinkle Mehta",
+    college:"Accenture",
+    designation:"Senior Quality Analyst",
+    profile:"",
+    twitter:"https://twitter.com/TwinkleMeh59341",
+    linkedin: "https://www.linkedin.com/in/twinklemehta01",
+    bio: "I am Twinkle Mehta working as Senior Quality Analyst at Accenture. I am having around 6 years of experience in IT industry. During this tenure, I have worked on multiple domains named “LIS, Finance, Cloud, Building Management”. I have been involved in all kind of functional testing activities that we follow in Agile methodology. Tools I have worked on so far are : VSO, JIRA, Azure Devops, Postman, Swagger, Jmeter, Eclipse."
   },
 ];
 
@@ -272,7 +283,7 @@ organizers = [
   image:"../../../assets/organizers/Pranav.png",
   name:"Pranav Kumar Verma",
   company:"Nagarro",
-  designation:"Software Engineer",
+  designation:"Senior Engineer",
   profile:"",
   linkedin:"https://www.linkedin.com/in/pranav-kumar-verma/",
   twitter: "https://twitter.com/prnvkmr954",

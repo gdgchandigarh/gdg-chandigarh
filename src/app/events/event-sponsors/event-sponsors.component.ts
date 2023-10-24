@@ -232,6 +232,13 @@ export class EventSponsorsComponent {
         "communityDescription": "",
         "communityUrl": ""
       },
+      {
+        "communityId": "9",
+        "communityName": "PandoraX",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/pandora.jpg",
+        "communityDescription": "",
+        "communityUrl": ""
+      },
     ],
     "venuePartner": [
       {
