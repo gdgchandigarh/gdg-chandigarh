@@ -1,4 +1,3 @@
-
 <app-event-page-header></app-event-page-header>
 <section class="bg-light py-5">
     <div class="container sponsors google-sans-regular">
@@ -9,7 +8,7 @@
         </div>
         <div class="row mb-3">
             <p class="google-sans-regular text-grey">
-               Partners & Sponsors dedicated to building remarkable experience!
+                Partners & Sponsors dedicated to building remarkable experience!
             </p>
         </div>
         <div class="row">
@@ -20,8 +19,9 @@
         <div class="row">
             <div class="col-lg-3w col-md-3 col-sm-3 col-xs-6">
                 <div class="sponsor-image">
-                    <a href="https://developers.google.com"> <img src="https://devfest23-demo.web.app/img/googlefordevelopers.138bc0ce.svg" alt=""
-                            srcset="" width="100%"></a>
+                    <a href="https://developers.google.com"> <img
+                            src="https://devfest23-demo.web.app/img/googlefordevelopers.138bc0ce.svg" alt="" srcset=""
+                            width="100%"></a>
                 </div>
             </div>
         </div>
@@ -33,8 +33,8 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="sponsor-image">
-                    <a href="https://gdg.community.dev/gdg-cloud-chandigarh/"> <img src="{{imageUrl}}" alt=""
-                            srcset="" width="100%"></a>
+                    <a href="https://gdg.community.dev/gdg-cloud-chandigarh/"> <img src="{{imageUrl}}" alt="" srcset=""
+                            width="100%"></a>
                 </div>
             </div>
         </div>
@@ -44,11 +44,14 @@
             </p>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.gdscCommunityPartners">
-                <div class="sponsor-image">
-                    <img [src]="community.coummunityImage" alt="" srcset="" width="100%">
-                    <p class="gdsc-name">{{ community.communityName }}</p>
-                </div>
+            <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"
+                *ngFor="let community of eventSponsors.gdscCommunityPartners">
+                <a [href]="community.communityUrl" target="_blank" style="text-decoration: none;">
+                    <div class="sponsor-image">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%">
+                        <p class="gdsc-name">{{ community.communityName }}</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row mt-5">
@@ -59,7 +62,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.communityPartners">
                 <div class="p-0 mb-3">
-                    <a [href]="community.communityUrl">
+                    <a [href]="community.communityUrl" target="_blank">
                         <img [src]="community.coummunityImage" alt="" srcset="" width="100%" class="rounded-3">
                     </a>
                 </div>
@@ -73,7 +76,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.venuePartner">
                 <div class="sponsor-image p-3">
-                    <a href=""><img src="https://www.amity.edu/mohali/img/logo.png" alt="" srcset="" width="100%">
+                    <a href="" target="_blank"><img src="https://www.amity.edu/mohali/img/logo.png" alt="" srcset="" width="100%">
                     </a>
                 </div>
             </div>

@@ -10,6 +10,7 @@ export class CounterHeaderComponent {
   eventGif = '../../../assets/event-gif.gif'
   eventDate = `December 9, 2023`;
   eventTime = `9:00 AM - 5:00 PM`;
+  eventLocation=`Amity University, Punjab`
  
   constructor(private analytics: AngularFireAnalytics) {
   }
