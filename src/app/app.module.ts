@@ -50,6 +50,7 @@ import { EventsGdgComponent } from './gdg-chandigarh/home/events-gdg/events-gdg.
 import { FindEventComponent } from './gdg-chandigarh/home/find-event/find-event.component';
 import { JoinCommunityComponent } from './gdg-chandigarh/home/join-community/join-community.component';
 import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-touch.component';
+import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/call-for-speaker.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-t
     EventsGdgComponent,
     FindEventComponent,
     JoinCommunityComponent,
-    GetInTouchComponent
+    GetInTouchComponent,
+    CallForSpeakerComponent
    
   ],
   imports: [

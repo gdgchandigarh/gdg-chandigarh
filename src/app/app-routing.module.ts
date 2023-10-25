@@ -11,6 +11,7 @@ import { EventFaqComponent } from './events/event-faq/event-faq.component';
 import { EventTeamComponent } from './events/event-team/event-team.component';
 import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
 import {EventSponsorsComponent} from './events/event-sponsors/event-sponsors.component'
+import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
 const eventType= 'devfest';
 
 const routes: Routes = [
