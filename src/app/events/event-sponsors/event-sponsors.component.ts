@@ -91,13 +91,6 @@ export class EventSponsorsComponent {
         "communityUrl": "https://gdsc.community.dev/ik-gujral-punjab-technical-university-jalandhar/"
       },
       {
-        "communityId": "10",
-        "communityName": "Chitkara University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/dav-institute-of-engineering-technology-jalandhar/"
-      },
-      {
         "communityId": "11",
         "communityName": "DAV Institute of Engineering & Technology",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
@@ -179,7 +172,7 @@ export class EventSponsorsComponent {
         "communityName": "Baba Banda Sing Bahadur Engineering College",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/shri-dharmasthala-manjunatheshwara-college-of-engineering-technology-dharwad/"
+        "communityUrl": "https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
       },
     ],
     "communityPartners": [
@@ -251,7 +244,7 @@ export class EventSponsorsComponent {
         "communityName": "Navan",
         "coummunityImage":"../../../assets/Brand/CommunityPartners/navan.jpg",
         "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/pandorax/"
+        "communityUrl": "https://www.navan.ai"
       },
     ],
     "venuePartner": [
