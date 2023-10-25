@@ -5,7 +5,7 @@
     margin-bottom: 5%;
 }
 .gdsc-name{
-    font-size: 80%;
+    font-size: 70%;
     margin-bottom: auto;
     margin-left: 15%;
     color : #606164;
@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width:1025px){
     .gdsc-name{
-        font-size: 55%;
+        font-size: 50%;
         margin-bottom: auto;
         margin-left: 15%;
         color : #5f6368 !important;

@@ -174,6 +174,13 @@ export class EventSponsorsComponent {
         "communityDescription": "",
         "communityUrl": "https://gdsc.community.dev/shri-dharmasthala-manjunatheshwara-college-of-engineering-technology-dharwad/"
       },
+      {
+        "communityId": "21",
+        "communityName": "Baba Banda Sing Bahadur Engineering College",
+        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityDescription": "",
+        "communityUrl": "https://gdsc.community.dev/shri-dharmasthala-manjunatheshwara-college-of-engineering-technology-dharwad/"
+      },
     ],
     "communityPartners": [
       {
@@ -236,6 +243,13 @@ export class EventSponsorsComponent {
         "communityId": "9",
         "communityName": "PandoraX",
         "coummunityImage":"../../../assets/Brand/CommunityPartners/pandora.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/pandorax/"
+      },
+      {
+        "communityId": "10",
+        "communityName": "Navan",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/navan.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/pandorax/"
       },
