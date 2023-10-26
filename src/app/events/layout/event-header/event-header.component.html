@@ -1,6 +1,7 @@
-<nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
+<nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)"
+  [ngStyle]="boxShadowStyle">
   <div class="container-fluid nav-container">
-    <img src="../../../../assets/logo.png" height="25px"> &nbsp; &nbsp; 
+    <img src="../../../../assets/logo.png" height="25px"> &nbsp; &nbsp;
     <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -10,15 +11,14 @@
     <div class="collapse navbar-collapse google-sans-regular" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home"
-             routerLinkActive="active" 
-             [routerLinkActiveOptions]="{exact: true}"
-             aria-current="page">Home</a>
+          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}" aria-current="page">Home</a>
         </li>
         <li class="nav-item d-flex justify-content-center" *ngFor="let nav of navMenu">
-          <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
+          <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active"
+            [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
         </li>
-        
+
       </ul>
       <!-- <form class="d-flex">
         <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>
@@ -30,27 +30,29 @@
 <nav class="navbar tablet bg-light fixed-top">
   <div class="container-fluid d-flex align-items-center justify-content-start">
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-    aria-controls="offcanvasNavbar">
-    <i class="fa-bars fa"></i>
-  </button>
-    
-  <img src="../../../../assets/logo.png" > &nbsp; 
-  <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
-   
+      aria-controls="offcanvasNavbar">
+      <i class="fa-bars fa"></i>
+    </button>
+
+    <img src="../../../../assets/logo.png"> &nbsp;
+    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold"><img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg" alt="" srcset="" width="200px"></h5>
-       </div>
+        <div class="d-flex justify-content-center align-items-center google-sans-bold"> 
+          <img src="../../../../assets/logo.png"> &nbsp;
+          <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
+        </div>
+      </div>
       <div class="offcanvas-body google-sans-bold">
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
           <li class="nav-item">
-            <a class="nav-link px-2 d-flex justify-content-start" routerLink="devfest/home"
-               routerLinkActive="active" 
-               [routerLinkActiveOptions]="{exact: true}"
-               aria-current="page">Home</a>
+            <a class="nav-link px-2 d-flex justify-content-start" routerLink="devfest/home" routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact: true}" aria-current="page">Home</a>
           </li>
-          <li class="nav-item d-flex justify-content-start" *ngFor="let nav of navMenu">
-            <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
+          <li class="nav-item d-flex justify-content-start"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" type="button"  *ngFor="let nav of navMenu">
+            <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active"
+              [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
           </li>
         </ul>
         <!-- <a (click)="onRegisterClick()" class="nav-link py-4 px-2 mt-auto" href=""><button disabled class="btn bg-primary text-light w-100">Registeration Coming Soon</button></a> -->

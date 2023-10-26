@@ -141,10 +141,10 @@ export class EventSponsorsComponent {
       },
       {
         "communityId": "18",
-        "communityName": "Guru Nanak Dev Engineering College",
+        "communityName": "Guru Nanak Dev University, RC - Jalandhar",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/guru-nanak-dev-engineering-college-ludhiana/"
+        "communityUrl": "https://gdsc.community.dev/guru-nanak-dev-university-regional-campus-jalandhar/"
       },
       {
         "communityId": "19",
@@ -253,7 +253,7 @@ export class EventSponsorsComponent {
         "communityName": "Amity University",
         "coummunityImage": "https://images.collegedunia.com/public/college_data/images/logos/16250594561625031096logo.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
       }
     ]
   }
