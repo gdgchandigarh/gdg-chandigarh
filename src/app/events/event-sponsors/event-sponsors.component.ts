@@ -244,7 +244,7 @@ export class EventSponsorsComponent {
         "communityName": "Navan",
         "coummunityImage":"../../../assets/Brand/CommunityPartners/navan.jpg",
         "communityDescription": "",
-        "communityUrl": "https://www.navan.ai"
+        "communityUrl": "https://navan.ai/"
       },
     ],
     "venuePartner": [

@@ -239,7 +239,7 @@ volunteers = [
     profile:"",
     twitter:"https://twitter.com/TwinkleMeh59341",
     linkedin: "https://www.linkedin.com/in/twinklemehta01",
-    bio: "I am Twinkle Mehta working as Senior Quality Analyst at Accenture. I am having around 6 years of experience in IT industry. During this tenure, I have worked on multiple domains named “LIS, Finance, Cloud, Building Management”. I have been involved in all kind of functional testing activities that we follow in Agile methodology. Tools I have worked on so far are : VSO, JIRA, Azure Devops, Postman, Swagger, Jmeter, Eclipse."
+    bio: "Twinkle Mehta is a Senior Quality Analyst at Accenture with over 6 years of experience in the IT industry. She has worked in various domains, including LIS, Finance, Cloud, and Building Management. In addition to her professional achievements, Twinkle is an active member of some community. She is passionate about public speaking and has delivered insightful talks at local tech meetups and conferences. Twinkle also dedicates her time to volunteering for organizations, where she contributes her technical expertise to make a positive impact on the community."
   },
 ];
 

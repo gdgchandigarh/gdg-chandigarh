@@ -40,6 +40,7 @@ const routes: Routes = [
       {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
     ]
   },
+  { path: '**', redirectTo: '/gdg-chandigarh/home'}
  
 ];
 
