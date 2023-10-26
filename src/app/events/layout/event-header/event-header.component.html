@@ -48,7 +48,7 @@
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
           <li class="nav-item">
             <a class="nav-link px-2 d-flex justify-content-start" routerLink="devfest/home" routerLinkActive="active"
-              [routerLinkActiveOptions]="{exact: true}" aria-current="page">Home</a>
+              [routerLinkActiveOptions]="{exact: true}" aria-current="page"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" type="button">Home</a>
           </li>
           <li class="nav-item d-flex justify-content-start"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" type="button"  *ngFor="let nav of navMenu">
             <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active"

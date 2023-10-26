@@ -79,3 +79,17 @@
         padding-bottom: 3rem;
     }
 }
+.ae-ticket-book-button{
+    text-decoration: none;
+    width:auto;
+    font-size: 100%;
+    border: #4285f4 1px solid;
+    color: #4285f4;
+}
+.ae-ticket-book-button:hover {
+    background-color: #4285f4;
+    color: white;
+}
+.ae-ticket-book-button:after {
+    display: none;
+}
