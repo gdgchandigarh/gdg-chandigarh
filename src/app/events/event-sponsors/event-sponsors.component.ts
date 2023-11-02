@@ -169,10 +169,24 @@ export class EventSponsorsComponent {
       },
       {
         "communityId": "21",
-        "communityName": "Baba Banda Sing Bahadur Engineering College",
+        "communityName": "Baba Banda Singh Bahadur Engineering College",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
         "communityDescription": "",
         "communityUrl": "https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
+      },
+      {
+        "communityId": "22",
+        "communityName": "Chandigarh University",
+        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityDescription": "",
+        "communityUrl": "https://gdsc.community.dev/chandigarh-university-chandigarh/"
+      },
+      {
+        "communityId": "23",
+        "communityName": "Punjabi University",
+        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityDescription": "",
+        "communityUrl": "https://gdsc.community.dev/punjabi-university-patiala/"
       },
     ],
     "communityPartners": [
@@ -245,6 +259,20 @@ export class EventSponsorsComponent {
         "coummunityImage":"../../../assets/Brand/CommunityPartners/navan.jpg",
         "communityDescription": "",
         "communityUrl": "https://navan.ai/"
+      },
+      {
+        "communityId": "11",
+        "communityName": "KUG",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/KUG.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.meetup.com/kotlin-chandigarh-user-group/"
+      },
+      {
+        "communityId": "12",
+        "communityName": "Alexa's Developers Community",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/alexa.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/alexadevscu/?originalSubdomain=in"
       },
     ],
     "venuePartner": [

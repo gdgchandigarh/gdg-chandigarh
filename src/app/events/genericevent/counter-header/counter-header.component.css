@@ -91,5 +91,5 @@
     color: white;
 }
 .ae-ticket-book-button:after {
-    display: none;
+    content: none;
 }
