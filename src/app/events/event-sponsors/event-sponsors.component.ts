@@ -175,13 +175,6 @@ export class EventSponsorsComponent {
         "communityUrl": "https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
       },
       {
-        "communityId": "22",
-        "communityName": "Chandigarh University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chandigarh-university-chandigarh/"
-      },
-      {
         "communityId": "23",
         "communityName": "Punjabi University",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
@@ -190,6 +183,13 @@ export class EventSponsorsComponent {
       },
     ],
     "communityPartners": [
+      {
+        "communityId": "0",
+        "communityName": "GDG Cloud Chandigarh",
+        "coummunityImage": "../../../assets/Brand/gdgc.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://gdg.community.dev/gdg-cloud-chandigarh/"
+      },
       {
         "communityId": "1",
         "communityName": "TFUG Chandigarh",
@@ -273,6 +273,13 @@ export class EventSponsorsComponent {
         "coummunityImage":"../../../assets/Brand/CommunityPartners/alexa.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/alexadevscu/?originalSubdomain=in"
+      },
+      {
+        "communityId": "13",
+        "communityName": "Alexa's Developers Community",
+        "coummunityImage":"../../../assets/Brand/CommunityPartners/gfg.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/geeksforgeeks-student-chapter-cu/?originalSubdomain=in"
       },
     ],
     "venuePartner": [

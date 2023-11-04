@@ -241,6 +241,17 @@ volunteers = [
     linkedin: "https://www.linkedin.com/in/twinklemehta01",
     bio: "Twinkle Mehta is a Senior Quality Analyst at Accenture with over 6 years of experience in the IT industry. She has worked in various domains, including LIS, Finance, Cloud, and Building Management. In addition to her professional achievements, Twinkle is an active member of some community. She is passionate about public speaking and has delivered insightful talks at local tech meetups and conferences. Twinkle also dedicates her time to volunteering for organizations, where she contributes her technical expertise to make a positive impact on the community."
   },
+  {
+    id:21,
+    image:"../../../assets/volunteers/Harashish.png",
+    name:"Harashish Chaine",
+    college:"Chitkara University",
+    designation:"Video Editor ",
+    profile:"",
+    twitter:"",
+    linkedin: "https://www.linkedin.com/in/harashish26/",
+    bio: "I'm Harashish(Ashu), a dynamic and creative video editor. While my passion revolves around bringing ideas to life through captivating videos, my personal ideas drive my creativity even further. Beyond the screen, I'm a fervent enthusiast of sports, an avid gym-goer, and a dedicated dancer. My love for video editing and these exhilarating hobbies is a perfect blend that fuels my creativity and inspires my work."
+  },
 ];
 
 organizers = [
