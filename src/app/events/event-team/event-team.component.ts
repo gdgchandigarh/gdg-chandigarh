@@ -252,6 +252,28 @@ volunteers = [
     linkedin: "https://www.linkedin.com/in/harashish26/",
     bio: "I'm Harashish(Ashu), a dynamic and creative video editor. While my passion revolves around bringing ideas to life through captivating videos, my personal ideas drive my creativity even further. Beyond the screen, I'm a fervent enthusiast of sports, an avid gym-goer, and a dedicated dancer. My love for video editing and these exhilarating hobbies is a perfect blend that fuels my creativity and inspires my work."
   },
+  {
+    id:22,
+    image:"../../../assets/volunteers/Riya.png",
+    name:"Riya Singh",
+    college:"GDG Cloud Chandigarh",
+    designation:"Technical Volunteer",
+    profile:"",
+    twitter:"https://twitter.com/RiyaSinghCS",
+    linkedin: "https://www.linkedin.com/in/riya-singh-415a45253/",
+    bio: "Riya Singh, a Computer Science and Engineering student at Chandigarh University, specializing in AI and ML. I'm a dedicated learner, passionate about problem-solving with AI, and experienced in Python, C++, and Java. I'm also skilled in full stack web development and server management with cPanel and WHM, with a strong research aptitude."
+  },
+  {
+    id:23,
+    image:"../../../assets/volunteers/Sai.jpg",
+    name:"Saikumar Swarnapudi",
+    college:"GDG Cloud Chandigarh",
+    designation:"Team Lead",
+    profile:"",
+    twitter:"https://twitter.com/SaiKuma66488830",
+    linkedin: "https://www.linkedin.com/in/saikumarswarnapudi/",
+    bio: "A motivated individual with in-depth knowledge of languages and development tools. As a motivated and adaptable learner, I aim to leverage my technical skills and passion for innovation to make meaningful contributions to the community and advance my career in academia and industry."
+  },
 ];
 
 organizers = [

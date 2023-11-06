@@ -5,8 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./event-sponsors.component.css']
 })
 export class EventSponsorsComponent {
+
+
+
   imageUrl = '../../../assets/Brand/GDGCloud.png'
   gdscUrl = '../../../assets/Brand/GDSCLogo.png'
+
+  brochureUrl = 'assets/Brand/DevFestChandigarh2023SponsorshipBrochure.pdf'
   eventSponsors = {
     "ourSponsors": [
       {
@@ -15,6 +20,16 @@ export class EventSponsorsComponent {
         "sponsorDescription": "",
         "sponsorImage": '../../../assets/Brand/GDGCloud.png',
         "sponsorUrl": ""
+      }
+    ],
+    "eventSponsors": [
+      {
+        "sonpsorCategory":"",
+        "sponsorDetails" : {
+          "sponsorName" : "",
+          "sponsorUrl" : "", 
+          "sponsorLogo" : "",
+        },
       }
     ],
     "gdgCommunities": [
@@ -85,7 +100,7 @@ export class EventSponsorsComponent {
       },
       {
         "communityId": "9",
-        "communityName": "IKG PTU, Jalandhar",
+        "communityName": "IK Gujral Punjab Technical University - Jalandhar",
         "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
         "communityDescription": "",
         "communityUrl": "https://gdsc.community.dev/ik-gujral-punjab-technical-university-jalandhar/"
@@ -242,42 +257,42 @@ export class EventSponsorsComponent {
       {
         "communityId": "8",
         "communityName": "Bizarre Coders",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/bizzare.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/bizzare.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/bizarre-coders/"
       },
       {
         "communityId": "9",
         "communityName": "PandoraX",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/pandora.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/pandora.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/pandorax/"
       },
       {
         "communityId": "10",
         "communityName": "Navan",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/navan.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/navan.jpg",
         "communityDescription": "",
         "communityUrl": "https://navan.ai/"
       },
       {
         "communityId": "11",
         "communityName": "KUG",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/KUG.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/KUG.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.meetup.com/kotlin-chandigarh-user-group/"
       },
       {
         "communityId": "12",
         "communityName": "Alexa's Developers Community",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/alexa.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/alexa.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/alexadevscu/?originalSubdomain=in"
       },
       {
         "communityId": "13",
         "communityName": "Alexa's Developers Community",
-        "coummunityImage":"../../../assets/Brand/CommunityPartners/gfg.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/gfg.jpg",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/geeksforgeeks-student-chapter-cu/?originalSubdomain=in"
       },
@@ -287,6 +302,25 @@ export class EventSponsorsComponent {
         "communityId": "",
         "communityName": "Amity University",
         "coummunityImage": "https://images.collegedunia.com/public/college_data/images/logos/16250594561625031096logo.png",
+        "communityDescription": "",
+        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
+      }
+    ],
+    "ticketingPartner": [
+      {
+        "communityId": "",
+        "communityName": "allevents",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/allevents.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
+      },
+     
+    ],
+    "cfsPartner" : [
+      {
+        "communityId": "",
+        "communityName": "Sessionize",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/sessionize.jpg",
         "communityDescription": "",
         "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
       }
