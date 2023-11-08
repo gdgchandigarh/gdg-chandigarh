@@ -296,6 +296,13 @@ export class EventSponsorsComponent {
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/geeksforgeeks-student-chapter-cu/?originalSubdomain=in"
       },
+      {
+        "communityId": "14",
+        "communityName": "TFUG Jalandhar",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfugj.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://twitter.com/TFUGJalandhar"
+      },
     ],
     "venuePartner": [
       {
@@ -312,7 +319,7 @@ export class EventSponsorsComponent {
         "communityName": "allevents",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/allevents.jpg",
         "communityDescription": "",
-        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
+        "communityUrl": "https://allevents.in/"
       },
      
     ],
@@ -322,7 +329,7 @@ export class EventSponsorsComponent {
         "communityName": "Sessionize",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/sessionize.jpg",
         "communityDescription": "",
-        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
+        "communityUrl": "https://sessionize.com/"
       }
     ]
   }
