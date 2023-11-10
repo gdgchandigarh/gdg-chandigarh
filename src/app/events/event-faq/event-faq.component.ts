@@ -78,7 +78,7 @@ export class EventFaqComponent {
       <a target="_blank" href="https://developers.google.com/community/devfest#find-a-devfest-community-near-you"> Find an event </a> near you.`
     },
     {
-      question: ` Is the Devfest Chandigarh 2023 Ticket refundable?`,
+      question: ` Are the Devfest Chandigarh 2023 Ticket refundable?`,
       answer: `No, the Ticket for GDG Chandigarh Devfest 2023 is non-refundable. Once purchased, it cannot be refunded or exchanged. Please ensure that you review your selection before completing the transaction.`
     },
   ]
