@@ -24,12 +24,30 @@ export class EventSponsorsComponent {
     ],
     "eventSponsors": [
       {
-        "sonpsorCategory":"",
-        "sponsorDetails" : {
-          "sponsorName" : "",
-          "sponsorUrl" : "", 
-          "sponsorLogo" : "",
-        },
+        "sponsorCategory": "Platinum",
+        "sponsorDetails": [
+          {
+            "sponsorName": "TechRbm",
+            "sponsorUrl": "https://techrbm.com/",
+            "sponsorLogo": "../../../assets/Brand/Sponsors/TechRbm.png",
+          },
+        ]
+
+      },
+      {
+        "sponsorCategory": "Silver",
+        "sponsorDetails": [
+          {
+            "sponsorName": "Founder and Lighening",
+            "sponsorUrl": "https://www.founderandlightning.com/",
+            "sponsorLogo": "../../../assets/Brand/Sponsors/FounderandLightening.png",
+          },
+          {
+            "sponsorName": "TechLearns Academy",
+            "sponsorUrl": "https://www.techlearnsacademy.com",
+            "sponsorLogo": "../../../assets/Brand/Sponsors/TechLearns.png",
+          }
+        ],
       }
     ],
     "gdgCommunities": [
@@ -321,9 +339,9 @@ export class EventSponsorsComponent {
         "communityDescription": "",
         "communityUrl": "https://allevents.in/"
       },
-     
+
     ],
-    "cfsPartner" : [
+    "cfsPartner": [
       {
         "communityId": "",
         "communityName": "Sessionize",
@@ -332,5 +350,7 @@ export class EventSponsorsComponent {
         "communityUrl": "https://sessionize.com/"
       }
     ]
+
   }
+
 }

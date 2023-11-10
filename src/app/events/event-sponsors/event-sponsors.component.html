@@ -1,7 +1,7 @@
 <app-event-page-header></app-event-page-header>
 <section class="bg-light py-5">
     <div class="container sponsors google-sans-regular">
-        
+
         <div class="row my-2">
             <h2 class="section-title google-sans-bold text-dim">
                 Our Partners & Sponsors
@@ -27,6 +27,24 @@
                 </div>
             </div>
         </div>
+        
+        <!-- sponsor-list.component.html -->
+        <div *ngFor="let sponsorCategory of eventSponsors.eventSponsors">
+            <div class="row">
+              <p class="google-sans-bold text-dim">{{ sponsorCategory.sponsorCategory }} Sponsors</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3w col-md-3 col-sm-3 col-xs-6" *ngFor="let sponsor of sponsorCategory.sponsorDetails">
+                <div class="sponsor-image">
+                  <a target="_blank" [href]="sponsor.sponsorUrl">
+                    <img [src]="sponsor.sponsorLogo" alt="" srcset="" width="100%">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       
         <div class="row mt-5">
             <p class="google-sans-bold text-dim">
                 Venue Partner
@@ -41,7 +59,7 @@
                 </div>
             </div>
         </div>
-        
+
 
         <!-- Community Partners Section -->
         <div class="row mt-5">
@@ -112,7 +130,8 @@
                 </p>
             </div>
             <div>
-                <a href="https://rb.gy/ajppxv"><button class="btn btn-sm btn-primary w-auto">Download Brochure</button></a>
+                <a href="https://rb.gy/ajppxv"><button class="btn btn-sm btn-primary w-auto">Download
+                        Brochure</button></a>
             </div>
         </div>
 

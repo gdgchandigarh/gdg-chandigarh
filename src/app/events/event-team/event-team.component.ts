@@ -274,6 +274,17 @@ volunteers = [
     linkedin: "https://www.linkedin.com/in/saikumarswarnapudi/",
     bio: "A motivated individual with in-depth knowledge of languages and development tools. As a motivated and adaptable learner, I aim to leverage my technical skills and passion for innovation to make meaningful contributions to the community and advance my career in academia and industry."
   },
+  {
+    id:24,
+    image:"../../../assets/volunteers/Devishi.jpg",
+    name:"Devishi Aggarwal",
+    college:"CU",
+    designation:"Content Writer",
+    profile:"",
+    twitter:"https://twitter.com/Devishi858",
+    linkedin: "https://www.linkedin.com/in/devishiaggarwal/",
+    bio: "I am a second-year student pursuing a BE in Computer Science Engineering at Chandigarh University. I possess knowledge in programming languages like C, C++as well as skills in AutoCAD. With a strong foundation in these areas, I am equipped to design and develop innovative solutions. I am eager to explore the dynamic field of technology, continuously enhance my skills, and contribute to meaningful projects that make a difference."
+  },
 ];
 
 organizers = [
