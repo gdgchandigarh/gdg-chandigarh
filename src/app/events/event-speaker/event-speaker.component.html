@@ -1,5 +1,5 @@
 <app-event-page-header></app-event-page-header>
-<!-- <section class="bg-light py-5">
+<section class="bg-light py-5">
     <div class="container pb-3">
         <div class="row text-center">
             <p class="section-title google-sans-bold text-dim">
@@ -11,21 +11,22 @@
             </p>
         </div>
         <div class="row py-3 d-flex justify-content-lg-center justify-content-sm-start">
-            <div class="col-lg-2 col-sm-6 mb-3" *ngFor="let speaker of speakers">
-                <div class="speaker-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="col-lg-2 col-sm-6 mb-3" *ngFor="let speaker of speakers let i = index" >
+                <div class="speaker-card" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModal' + i">
               
-
                     <div class="row d-flex justify-content-center">
                         <img src="{{speaker.image}}" srcset="" class="speaker-image">
                     </div>
 
                     <p class="speaker-name text-center google-sans-bold">{{speaker.name}}</p>
+                    <p class="speaker-designation google-sans-regular">{{speaker.designation}}</p>
                     <p class="speaker-designation text-center google-sans-regular pb-2">{{speaker.company}}</p>
 
                  
 
                 </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+
+                <div class="modal fade"  [id]="'exampleModal' + i" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
 
@@ -37,14 +38,8 @@
                                 <div class="row d-flex justify-content-between">
                                     <div class="col-6 my-auto">
                                         <p class="speaker-name google-sans-bold">{{speaker.name}}</p>
+                                        <p class="speaker-designation google-sans-regular">{{speaker.designation}}</p>
                                         <p class="speaker-designation google-sans-regular">{{speaker.company}}</p>
-                                    </div>
-                                    <div class="col-6 socials d-flex justify-content-end text-grey align-items-center">
-
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-linkedin"></i>
-                                        <i class="fa fa-instagram"></i>
-
                                     </div>
                                 </div>
                                 <div class="row mt-3">
@@ -57,9 +52,12 @@
                                 </div>
                                  <div class="row socials">
                                 <p>
-                                    <i class="fa fa-twitter"></i>
-                                    <i class="fa fa-linkedin"></i>
-                                    <i class="fa fa-instagram"></i>
+                                    <a target="_blank" href="{{speaker.twitter}}">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="{{speaker.linkedin}}">
+                                        <i class="fa fa-linkedin"></i> 
+                                    </a>
                                 </p>
                             </div>
                                 <div class="row">
@@ -87,31 +85,4 @@
 
         </div>
     </div>
-</section> -->
-<app-call-for-speaker></app-call-for-speaker>
-<!-- <app-coming-soon></app-coming-soon> -->
-<!-- <section class="coming-soon py-5 bg-light my-auto">
-    <div class="container my-auto">
-        <div class="row my-5">
-            <div class="col-12">
-                <p class="section-title google-sans-bold text-dim my-auto">
-                    Coming Soon
-                </p>
-                <p class="section-content google-sans-regular">
-                    Stay tuned for more updates
-                </p>
-                <a target="_blank" href="https://gdg.community.dev/gdg-chandigarh/" class="btn btn-sm btn-primary google-sans-regular">Join Us</a>
-            </div>
-        </div>
-        <!-- <div class="container rounded-3 bg-primary-subtle text-center p-4 my-5">
-            <div class="row">
-                <p class="section-title-new google-sans-bold">Keep in touch with GDG Chandigarh for the latest announcements</p>
-                <p class="section-content google-sans-regular">Stake out #GDGChandigarh for the latest updates and news.</p>
-                <p class="socio-icons google-sans-regular text-grey"><i class="fa fa-facebook"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-linkedin"></i>
-                    <i class="fa fa-instagram"></i></p>
-            </div>
-        </div>
-    </div>
-</section> -->
+</section>
