@@ -16,7 +16,7 @@ export class EventSpeakerComponent implements OnInit {
       designation: "Developer Advocate",
       twitter: "https://twitter.com/AbiramiSukumara",
       linkedin: "https://www.linkedin.com/in/abiramisukumaran/",
-      imageHeader: "../../assets/speakers/speaker-headers/event-speaker-template.jpg",
+      imageHeader: "../../assets/speakers/speaker-headers/Abirami.jpg",
       instagram: "",
       sessions: [
         {
@@ -34,9 +34,9 @@ export class EventSpeakerComponent implements OnInit {
       company: "Dynopii",
       designation: "Google Developer Expert in GCP",
       profile: "",
-      twitter: "",
-      linkedin: "",
-      imageHeader: "../../assets/event-speaker-template.jpg",
+      twitter: "https://twitter.com/xprilion",
+      linkedin: "https://www.linkedin.com/in/xprilion/",
+      imageHeader: "../../assets/speakers/speaker-headers/Anubhav.jpg",
       instagram: "",
       sessions: [
         {
@@ -56,7 +56,7 @@ export class EventSpeakerComponent implements OnInit {
       profile: "",
       twitter: "https://twitter.com/The__Debo",
       linkedin: "https://www.linkedin.com/in/debasmita-sarkar-22296bb2/",
-      imageHeader: "../../assets/event-speaker-template.jpg",
+      imageHeader: "../../assets/speakers/speaker-headers/Debosmita.jpg",
       instagram: "",
       sessions: [
         {
@@ -68,7 +68,7 @@ export class EventSpeakerComponent implements OnInit {
       bio: "Debasmita works as Senior Mobile Developer at Peggy, bringing with her a rich experience of 8 years, predominantly in Mobile App Development. An early adopter of Flutter, she has successfully developed and launched many applications across diverse sectors, with a notable emphasis on FinTech. Beyond her development prowess, Debasmita is keen on sharing knowledge. She has given talks in various platforms such as Flutter Festival, DevFest, and Google I/O Extended. Recognized for her contributions, she is recognized as GDE and continues to craft content that fortifies the Flutter community."
     },
     {
-      id: 3,
+      id: 4,
       image: "../../../assets/speakers/pankaj-rai.png",
       name: "Pankaj Rai",
       company: "Self-employed",
@@ -76,7 +76,7 @@ export class EventSpeakerComponent implements OnInit {
       profile: "",
       twitter: "https://twitter.com/raipankaj7",
       linkedin: "https://www.linkedin.com/in/pankajrai16/",
-      imageHeader: "../../assets/event-speaker-template.jpg",
+      imageHeader: "../../assets/speakers/speaker-headers/Pankaj.jpg",
       instagram: "",
       sessions: [
         {
