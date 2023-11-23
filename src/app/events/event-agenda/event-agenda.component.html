@@ -9,50 +9,18 @@
                 </p>
             </div>
             <div class="col-lg-9">
-                <div class="row">
+                <div *ngFor="let item of agenda" class="row">
                     <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
+                        <p class="agenda-time google-sans-bold">{{item?.startTime }} - {{item?.endTime}}</p>
                         <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
+                            {{item?.eventTitle}}
                         </p>
                         <p class="agenda-speaker">
-                            Loveleen Kaur
+                            {{item?.eventSpeaker}}
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div> 
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div> 
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div>       
+                
             </div>
         </div>
     </div>
