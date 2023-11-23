@@ -1,5 +1,4 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+
 import { GdgChandigarhComponent } from './gdg-chandigarh/gdg-chandigarh.component';
 import { OrganizersComponent } from './gdg-chandigarh/organizers/organizers.component';
 import { UpcomingEventsComponent } from './gdg-chandigarh/upcoming-events/upcoming-events.component';
@@ -13,6 +12,8 @@ import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.com
 import {EventSponsorsComponent} from './events/event-sponsors/event-sponsors.component'
 import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 const eventType= 'devfest';
 
 const routes: Routes = [
@@ -49,4 +50,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
