@@ -11,7 +11,7 @@ export class EventTeamComponent {
     
   }
 volunteers = [
-    {
+  {
     id:1,
     image:"../../../assets/volunteers/Ayush Kumar.jpeg",
     name:"Ayush Kumar",
@@ -254,6 +254,28 @@ volunteers = [
   },
   {
     id:22,
+    image:"../../../assets/volunteers/Devishi.jpg",
+    name:"Devishi Aggarwal",
+    college:"CU",
+    designation:"Content Writer",
+    profile:"",
+    twitter:"https://twitter.com/Devishi858",
+    linkedin: "https://www.linkedin.com/in/devishiaggarwal/",
+    bio: "I am a second-year student pursuing a BE in Computer Science Engineering at Chandigarh University. I possess knowledge in programming languages like C, C++as well as skills in AutoCAD. With a strong foundation in these areas, I am equipped to design and develop innovative solutions. I am eager to explore the dynamic field of technology, continuously enhance my skills, and contribute to meaningful projects that make a difference."
+  },
+  {
+    id:23,
+    image:"../../../assets/volunteers/Subham Paul.png",
+    name:"Subham Paul",
+    college:"CU",
+    designation:"GDSC Designer & Event Lead",
+    profile:"",
+    twitter:"https://twitter.com/SubhamP42079",
+    linkedin: "https://www.linkedin.com/in/subhamrexpaul/",
+    bio: "Hola Aimgo! I'm Subham Paul, a versatile BE-CSE student juggling roles as a Graphic Designer, Event/Outreach Lead at GDSC CU, SIH 2023 Finalist, and Academic Representative. My tech journey is a vibrant mix, focusing on App and Game Development using Flutter, Unity, and Unreal Engine. Intrigued by the transformative power of Blockchain and Web3, I'm immersing myself in roles as a Web3 and Blockchain Developer. Let's connect and dive into the exciting world of tech together!"
+  },
+  {
+    id:24,
     image:"../../../assets/volunteers/Riya.png",
     name:"Riya Singh",
     college:"GDG Cloud Chandigarh",
@@ -264,7 +286,7 @@ volunteers = [
     bio: "Riya Singh, a Computer Science and Engineering student at Chandigarh University, specializing in AI and ML. I'm a dedicated learner, passionate about problem-solving with AI, and experienced in Python, C++, and Java. I'm also skilled in full stack web development and server management with cPanel and WHM, with a strong research aptitude."
   },
   {
-    id:23,
+    id:25,
     image:"../../../assets/volunteers/Sai.jpg",
     name:"Saikumar Swarnapudi",
     college:"GDG Cloud Chandigarh",
@@ -273,17 +295,6 @@ volunteers = [
     twitter:"https://twitter.com/SaiKuma66488830",
     linkedin: "https://www.linkedin.com/in/saikumarswarnapudi/",
     bio: "A motivated individual with in-depth knowledge of languages and development tools. As a motivated and adaptable learner, I aim to leverage my technical skills and passion for innovation to make meaningful contributions to the community and advance my career in academia and industry."
-  },
-  {
-    id:24,
-    image:"../../../assets/volunteers/Devishi.jpg",
-    name:"Devishi Aggarwal",
-    college:"CU",
-    designation:"Content Writer",
-    profile:"",
-    twitter:"https://twitter.com/Devishi858",
-    linkedin: "https://www.linkedin.com/in/devishiaggarwal/",
-    bio: "I am a second-year student pursuing a BE in Computer Science Engineering at Chandigarh University. I possess knowledge in programming languages like C, C++as well as skills in AutoCAD. With a strong foundation in these areas, I am equipped to design and develop innovative solutions. I am eager to explore the dynamic field of technology, continuously enhance my skills, and contribute to meaningful projects that make a difference."
   },
 ];
 
