@@ -7,6 +7,9 @@
       "hosting": {
         "staging": [
           "gdg-chandigarh-staging"
+        ],
+        "production": [
+          "gdg-chandigarh-a5ebe"  
         ]
       }
     }

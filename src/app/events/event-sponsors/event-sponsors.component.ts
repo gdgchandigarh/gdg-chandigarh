@@ -46,6 +46,11 @@ export class EventSponsorsComponent {
             "sponsorName": "TechLearns Academy",
             "sponsorUrl": "https://www.techlearnsacademy.com",
             "sponsorLogo": "../../../assets/Brand/Sponsors/TechLearns.png",
+          },
+          {
+            "sponsorName": "Niwi",
+            "sponsorUrl": "https://www.niwi.ai/",
+            "sponsorLogo": "../../../assets/Brand/Sponsors/niwi.png",
           }
         ],
       }
