@@ -1,23 +1,77 @@
-<!-- event-badge.component.html
-<div class="main-container">
-  <div class="input-panel">
-    <div class="input">
-      <label>Profile Picture</label>
-      <button class="button" (click)="uploadImage()">Upload Image</button>
-      <input class="profile-input" type="file" accept="image/*" (change)="upload($event)" hidden />
-    </div>
-    <div class="input">
-      <label>Image Shape</label>
-      <div class="select-container">
-        <div class="select" id="original" [class.selected]="shape === 'original'" (click)="changeShape('original')">Original</div>
-        <div class="select" id="square" [class.selected]="shape === 'square'" (click)="changeShape('square')">Square</div>
-        <div class="select" id="circle" [class.selected]="shape === 'circle'" (click)="changeShape('circle')">Circle</div>
+
+<section class="bg-light py-5">
+    <div class="container">
+      <div class="my-md-10 my-0 px-3">
+  <div class="container-fluid">
+    <!-- Mobile -->
+    <div class="row">
+      <div class="col-md-12 col-lg-12 d-block d-sm-block d-md-none px-0">
+        <h2 class="google-sans-bold text-dim">
+          DevFest Chandigarh Badge
+        </h2>
+        <p class="my-0 mb-8 h1-subheading section-content google-sans-regular">
+          Now that you are here, how about personalising your DevFest India
+          2023 profile? Upload an image and generate a personalised badge with
+          the DevFest India 2023 frame. Also share your image using
+          #DevFestIndia on different social platforms.
+        </p>
       </div>
     </div>
-  </div>
-  <div class="preview-panel">
-    <canvas #canvas></canvas>
-    <div class="download-fab" (click)="download()" id="download">
+    <!-- Mobile -->
+
+    <!-- Desktop -->
+    <div class="row mb-md-10">
+      <div class="col-md-6 order-md-1 order-sm-2 order-2 px-md-7 mt-3 px-0 mb-md-13">
+        <div class="d-none d-sm-none d-md-block mb-10">
+          <h2 class="google-sans-bold text-dim">
+            DevFest Chandigarh Badge
+          </h2>
+          <p  class="section-content google-sans-regular" style="font-size: 18px">
+            Now that you are here, how about personalising your DevFest Chandigarh
+            2023 profile? Upload an image and generate a personalised badge
+            with the DevFest Chandigarh 2023 frame. Also share your image using
+            #DevFestChandigarh on different social platforms.
+          </p>
+        </div>
+        <div class="input">
+          <label style="font-size: 110%" class="google-sans-regular">Select an Image</label>
+          <br />
+          <button class="mt-3 btn btn-primary btn-sm google-sans-regular" (click)="uploadImage()" style="text-transform: capitalize">
+            Upload Image
+          </button>
+         <!-- app.component.html -->
+<input class="profile-input" type="file" accept="image/*" (change)="upload($event)" hidden />
+
+        </div>
+        <div class="mt-5">
+          <label style="font-size: 110%" class="google-sans-regular">Image Shape</label>
+          <br />
+          
+           <div class="input">
+      
+    
+    
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button class="b1" id="original" [class.selected]="shape === 'original'" (click)="changeShape('original')">Original</button>
+          <button id="square" [class.selected]="shape === 'square'" (click)="changeShape('square')">Square</button>
+          
+     
+       <button class="b2" id="circle" [class.selected]="shape === 'circle'" (click)="changeShape('circle')">Circle
+</button>
+        </div>
+
+       
+     
+    </div>
+        </div>
+        <p class="mt-8 mb-15 mb-md-0">
+          <span style="color: red" class="google-sans-regular">*</span>&nbsp; We respect your privacy and are not storing your pictures on our servers.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 col-12 text-center py-md-10 py-5 order-md-2 order-sm-1 order-1" style="background: #e8f1fb; border-radius: 18px;">
+        <canvas #canvas></canvas>
+        <br /><br />
+         <div class="download-fab" (click)="download()" id="download">
         <svg
           fill-rule="evenodd"
           clip-rule="evenodd"
@@ -41,39 +95,11 @@
           </g>
         </svg>
     </div>
+      </div>
+    </div>
+    <!-- Desktop -->
   </div>
 </div>
+    </div>
+</section>
 
-  -->
-
-  <mat-card>
- <mat-card-title>
-    DevFest Badge
- </mat-card-title>
- <mat-card-content>
-    <p>
-      Now that you are here, how about personalising your DevFest India 2023 profile? Upload an image and generate a personalised badge with the DevFest India 2023 frame. Also share your image using #DevFestIndia on different social platforms.
-    </p>
-    <mat-form-field appearance="fill">
-      <mat-label>Select a Image</mat-label>
-      <input type="file" accept="image/*" (change)="upload($event)" hidden />
-      <button mat-button (click)="uploadImage()">Upload Image</button>
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-      <mat-label>Image Shape</mat-label>
-      <mat-select [(value)]="shapeData">
-        <mat-option value="original">Orignal</mat-option>
-        <mat-option value="Square">Square</mat-option>
-        <mat-option value="circle">Circle</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <p>
-      <span style="color: red">*</span>&nbsp; We respect your privacy and are not storing your pictures on our servers.
-    </p>
- </mat-card-content>
- <mat-card-actions>
-    <button mat-raised-button color="warn" (click)="download()">
-      <mat-icon>arrow_downward</mat-icon>Download
-    </button>
- </mat-card-actions>
-</mat-card>
