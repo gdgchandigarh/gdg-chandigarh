@@ -12,6 +12,7 @@ import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.com
 import {EventSponsorsComponent} from './events/event-sponsors/event-sponsors.component'
 import { EventSpeakerComponent } from './events/event-speaker/event-speaker.component';
 import { EventAgendaComponent } from './events/event-agenda/event-agenda.component';
+import {EventBadgesComponent } from './events/event-badges/event-badges.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 const eventType= 'devfest';
@@ -38,6 +39,7 @@ const routes: Routes = [
       { path: `${eventType}/agenda`, component: EventAgendaComponent},
       { path: `${eventType}/faq`, component: EventFaqComponent},
       { path: `${eventType}/team`, component: EventTeamComponent},
+      { path: `${eventType}/badges`, component: EventBadgesComponent},
       { path: `${eventType}/partners`, component: EventSponsorsComponent},
       {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
     ]

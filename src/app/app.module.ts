@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './gdg-chandigarh/header/header.component';
@@ -96,7 +95,8 @@ import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/
     FindEventComponent,
     JoinCommunityComponent,
     GetInTouchComponent,
-    CallForSpeakerComponent
+    CallForSpeakerComponent,
+    
    
   ],
   imports: [

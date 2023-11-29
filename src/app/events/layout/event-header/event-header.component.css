@@ -9,12 +9,52 @@
     align-items: center;
    
 }
+.SecondaryBtn {
+        background-color: #cddffd;
+            color: #202124;
+            width: max-content;
+            height: 50px;
+            position: relative;
+            padding: 0.8rem 2rem;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all .3s cubic-bezier(.18, .37, .42, 1.01);
+            border: 3px solid #e8eaedb7;
+}
+.SecondaryBtn:hover,
+.SecondaryBtn:focus {
+    border: 3px solid #ffffff !important;
+    box-shadow: #00000029 0 1px 4px,#4285f4 0 0 0 3px;
+}
+a{
+    text-decoration: none;
+}
+.SecondaryBtn span {
+    position: relative;
+        width: 153px;
+      
+            padding: 10px 6px 4px 3px;
+            border-radius: 8px
+}
+.PrimaryBtn {
+    background-color: var(--blue2);
+    width: max-content;
+    height: 50px;
+    position: relative;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.18, .37, .42, 1.01);
+    display: inline-block;
+}
 
 .nav-item a:hover{
     color:#5f6368 !important;
     border-bottom: #5f6368 solid 2.5px;
     /* margin: 0% 20% !important; */
 }
+
+
 .active{
     /* background-image: linear-gradient(to right, transparent 20%, #5f6368 20%, #5f6368 80%, transparent 90%); */
     /* background-position: bottom center; /* Center the gradient at the bottom */
@@ -36,10 +76,14 @@ nav{
 .tablet{
     display: none;
 }
+
+
 @media only screen and (max-width:768px) {
     .desktop{
         display: none;
     }
+         
+   
     .tablet{
         display: block;
     }
