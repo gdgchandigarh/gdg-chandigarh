@@ -49,7 +49,7 @@ export class EventHeaderComponent {
       itemName:'Partners'
     },
     {
-      route: 'badge',
+      route: 'badges',
       itemName: 'Get Profile Badge',
     },
     {
