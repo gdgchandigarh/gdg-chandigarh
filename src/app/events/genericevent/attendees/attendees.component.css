@@ -1,0 +1,13 @@
+.event-stats{
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+.event-stats p{
+    margin-bottom: 0px;
+}
+ .stats-title{
+    font-size: 300%;
+}

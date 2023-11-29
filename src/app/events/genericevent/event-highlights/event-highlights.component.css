@@ -1,0 +1,10 @@
+.event-hightlights p{
+    margin-bottom: 0px !important;
+}
+.highlight-card{
+    border: 1px solid lightgray;
+    margin-top: 5%;
+}
+.highlight-desc{
+    font-size: 90%;
+}

@@ -14,7 +14,7 @@ featuredTopics = [
   },
   {
     topicName:  `Flutter`,
-    logo: `https://io.google/2022/app/images/flutter-logo.svg`,
+    logo: `../../../../assets/Flutter.png`,
     description: `Flutter is Google's open-source UI framework for building natively compiled apps across mobile, web, and desktop platforms.`
   },
   {
@@ -23,18 +23,18 @@ featuredTopics = [
     description: `Firebase is an app development platform that helps you build and grow apps and games users love. Widely used in mobile, web.`
   },
   {
-    topicName:  `AI`,
-    logo: `https://developers.google.com/static/focus/images/makersuite.png`,
-    description: `AI is Google's pioneering field in computer science, creating intelligent machines and enhancing various technologies.`
+    topicName:  `PaLM`,
+    logo: `../../../../assets/palm-logo.svg`,
+    description: `PaLM is Google's pioneering field in computer science, creating intelligent machines and enhancing various technologies.`
   },
   {
-    topicName:  `ML`,
-    logo: `https://io.google/2022/app/images/machinelearning-logo.svg`,
-    description: `ML is Google's machine learning expertise, enabling data-driven decisions and predictive capabilities in applications and services.`
+    topicName:  `MakerSuite`,
+    logo: `https://developers.google.com/static/focus/images/makersuite.png`,
+    description: `MakerSuite is Google's expertise, enabling data-driven decisions and predictive capabilities in applications and services.`
   },
   {
     topicName:  `Web`,
-    logo: `https://developers.google.com/static/focus/images/makersuite.png`,
+    logo: `../../../../assets/web-fundamentals-icon192x192.png`,
     description: `Google empowers developers to craft the next-gen web applications, fostering innovation and user-centric experiences.`
   },
   {

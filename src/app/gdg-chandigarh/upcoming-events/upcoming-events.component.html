@@ -1,124 +1,29 @@
-
-<div class="container my-5">
-  <div class="row">
-    <div
-      class="col-lg-4 col-md-6 col-sm-12"
-      *ngFor="let event of UpcommingEvent"
-    > <div class="single-well image-container d-flex justify-content-center">
-          <img
-            class="rounded-img py-4 ml-5"
-            width="65%"
-            [src]="event.image"
-            alt="User Avatar"
-          />
-        </div>
-      <div class="card-content ">
-       
-
-        <div class="row position-relative  d-block">
-          <div class="col-12 mt-2">
-            <p class="google-sans-regular">
-              {{ event.date }}
-              <br />
-              <strong class="google-sans-bold"> {{ event.type }}</strong> <br />
-              {{ event.name}}
-            </p>
-          </div>
-        </div>
-
-        <!-- <ng-template #longContent let-modal>
-          <div class="modal-header">
-            <div class="image-container d-flex justify-content-center">
-              <img [src]="event.image" alt="My Image" width="100%" />
-            </div>
-          </div>
-          <div class="modal-body px-5">
-            <div class="row py-4">
-              <div class="col-12 pb-2">
-                <h4 class="google-sans-bold">Session 1 Details</h4>
-                <div class="row">
-                  <div class="col-12 text-muted text-sm">
-                    <i style="font-size: 18px" class="fa">&#xf073;</i>
-
-                    Oct 22,2021
-                    <i class="fa-regular fa-clock google-sans-regular"></i>
-                    06:00 PM - 07:00 PM (IST) 40 Min
-                  </div>
-                </div>
-                <div class="row py-4">
-                  <div class="col-12">
-                    <h4 class="pb-2">Overview</h4>
-                    <div class="row">
-                      <div class="col-12 google-sans-regular">
-                        Lorem ipsum dolor, sit amet consectetur Lorem ipsum
-                        dolor sit amet consectetur adipisicing elit. Sequi sed
-                        voluptas, similique, temporibus necessitatibus officia
-                        magnam laboriosam impedit voluptatibus omnis aspernatur
-                        tenetur atque quibusdam libero exercitationem unde
-                        possimus dicta itaque.F adipisicing elit. Iure commodi
-                        sunt soluta veritatis cum dolore debitis sit! Nisi,
-                        rerum soluta totam dolores aperiam nemo labore dicta
-                        fuga? Iure, magnam veritatis.F
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12">
-                <a href="#" class="btn btn-secondary btn-sm rounded-pill"
-                  >web</a
-                >
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="d-flex row">
-                  <div class="col-1 avatar-container d-flex">
-                    <img
-                      [src]="avatarUrl"
-                      alt="Avatar"
-                      class="rounded-circle avatar-img"
-                    />
-                  </div>
-                  <div class="col-7">
-                    <div class="row pl-5">
-                      <div class="col-12 google-sans-bold">
-                        <strong>Priyanshi Sharma</strong>
-                      </div>
-                      <div class="col-12 text-muted">
-                        <small>Web Develoepr</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary google-sans-regular">
-              RSVP
-            </button>
-            <button
-              type="button"
-              class="btn btn-light"
-              (click)="modal.close('Close click')"
-            >
-              Close
-            </button>
-          </div>
-        </ng-template> -->
+<section id="upcoming-events" class="upcoming-events py-5 google-sans-regular">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <p class="section-title google-sans-bold mb-5">
+          Upcoming Events
+        </p>
       </div>
-      <div
-        class="container text-center c"
-      >
-        <button
-          class="btn btn-primary google-sans-regular mb-2 me-2 mt-auto"
-          [disabled]="!event.isActive"
-          (click)="openScrollableContent()"
-        >
-          Register Now
-        </button>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 text-content ">
+        <p class="section-title google-sans-bold">
+          Join Us at
+          <br> DevFest Chandigarh
+        </p>
+        <p class="section-content">
+          An annual event hosted by the Google Developer Groups across the world to bring the technology closer to the
+          developers. It is an all day developer conference where we aim to focus on multiple technologies through
+          lightning talks, sessions, workshops, etc.
+        </p>
+        <button routerLink="/events" class="btn btn-primary btn-sm" >Know
+          More</button>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://developers.google.com/static/events/images/devfest-2023.webp" alt="" srcset="" width="100%">
       </div>
     </div>
   </div>
-</div>
+</section>

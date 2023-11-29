@@ -1,0 +1,53 @@
+.events-card{
+    height: 100%;
+    padding: 7.5%;
+    transition-duration: 0.5s;
+}
+.events-card:hover{
+    box-shadow: 5px 5px 5px #00000015;
+    scale: 105%;
+}
+.events-card img{
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.cc-date{
+    margin-bottom: 6px;
+}
+.cc-title{
+    font-size: 120%;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.cc-content{
+    margin-bottom: 6px;
+    font-size: 100%;
+}
+@media only screen and (max-width:1025px){
+    .events-card{
+        padding: 5%;
+    }
+    .cc-title{
+        font-size: 100%;
+    }
+    .cc-content{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width:425px) {
+    .col-md-3{
+        flex: auto 0 0;
+        width: 50%;
+    }
+    .cc-date{
+        font-size: 90%;
+    }
+    .cc-title{
+        font-size: 100%;
+    }
+    .cc-content{
+        font-size: 80%;
+    }
+}

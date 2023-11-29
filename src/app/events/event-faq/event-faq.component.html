@@ -1,5 +1,7 @@
-<section class="py-5 bg-light google-sans-regular">
-    <div class="container pb-3">
+<app-event-page-header></app-event-page-header>
+
+<section class="bg-light py-5">
+    <div class="container accordion-container">
       <div class="accordion bg-transparent" id="accordionExample">
         <div class="accordion-item bg-transparent border-0" *ngFor="let item of faqQuestions; let i = index">
           <h2 class="accordion-header bg-transparent" [id]="'heading' + i">

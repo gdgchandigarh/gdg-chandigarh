@@ -1,0 +1,25 @@
+<section class="events bg-light py-5 google-sans-regular">
+    <div class="container">
+        <p class="section-title mb-5 google-sans-bold">
+        Past Events
+        </p>
+        <div class="row">
+            <div *ngFor="let event of pastEvents" class="col-lg-2 col-md-3 mb-4">
+                <div class="events-card bg-white rounded-3">
+                    <img src="{{event.image}}" alt="" srcset="">
+                    <p class="cc-date">
+                        {{event.date}}
+                    </p>
+                    <p class="cc-title google-sans-bold">
+                        Tech-Talk Session 
+                    </p>
+                    <p class="cc-content">
+                        {{event.name}}
+                    </p>
+                    <p>{{event.org}}</p>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+</section>

@@ -1,0 +1,77 @@
+.page-header{
+    height: 40vh;
+}
+.container-fluid{
+    height: 100%;
+}
+.right-image{
+    background-image: url('../../../../assets/page-header-image.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.page-title{
+    font-size: 250%;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+.section-links{
+    font-size: 125%;
+    color: #5f6368;
+}
+.page-header .row{
+    height: 100%;
+}
+@media only screen and (max-width:1025px){
+    .right-image{
+        background-size: cover;
+        background-position:  center right;
+    }
+    .page-title{
+        font-size: 200%;
+    }
+    .section-links{
+        font-size: 100%;
+    }
+    .one{
+        flex: auto 0 0;
+        width: 33.33%;
+    }
+    .two{
+        flex: auto 0 0;
+        width: 66.66%;
+    }
+}
+@media only screen and (max-width:769px) {
+    .page-header{
+        height: 25vh;
+    }
+    .right-image{
+        background-size: contain;
+    }
+    .page-title{
+        font-size: 125%;
+    }
+}
+@media only screen and (max-width:426px) {
+    .page-header{
+        height: 15vh;        
+    }
+    .pt-5{
+        padding-top: 2rem !important;
+    }
+    .page-title{
+        font-size: 75%;
+    }
+    .section-links{
+        font-size: 60%;
+    }
+    .one{
+        flex: auto 0 0;
+        width: 40%;
+    }
+    .two{
+        flex: auto 0 0;
+        width: 60%;
+    }
+}

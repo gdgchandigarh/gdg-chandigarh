@@ -1,0 +1,140 @@
+<app-event-page-header></app-event-page-header>
+<section class="bg-light py-5">
+    <div class="container sponsors google-sans-regular">
+
+        <div class="row my-2">
+            <h2 class="section-title google-sans-bold text-dim">
+                Our Partners & Sponsors
+            </h2>
+        </div>
+        <div class="row mb-3">
+            <p class="google-sans-regular text-grey">
+                Partners & Sponsors dedicated to building remarkable experience!
+            </p>
+        </div>
+        <div class="row">
+            <p class="google-sans-bold text-dim">
+                Title Sponsors
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3w col-md-3 col-sm-3 col-xs-6">
+                <div class="sponsor-image">
+                    <a target="_blank" href="https://developers.google.com">
+                        <img src="https://devfest23-demo.web.app/img/googlefordevelopers.138bc0ce.svg" alt="Image not found" srcset=""
+                            width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- sponsor-list.component.html -->
+        <div *ngFor="let sponsorCategory of eventSponsors.eventSponsors">
+            <div class="row mt-5">
+              <p class="google-sans-bold text-dim">{{ sponsorCategory.sponsorCategory }} Sponsors</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3w col-md-3 col-sm-3 col-xs-6" *ngFor="let sponsor of sponsorCategory.sponsorDetails">
+                <div class="sponsor-image">
+                  <a target="_blank" [href]="sponsor.sponsorUrl">
+                    <img [src]="sponsor.sponsorLogo" alt="Image not found" srcset="" width="100%">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       
+        <div class="row mt-5">
+            <p class="google-sans-bold text-dim">
+                Venue Partner
+            </p>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.venuePartner">
+                <div class="sponsor-image p-3">
+                    <a [href]="community.communityUrl" target="_blank"><img
+                            src="https://www.amity.edu/mohali/img/logo.png" alt="" srcset="" width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Community Partners Section -->
+        <div class="row mt-5">
+            <p class="google-sans-bold text-dim">
+                Community Partners
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.communityPartners">
+                <div class="p-0 mb-3">
+                    <a [href]="community.communityUrl" target="_blank">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%" class="rounded-3">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- GDSC Community Partners Section -->
+        <div class="row mt-5">
+            <p class="google-sans-bold text-dim">
+                GDSC Community Partners
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"
+                *ngFor="let community of eventSponsors.gdscCommunityPartners">
+                <a [href]="community.communityUrl" target="_blank" style="text-decoration: none;">
+                    <div class="sponsor-image">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%">
+                        <p class="gdsc-name">{{ community.communityName }}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <p class="google-sans-bold text-dim">
+                Ticketing Partner
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.ticketingPartner">
+                <div class="p-0 mb-3">
+                    <a [href]="community.communityUrl" target="_blank">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%" class="rounded-3">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <p class="google-sans-bold text-dim">
+                CFS Partner
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.cfsPartner">
+                <div class="p-0 mb-3">
+                    <a [href]="community.communityUrl" target="_blank">
+                        <img [src]="community.coummunityImage" alt="" srcset="" width="100%" class="rounded-3">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between mt-5">
+            <div>
+                <p>
+                    For a complete overview of DevFest Chandigarh, click the button below to download our event
+                    brochure.
+                </p>
+            </div>
+            <div>
+                <a href="https://rb.gy/ajppxv"><button class="btn btn-sm btn-primary w-auto">Download
+                        Brochure</button></a>
+            </div>
+        </div>
+
+    </div>
+</section>

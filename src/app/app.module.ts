@@ -37,6 +37,20 @@ import { FeaturedProductsComponent } from './events/genericevent/featured-produc
 import { HelpfulResourcesComponent } from './events/genericevent/helpful-resources/helpful-resources.component';
 import { CounterHeaderComponent } from './events/genericevent/counter-header/counter-header.component';
 import { DateCounterComponent } from './events/genericevent/date-counter/date-counter.component';
+import { EventSponsorsComponent } from './events/event-sponsors/event-sponsors.component';
+import { AttendeesComponent } from './events/genericevent/attendees/attendees.component';
+import { EventHighlightsComponent } from './events/genericevent/event-highlights/event-highlights.component';
+import { EventPageHeaderComponent } from './events/layout/event-page-header/event-page-header.component';
+import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
+import { environment } from '../environments/environment';
+import {AngularFireAnalyticsModule, ScreenTrackingService, UserTrackingService} from "@angular/fire/compat/analytics";
+import {AngularFireModule} from "@angular/fire/compat";
+import { AboutGdgComponent } from './gdg-chandigarh/home/about-gdg/about-gdg.component';
+import { EventsGdgComponent } from './gdg-chandigarh/home/events-gdg/events-gdg.component';
+import { FindEventComponent } from './gdg-chandigarh/home/find-event/find-event.component';
+import { JoinCommunityComponent } from './gdg-chandigarh/home/join-community/join-community.component';
+import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-touch.component';
+import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/call-for-speaker.component';
 
 @NgModule({
   declarations: [
@@ -71,18 +85,34 @@ import { DateCounterComponent } from './events/genericevent/date-counter/date-co
     FeaturedProductsComponent,
     HelpfulResourcesComponent,
     CounterHeaderComponent,
-    DateCounterComponent
+    DateCounterComponent,
+    EventSponsorsComponent,
+    AttendeesComponent,
+    EventHighlightsComponent,
+    EventPageHeaderComponent,
+    ComingSoonComponent,
+    AboutGdgComponent,
+    EventsGdgComponent,
+    FindEventComponent,
+    JoinCommunityComponent,
+    GetInTouchComponent,
+    CallForSpeakerComponent
    
   ],
   imports: [
     BrowserModule,
      ModalModule.forRoot(), // Add ModalModule to imports
     AppRoutingModule,
-    FormsModule, // Make sure to import FormsModule
+    FormsModule, // Make sure to import FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+        AngularFireAnalyticsModule,
     BrowserAnimationsModule
   ],
   
-  providers: [],
+  providers: [
+    ScreenTrackingService,
+        UserTrackingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

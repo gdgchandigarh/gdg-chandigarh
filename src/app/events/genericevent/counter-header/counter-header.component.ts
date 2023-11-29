@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
 
 @Component({
   selector: 'app-counter-header',
@@ -8,5 +9,13 @@ import { Component } from '@angular/core';
 export class CounterHeaderComponent {
   eventGif = '../../../assets/event-gif.gif'
   eventDate = `December 9, 2023`;
-eventTime = `9:00 AM - 5:00 PM`;
+  eventTime = `9:00 AM - 5:00 PM`;
+  eventLocation=`Amity University, Punjab`
+ 
+  constructor(private analytics: AngularFireAnalytics) {
+  }
+
+  onRegisterClick() {
+    this.analytics.logEvent('register_button_click', {"component": "EventComponent"});
+  }
 }

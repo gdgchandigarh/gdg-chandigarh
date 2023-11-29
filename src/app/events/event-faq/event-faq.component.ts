@@ -76,6 +76,11 @@ export class EventFaqComponent {
       question: `Will the sessions be in my language?`,
       answer: `DevFest is a distributed global conference featuring events in countries around the world. DevFest sessions will usually be hosted in the regional language, unless otherwise specified.
       <a target="_blank" href="https://developers.google.com/community/devfest#find-a-devfest-community-near-you"> Find an event </a> near you.`
-    }
+    },
+    {
+      question: ` Are the Devfest Chandigarh 2023 Ticket refundable?`,
+      answer: `No, the Ticket for GDG Chandigarh Devfest 2023 is non-refundable. Once purchased, it cannot be refunded or exchanged. Please ensure that you review your selection before completing the transaction.`
+    },
   ]
 }
+//

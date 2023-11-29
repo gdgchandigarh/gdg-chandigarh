@@ -1,57 +1,29 @@
+
+<app-event-page-header></app-event-page-header>
 <section class="event-agenda py-5 bg-light google-sans-regular">
     <div class="container py-3">
-        <div class="row">
+
+        <app-coming-soon></app-coming-soon>
+        <!-- <div class="row">
             <div class="col-lg-3 text-center">
                 <p class="section-title google-sans-bold mt-lg-5 mt-md-3 pt-3 yellow-underline">
                     Agenda
                 </p>
             </div>
             <div class="col-lg-9">
-                <div class="row">
+                <div *ngFor="let item of agenda" class="row">
                     <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
+                        <p class="agenda-time google-sans-bold">{{item?.startTime }} - {{item?.endTime}}</p>
                         <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
+                            {{item?.eventTitle}}
                         </p>
                         <p class="agenda-speaker">
-                            Loveleen Kaur
+                            {{item?.eventSpeaker}}
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div> 
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div> 
-                <div class="row">
-                    <div class="agenda-row my-3 py-3">
-                        <p class="agenda-time google-sans-bold">05:40 P.M. - 06:00 P.M</p>
-                        <p class="agenda-title google-sans-bold ">
-                            Building Open Source presence on Github
-                        </p>
-                        <p class="agenda-speaker">
-                            Loveleen Kaur
-                        </p>
-                    </div>
-                </div>       
+                
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

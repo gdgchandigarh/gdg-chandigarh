@@ -1,32 +1,37 @@
-<section class="counter-header py-5 google-sans-regular">
-    <div class="container">
+<section class="counter-header google-sans-regular">
+    <div class="container-fluid py-md-5">
         <div class="row">
-            <div class="col-lg-6">
-                <img [src]="eventGif" alt="" srcset="" width="100%">
-            </div>
             <div class="col-lg-6 my-auto written-content">
                 <div class="row">
                     <p class="section-title google-sans-bold">
-                        Devfest 2023 for
-                        <br>
-                        <span>GDG Chandigarh</span>
+                        DevFest Chandigarh 2023
                     </p>
                 </div>
-                <div class="row event-details my-3 google-sans-bold">
+                <div class="row event-details google-sans-bold">
                     <p>
                         <i class="fa fa-calendar disabled"></i> {{eventDate}}
                     </p>
                     <p>
                         <i class="fa fa-clock-o disabled"></i> {{eventTime}}
                     </p>
+                    <p>
+                        <i class="fa fa-map-marker-alt disabled"></i> {{eventLocation}}
+                    </p>
+                   
                 </div>
                 <div class="row">
                     <p class="section-content">
-                        An annual event hosted by the Google Developers Group across the world to bring the technology
+                        An annual event hosted by the Google Developer Groups across the world to bring the technology
                         closer to the developers. It is an all day developer conference where we aim to focus on multiple
                         technologies through lightning talks, sessions, workshops, etc.
                     </p>
+                    <div class="d-flex my-3">
+                        <button data-event-id="80002712567929" style="color: black;" disabled data-ticket-id="0" class="ae-ticket-book-button btn btn-primary btn-sm">Registration Closed</button>
+                      </div>
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <img [src]="eventGif" alt="" srcset="" width="100%">
             </div>
         </div>
     </div>

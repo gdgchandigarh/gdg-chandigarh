@@ -1,4 +1,4 @@
-<section class="organizers py-3 my-3">
+<section id="organizers" class="organizers py-3 my-3">
     <div class="container">
         <div class="row text-center pb-3 mb-3">
             <div class="col-lg-12">
@@ -8,19 +8,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let organizer of organizers">
-                <div class="organizers-card people-card">
-                    <div class="image-container">
-                        <img class="card-img-top rounded-circle" [src]="organizer.image"
-                            alt="{{ organizer.name }} Image">
-                        <div class="twitter-icon">
+            <div class="col-lg-3 col-md-6 col-xs-6 organizers-card" *ngFor="let organizer of organizers">
+                <div class=" people-card">
+                    <div class="image-section {{organizer.name}}">
+                        
+                        <!-- <div class="twitter-icon">
                             <a href=""><i class="fa fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-body text-center people-card--text">
-                        <h5 class="card-title people-card--name google-sans-bold">{{ organizer.name }}</h5>
-                        <p class="card-text google-sans-regular">{{ organizer.company }}</p>
-                        <p class="card-text google-sans-regular">{{ organizer.designation }}</p>
+                        <p class="cc-title google-sans-bold">{{ organizer.name }}</p>
+                        <p class="cc-content google-sans-regular">{{ organizer.designation }}</p>
+                        <p class="cc-content google-sans-regular">{{ organizer.company }}</p>
+                       
                         <!-- <a  class="btn btn-outline-primary my-3">Profile</a> -->
                         <button  class="btn btn-primary google-sans-regular" (click)="openModal(profileModal, organizer)" >View Profile</button>
                         <!-- <a  class="b btn btn-secondary" (click)="openModal(profileModal, organizer)" >View Profile</a> -->
@@ -58,9 +58,7 @@
                  <div class="container">
                   <h6 class="google-sans-bold">Bio</h6>
                    <p class="tg mb-0 goo-b google-sans-regular">
-                      <!-- {{ selectedOrganizer?.bio }} -->
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi cum ipsum aut pariatur? Eos animi repellat assumenda excepturi sequi laboriosam ducimus ipsum, debitis et perspiciatis fugiat, fuga quos sed fugit!
-                      
+                      {{ selectedOrganizer?.bio }}
                   </p>
                  </div>
               </div>
@@ -69,12 +67,11 @@
           <div class="spacer-a"></div>
           <div class="container">
             <div class="col-lg-2 col-md-6 col-sm-12   d-flex">
-              <a href="" class="mx-2"><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
-              <a href=""  class="mx-2"><i class="fa-brands fa-xl grey fa-twitter"></i></a>
-              <a href=""  class="mx-2"><i class="fa-solid  fa=xl grey fa-globe"></i></a>
+              <a target="_blank" href="{{selectedOrganizer.linkedin}}" class="mx-2"><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
+              <a target="_blank" href="{{selectedOrganizer.twitter}}"  class="mx-2"><i class="fa-brands fa-xl grey fa-twitter"></i></a>
             </div>
           </div>
-           <div class="container text-end mb-0"(click)="modalRef?.hide()">
+           <div class="container text-end mb-0" (click)="modalRef?.hide()">
             <div class="mb-0 cur" > <span class="google-sans-regular" aria-hidden="true">CLOSE</span></div>
           </div>
           <div class="spacer-a"></div>

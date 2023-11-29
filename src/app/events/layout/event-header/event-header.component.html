@@ -1,6 +1,7 @@
-<nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)" [ngStyle]="boxShadowStyle">
+<nav class="navbar desktop navbar-expand-lg navbar-light bg-white" (scroll)="onScroll($event)"
+  [ngStyle]="boxShadowStyle">
   <div class="container-fluid nav-container">
-    <img src="../../../../assets/logo.png" height="25px" width="45px"> &nbsp; &nbsp; 
+    <img src="../../../../assets/logo.png" height="25px"> &nbsp; &nbsp;
     <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -10,86 +11,52 @@
     <div class="collapse navbar-collapse google-sans-regular" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home"
-             routerLinkActive="active" 
-             [routerLinkActiveOptions]="{exact: true}"
-             aria-current="page">Home</a>
+          <a class="nav-link px-2 d-flex justify-content-center" routerLink="devfest/home" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}" aria-current="page">Home</a>
         </li>
         <li class="nav-item d-flex justify-content-center" *ngFor="let nav of navMenu">
-          <a class="nav-link px-2" routerLinkActive="active" [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
+          <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active"
+            [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
         </li>
-        
+
       </ul>
-      <form class="d-flex">
+      <!-- <form class="d-flex">
         <button class="btn btn-primary btn-sm google-sans-regular small-font rounded-0" type="submit">Register Now</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
 
 <nav class="navbar tablet bg-light fixed-top">
-  <div class="container-fluid d-inline">
+  <div class="container-fluid d-flex align-items-center justify-content-start">
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-    aria-controls="offcanvasNavbar">
-    <i class="fa-bars fa"></i>
-  </button>
-    
-  <a class="navbar-brand px-1" href="#"><img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg" alt="" srcset="" width="175px"></a>
-   
+      aria-controls="offcanvasNavbar">
+      <i class="fa-bars fa"></i>
+    </button>
+
+    <img src="../../../../assets/logo.png"> &nbsp;
+    <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel google-sans-bold"><img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg" alt="" srcset="" width="200px"></h5>
-       </div>
+        <div class="d-flex justify-content-center align-items-center google-sans-bold"> 
+          <img src="../../../../assets/logo.png"> &nbsp;
+          <a class="navbar-brand google-sans-regular text-grey" href="events/devfest/home">DevFest Chandigarh</a>
+        </div>
+      </div>
       <div class="offcanvas-body google-sans-bold">
         <ul class="navbar-nav justify-content-end flex-grow-1 google-sans-bold">
-          <li  data-bs-dismiss="offcanvas"  routerLink="devfest/home"
-          routerLinkActive="active" 
-          [routerLinkActiveOptions]="{exact: true}" aria-label="Close" class="nav-item d-flex justify-content-start" aria-label="Close">
-            <a class="nav-link"
-              aria-current="page">Home</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/speaker" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Speakers</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/agenda"  data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Schedule</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/teams" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >Team</a>
-          </li>
-          <li class="nav-item d-flex justify-content-start" routerLinkActive="active" routerLink="devfest/faq" data-bs-dismiss="offcanvas" aria-label="Close">
-            <a class="nav-link" >FAQ's</a>
-          </li>
           <li class="nav-item">
-            
+            <a class="nav-link px-2 d-flex justify-content-start" routerLink="devfest/home" routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact: true}" aria-current="page"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" type="button">Home</a>
+          </li>
+          <li class="nav-item d-flex justify-content-start"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" type="button"  *ngFor="let nav of navMenu">
+            <a (click)="onClick(nav.itemName)" class="nav-link px-2" routerLinkActive="active"
+              [routerLink]="['devfest', nav.route.toLowerCase()]">{{nav.itemName}}</a>
           </li>
         </ul>
-        <a class="nav-link py-4 px-2 mt-auto" href=""><button class="btn bg-primary text-light w-100">Register Here</button></a>
+        <!-- <a (click)="onRegisterClick()" class="nav-link py-4 px-2 mt-auto" href=""><button disabled class="btn bg-primary text-light w-100">Registeration Coming Soon</button></a> -->
       </div>
     </div>
   </div>
 </nav>
-
-<section class="event-header-section bg-white google-sans-regular">
-  <div class="row">
-      <div class="col-lg-5 left-image">
-      </div>
-      <div class="col-lg-5 d-flex justify-content-center">
-         <div class="header-text">
-          <p class="header-title google-sans-bold">
-             {{eventName}} {{eventPlace}}: Coming soon!
-          </p>
-          <p class="header-content">
-              {{eventHeaderDescription}}
-          </p>
-          <p class="header-content">
-              <!-- {{eventheaderBottom}} -->
-          </p>
-          <a href="https://developers.google.com/community/devfest" target="_blank" class="btn btn-primary btn-sm rounded-0">Learn More</a>
-         </div>
-      </div>
-      <div class="col-lg-2 right-image">
-
-      </div>
-  </div>
-</section>
