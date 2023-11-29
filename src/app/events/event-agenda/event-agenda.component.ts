@@ -87,7 +87,7 @@ export class EventAgendaComponent {
     },
     {
       startTime: '4:15 PM',
-      endTime: '5:15 PM',
+      endTime: '5:00 PM',
       eventTitle: 'Closing and Networking',
       eventSpeaker: ''
     },

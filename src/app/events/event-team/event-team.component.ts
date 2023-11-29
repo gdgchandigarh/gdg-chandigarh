@@ -323,7 +323,7 @@ organizers = [
 },
 {
   id:3,
-  image:"../../../assets/organizers/loveleen.webp",
+  image:"../../../assets/organizers/Loveleen Kaur.png",
   name:"Loveleen Kaur",
   company:"Astrotalk",
   designation:"Senior Engineer",

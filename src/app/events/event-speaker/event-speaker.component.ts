@@ -87,6 +87,46 @@ export class EventSpeakerComponent implements OnInit {
       ],
       bio: "I love to develop Android apps where I feel it gives me the opportunity to transform ideas into reality. I always look forward to learn new technologies and adding them while making apps that's when I came across Firebase and since then it's adding a flavour to my apps. Learning and sharing are two things that I strongly believe in, that's the reason I wrote articles on medium.com on various topics of Android, Kotlin, and Firebase to spread my knowledge with developers across the world. I spoke at the GDG events and monthly meetups to share knowledge with the developers across the community. I like attending various events, webinars, and digital conferences where it helps me gather new information, interact with the speakers, and get an insight into the product."
     },
+    {
+      id: 4,
+      image: "../../../assets/speakers/Kamal Vaid.png",
+      name: "Kamal Vaid",
+      company: "Google Assistant",
+      designation: "Google Developer Expert",
+      profile: "",
+      twitter: "https://twitter.com/cammykamal",
+      linkedin: "https://www.linkedin.com/in/kamal-vaid/",
+      imageHeader: "../../assets/speakers/speaker-headers/kamal-vaid.jpg",
+      instagram: "",
+      sessions: [
+        {
+          sessionId: 1,
+          sessionTopic: "Android App Design and Optimization",
+          sessionDuration: "45 min"
+        }
+      ],
+      bio: "Kamal Vaid is a Google Certified Android Developer and Technology Lead at Infosys. He is also a Google Developer Expert For Google Assistant and proficient in Android Development with experience in Design, Development and API Integration of Android based applications."
+    },
+    {
+      id: 4,
+      image: "../../../assets/speakers/Loveleen Kaur.png",
+      name: "Loveleen Kaur",
+      company: "Astrotalk",
+      designation: "Senior Software Engineer",
+      profile: "",
+      twitter: "https://twitter.com/loveleen_nancy",
+      linkedin: "https://www.linkedin.com/in/loveleen-kaur/",
+      imageHeader: "../../assets/speakers/speaker-headers/loveleen.jpg",
+      instagram: "",
+      sessions: [
+        {
+          sessionId: 1,
+          sessionTopic: "Android App Design and Optimization",
+          sessionDuration: "45 min"
+        }
+      ],
+      bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Android Developer and result oriented professional with 5 years of experience. She is Co-Organizer of GDG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career."
+    }
   ];
 
   ngOnInit(): void {
