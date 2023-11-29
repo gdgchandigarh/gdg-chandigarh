@@ -8,7 +8,7 @@ import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
 })
 export class EventHeaderComponent {
   boxShadowStyle: any = {}; // 
-  navMenu = [
+  navMenuWeb = [
     {
       route: 'agenda',
       itemName: 'Agenda'
@@ -29,7 +29,33 @@ export class EventHeaderComponent {
       route: 'faq',
       itemName: 'FAQ',
     }
-    
+  ] ;
+
+  navMenuMobile = [
+    {
+      route: 'agenda',
+      itemName: 'Agenda'
+    },
+    {
+      route: 'speakers',
+      itemName: 'Speakers'
+    },
+    {
+      route: 'team',
+      itemName: 'Team',
+    },
+    {
+      route:'partners',
+      itemName:'Partners'
+    },
+    {
+      route: 'badge',
+      itemName: 'Get Profile Badge',
+    },
+    {
+      route: 'faq',
+      itemName: 'FAQ',
+    }
   ] 
     
   eventHeaderDescription = `Google Developer Groups Chandigarh is going to host the annual flagship event DevFest Chandigarh (India). 

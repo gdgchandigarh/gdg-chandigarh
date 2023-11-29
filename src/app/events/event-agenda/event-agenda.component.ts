@@ -83,7 +83,7 @@ export class EventAgendaComponent {
       startTime: '3:30 PM',
       endTime: '4:15 PM',
       eventTitle: 'Panel Discussion',
-      eventSpeaker: 'Debasmita Sarkar'
+      eventSpeaker: ''
     },
     {
       startTime: '4:15 PM',

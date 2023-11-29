@@ -38,7 +38,7 @@
         </li>
         <li
           class="nav-item d-flex justify-content-center"
-          *ngFor="let nav of navMenu"
+          *ngFor="let nav of navMenuWeb"
         >
           <a
             (click)="onClick(nav.itemName)"
@@ -49,11 +49,10 @@
           >
         </li>
       </ul>
-      <div class="btn-groups">
+  <div class="btn-groups">
     <div class="div1  px-2 d-flex justify-content-center btn-outline-primary ">
       <a class=" btn-outline-primary SecondaryBtn nav-link px-2  " href="events/devfest/badges"><span>Get profile badge</span></a>
     </div>
-   
   </div>
 
       <!-- <form class="d-flex">
@@ -124,7 +123,7 @@
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
             type="button"
-            *ngFor="let nav of navMenu"
+            *ngFor="let nav of navMenuMobile"
           >
             <a
               (click)="onClick(nav.itemName)"
@@ -134,19 +133,7 @@
               >{{ nav.itemName }}</a
             >
           </li>
-          <li
-            class="nav-item d-flex justify-content-start"
-          >
-           <a
-              
-              class="nav-link px-2"
-             
-              href="events/devfest/badges"
-              >Get profile badge</a
-            >
-        </li>
         </ul>
-        <!-- <a (click)="onRegisterClick()" class="nav-link py-4 px-2 mt-auto" href=""><button disabled class="btn bg-primary text-light w-100">Registeration Coming Soon</button></a> -->
       </div>
     </div>
   </div>
