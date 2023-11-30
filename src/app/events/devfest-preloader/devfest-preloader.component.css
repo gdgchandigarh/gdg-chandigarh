@@ -46,6 +46,7 @@ img:empty {
 
 body {
     background-color: black;
+    z-index: 5;
 }
 
 .photo {
@@ -59,6 +60,7 @@ body {
     background-position: 50% 50%;
     -webkit-transform-origin: top left;
     -webkit-transform: scale(5);
+    z-index: 5;
 }
 
 .frame {
@@ -67,4 +69,5 @@ body {
     color: #d1c7a7;
     width: 80%;
     margin: 0 auto;
+    z-index: 5;
 }
