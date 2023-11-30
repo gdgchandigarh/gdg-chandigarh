@@ -276,6 +276,28 @@ volunteers = [
   },
   {
     id:24,
+    image:"../../../assets/volunteers/Satvik.png",
+    name:"Satvik Sharma",
+    college:"Google DSC IIMT",
+    designation:"Management Co-Lead",
+    profile:"",
+    twitter:"https://twitter.com/SubhamP42079",
+    linkedin: "https://www.linkedin.com/in/subhamrexpaul/",
+    bio: "B.Tech CSE Junior | Management Co-Lead @Google DSC | Cyber Security"
+  },
+  {
+    id:25,
+    image:"../../../assets/volunteers/Aditya.jpeg",
+    name:"Aditya Prakash",
+    college:"Chandigarh University",
+    designation:"Photographer",
+    profile:"",
+    twitter:"",
+    linkedin: "",
+    bio: "Hi, I am passionate photographer."
+  },
+  {
+    id:26,
     image:"../../../assets/volunteers/Riya.png",
     name:"Riya Singh",
     college:"GDG Cloud Chandigarh",
@@ -286,7 +308,7 @@ volunteers = [
     bio: "Riya Singh, a Computer Science and Engineering student at Chandigarh University, specializing in AI and ML. I'm a dedicated learner, passionate about problem-solving with AI, and experienced in Python, C++, and Java. I'm also skilled in full stack web development and server management with cPanel and WHM, with a strong research aptitude."
   },
   {
-    id:25,
+    id:27,
     image:"../../../assets/volunteers/Sai.jpg",
     name:"Saikumar Swarnapudi",
     college:"GDG Cloud Chandigarh",

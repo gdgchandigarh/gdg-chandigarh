@@ -92,7 +92,6 @@ import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/
     EventHighlightsComponent,
     EventPageHeaderComponent,
     ComingSoonComponent,
-    DevfestPreloaderComponent,
     AboutGdgComponent,
     EventsGdgComponent,
     FindEventComponent,

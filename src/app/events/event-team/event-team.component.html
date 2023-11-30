@@ -132,7 +132,7 @@
                                                 href="{{volunteer.twitter}}">
                                                 <i class="fa-brands fa-x-twitter"></i>
                                             </a>
-                                            <a target="_blank" href="{{volunteer.linkedin}}"><i
+                                            <a *ngIf="volunteer.twitter!==''" target="_blank" href="{{volunteer.linkedin}}"><i
                                                     class="fa fa-linkedin"></i> </a>
                                         </p>
 
