@@ -6,29 +6,6 @@ body {
     background-color: #202124;
 }
 
-img {
-    position: absolute;
-    max-width: 80%;
-    
-}
-
-img:empty {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@media screen and (orientation: portrait) {
-    img {
-        max-width: 90%;
-    }
-}
-
-@media screen and (orientation: landscape) {
-    img {
-        max-height: 90%;
-    }
-}
 .video-container {
     display: grid;
     justify-items: center;
