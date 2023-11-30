@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DevfestPreloaderComponent } from './events/devfest-preloader/devfest-preloader.component';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './gdg-chandigarh/header/header.component';
@@ -90,13 +92,13 @@ import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/
     EventHighlightsComponent,
     EventPageHeaderComponent,
     ComingSoonComponent,
+    DevfestPreloaderComponent,
     AboutGdgComponent,
     EventsGdgComponent,
     FindEventComponent,
     JoinCommunityComponent,
     GetInTouchComponent,
-    CallForSpeakerComponent,
-    
+    CallForSpeakerComponent
    
   ],
   imports: [

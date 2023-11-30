@@ -15,6 +15,7 @@ import { EventAgendaComponent } from './events/event-agenda/event-agenda.compone
 import {EventBadgesComponent } from './events/event-badges/event-badges.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DevfestPreloaderComponent } from './events/devfest-preloader/devfest-preloader.component';
 const eventType= 'devfest';
 
 const routes: Routes = [
@@ -42,6 +43,7 @@ const routes: Routes = [
       { path: `${eventType}/badges`, component: EventBadgesComponent},
       { path: `${eventType}/partners`, component: EventSponsorsComponent},
       {path: `${eventType}/coming-soon`, component:ComingSoonComponent},
+      { path: `${eventType}/preloader`, component: DevfestPreloaderComponent}
     ]
   },
   { path: '**', redirectTo: '/gdg-chandigarh/home'}
