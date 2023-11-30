@@ -17,7 +17,7 @@ export class EventsComponent implements OnInit {
     this.analytics.logEvent('event_home_open', {"component": "EventComponent"});
     setTimeout(() => {
       this.isLoading = false;
-    }, 3000); // Adjust the delay as needed
+    }, 4000); // Adjust the delay as needed
   }
 
 }
