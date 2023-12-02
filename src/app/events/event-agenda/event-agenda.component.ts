@@ -40,8 +40,8 @@ export class EventAgendaComponent {
     {
       startTime: '12:15 PM',
       endTime: '12:45 PM',
-      eventTitle: 'Community / WTM / #IamRemarkable',
-      eventSpeaker: ''
+      eventTitle: 'Self Management For Success',
+      eventSpeaker: 'Anuradha Chawla'
     },
     {
       startTime: '12:45 PM',
@@ -52,32 +52,32 @@ export class EventAgendaComponent {
     {
       startTime: '1:00 PM',
       endTime: '2:00 PM',
-      eventTitle: 'Lunch',
+      eventTitle: 'Lunch and Networking',
       eventSpeaker: ''
     },
     {
       startTime: '2:00 PM',
       endTime: '2:45 PM',
-      eventTitle: 'Android App Design and Optimization',
-      eventSpeaker: 'Kamal Vaid & Loveleen Kaur'
+      eventTitle: 'Mastering The Beast Of Web Development',
+      eventSpeaker: 'Gaurav Madaan'
     },
     {
       startTime: '2:00 PM',
       endTime: '2:45 PM',
-      eventTitle: 'Web Session',
-      eventSpeaker: 'Demo Speaker'
+      eventTitle: 'Biometric Auth API',
+      eventSpeaker: 'Nitin Prakash'
     },
     {
       startTime: '2:45 PM',
       endTime: '3:30 PM',
-      eventTitle: 'Harmonizing Widget Creation with SOLID Principles in Flutter',
-      eventSpeaker: 'Debasmita Sarkar'
-    },
-    {
-      startTime: '2:45 PM',
-      endTime: '3:30 PM',
-      eventTitle: 'Supercharge Your Android Apps with Firebase',
+      eventTitle: 'Supercharge Your Android Apps With Firebase',
       eventSpeaker: 'Pankaj Rai'
+    },
+    {
+      startTime: '2:45 PM',
+      endTime: '3:30 PM',
+      eventTitle: 'Harmonizing Widget Creation With SOLID Principles In Flutter',
+      eventSpeaker: 'Debasmita'
     },
     {
       startTime: '3:30 PM',
@@ -88,12 +88,11 @@ export class EventAgendaComponent {
     {
       startTime: '4:15 PM',
       endTime: '5:00 PM',
-      eventTitle: 'Closing and Networking',
+      eventTitle: 'Closing Note and Swags Distribution',
       eventSpeaker: ''
     },
   ]
 
   constructor() {
-    console.log(this.agenda);
   }
 }
