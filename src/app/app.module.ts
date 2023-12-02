@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DevfestPreloaderComponent } from './events/devfest-preloader/devfest-preloader.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

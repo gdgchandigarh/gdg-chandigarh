@@ -4,7 +4,7 @@ body {
     background-color: #000000;
 }
 
-img {
+/* img {
     position: absolute;
     max-width: 80%;
     
@@ -26,8 +26,8 @@ img:empty {
     img {
         max-height: 90%;
     }
-}
-.video-container {
+} */
+/* .video-container {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -38,5 +38,36 @@ img:empty {
     height: 100%;
     overflow: hidden;
     background-color: #000000;
+    z-index: 5;
+} */
+
+/* 
+@import "compass/css3"; */
+
+body {
+    background-color: black;
+    z-index: 5;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background-image: url('../../../assets/u5.gif');
+    background-size: cover;
+    background-position: 50% 50%;
+    -webkit-transform-origin: top left;
+    -webkit-transform: scale(5);
+    z-index: 5;
+}
+
+.frame {
+    position: relative;
+    z-index: 2;
+    color: #d1c7a7;
+    width: 80%;
+    margin: 0 auto;
     z-index: 5;
 }
