@@ -62,7 +62,7 @@ export class EventSpeakerComponent implements OnInit {
         {
           sessionId: 1,
           sessionTopic: "Harmonizing Widget Creation with SOLID Principles in Flutter",
-          sessionDuration: "30 min"
+          sessionDuration: "45 min"
         }
       ],
       bio: "Debasmita works as Senior Mobile Developer at Peggy, bringing with her a rich experience of 8 years, predominantly in Mobile App Development. An early adopter of Flutter, she has successfully developed and launched many applications across diverse sectors, with a notable emphasis on FinTech. Beyond her development prowess, Debasmita is keen on sharing knowledge. She has given talks in various platforms such as Flutter Festival, DevFest, and Google I/O Extended. Recognized for her contributions, she is recognized as GDE and continues to craft content that fortifies the Flutter community."
@@ -142,7 +142,7 @@ export class EventSpeakerComponent implements OnInit {
         {
           sessionId: 1,
           sessionTopic: "Self Management for Success",
-          sessionDuration: "45 min"
+          sessionDuration: "30 min"
         }
       ],
       bio: "Anuradha is a Corporate Trainer with 20 yrs of experience in Strategic Leadership development, Human Resources (HR) & Operations. She is a published author and has co authored a book. A certified Life Coach and POSH trainer. She is International speaker and empanelled with NITTTR, Ministry of HRD, Govt. of India, Management Trainer at Centre for IAS and other Competitive exams, Punjab University., Advisory board member of Mittal Institute of Hospitality, Punjab. She is Startup mentor with Teerthanker Mahaveer University, Moradabad. Mentor with Startup Punjab and Startup Accelerator Chamber of Commerce- SACC, India. President of Life skills council, Womens India Chamber of Commerce & Industry- WICCI. Mentor with AGLA Academy, Nigeria."
