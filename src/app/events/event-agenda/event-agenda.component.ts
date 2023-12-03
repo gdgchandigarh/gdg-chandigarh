@@ -64,7 +64,7 @@ export class EventAgendaComponent {
     {
       startTime: '2:00 PM',
       endTime: '2:45 PM',
-      eventTitle: 'Biometric Auth API',
+      eventTitle: 'Biometric Auth API In Android',
       eventSpeaker: 'Nitin Prakash'
     },
     {
@@ -77,7 +77,7 @@ export class EventAgendaComponent {
       startTime: '2:45 PM',
       endTime: '3:30 PM',
       eventTitle: 'Harmonizing Widget Creation With SOLID Principles In Flutter',
-      eventSpeaker: 'Debasmita'
+      eventSpeaker: 'Debasmita Sarkar'
     },
     {
       startTime: '3:30 PM',
