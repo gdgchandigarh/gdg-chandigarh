@@ -298,6 +298,17 @@ volunteers = [
   },
   {
     id:26,
+    image:"../../../assets/volunteers/Shruti Kuhar.png",
+    name:"Shruti Kuhar",
+    college:"IEEE WIE CU AG",
+    designation:"Chairperson",
+    profile:"",
+    twitter:"",
+    linkedin: "https://www.linkedin.com/in/shruti-kuhar",
+    bio: "Third-Year Computer Science Engineering Student from Chandigarh University specialising in Machine Learning striving to discover new avenues in technology to gain exposure."
+  },
+  {
+    id:27,
     image:"../../../assets/volunteers/Riya.png",
     name:"Riya Singh",
     college:"GDG Cloud Chandigarh",
@@ -308,7 +319,7 @@ volunteers = [
     bio: "Riya Singh, a Computer Science and Engineering student at Chandigarh University, specializing in AI and ML. I'm a dedicated learner, passionate about problem-solving with AI, and experienced in Python, C++, and Java. I'm also skilled in full stack web development and server management with cPanel and WHM, with a strong research aptitude."
   },
   {
-    id:27,
+    id:28,
     image:"../../../assets/volunteers/Sai.jpg",
     name:"Saikumar Swarnapudi",
     college:"GDG Cloud Chandigarh",
