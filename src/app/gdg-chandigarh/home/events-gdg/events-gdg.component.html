@@ -1,4 +1,4 @@
-<section class="events bg-light py-5 google-sans-regular">
+<!-- <section class="events bg-light py-5 google-sans-regular">
     <div class="container">
         <p class="section-title mb-5 google-sans-bold">
         Past Events
@@ -22,4 +22,31 @@
        
         </div>
     </div>
-</section>
+</section> -->
+
+
+
+
+
+  <section class="events bg-light py-5 google-sans-regular">
+    <div class="container">
+      <p class="section-title mb-5 google-sans-bold">Past Events</p>
+  
+      <div class="event-slider">
+        <div class="slider" id="auto-scroll-slider">
+          <div *ngFor="let event of pastEvents" class="event-slide">
+            <div class="events-card bg-white rounded-3 d-flex align-items-center">
+              <img [src]="event.image" alt="{{ event.name }}" class="event-img">
+              <div class="event-info">
+                <p class="cc-date">{{ event.date }}</p>
+                <p class="cc-title google-sans-bold">Tech-Talk Session</p>
+                <p class="cc-content">{{ event.name }}</p>
+                <p class="cc-org">{{ event.org }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

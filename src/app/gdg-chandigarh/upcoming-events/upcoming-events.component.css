@@ -113,3 +113,10 @@
         margin-top: 5%;
     }
   }
+
+  .custom-border {
+    border-left: 0.1px solid #4884f2;
+    border-top: .1px solid #e64236;
+    border-right: .1px solid #0f9e57;
+    border-bottom: .1px solid #fabe01;
+  }

@@ -7,7 +7,7 @@
                 </h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center pt-4">
             <div class="col-lg-3 col-md-6 col-xs-6 organizers-card" *ngFor="let organizer of organizers">
                 <div class=" people-card">
                     <div class="image-section {{organizer.name}}">
@@ -69,6 +69,7 @@
             <div class="col-lg-2 col-md-6 col-sm-12   d-flex">
               <a target="_blank" href="{{selectedOrganizer.linkedin}}" class="mx-2"><i class="fa-brands fa-xl grey fa-linkedin"></i></a>
               <a target="_blank" href="{{selectedOrganizer.twitter}}"  class="mx-2"><i class="fa-brands fa-xl grey fa-twitter"></i></a>
+              <a target="_blank" href="{{selectedOrganizer.Portfolio}}"  class="mx-2"><i class="fa-xl grey fa-solid fa-briefcase"></i></a>
             </div>
           </div>
            <div class="container text-end mb-0" (click)="modalRef?.hide()">

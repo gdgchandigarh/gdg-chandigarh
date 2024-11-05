@@ -19,3 +19,4 @@ describe('UpcomingEventsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

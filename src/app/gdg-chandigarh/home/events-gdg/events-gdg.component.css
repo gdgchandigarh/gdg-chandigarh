@@ -1,4 +1,4 @@
-.events-card{
+/* .events-card{
     height: 100%;
     padding: 7.5%;
     transition-duration: 0.5s;
@@ -50,4 +50,123 @@
     .cc-content{
         font-size: 80%;
     }
-}
+} */
+
+
+
+
+
+
+
+.events-card {
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .events-card:hover {
+    box-shadow: 5px 5px 5px #00000015;
+  }
+  
+  .event-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: transform 0.5s ease;
+  }
+  
+  .event-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cc-title {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .cc-content, .cc-org, .cc-date {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .events-card {
+      padding: 5%;
+    }
+    .cc-title {
+      font-size: 1rem;
+    }
+    .cc-content {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .cc-date, .cc-title {
+      font-size: 1rem;
+    }
+    .cc-content {
+      font-size: 0.8rem;
+    }
+    .events-card {
+      padding: 5%;
+    }
+  }
+  
+  
+  .event-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    animation: scroll 20s linear infinite; 
+    animation-play-state: running; 
+  }
+  
+  .event-slide {
+    flex: 1 0 33.33%; 
+    max-width: 33.33%;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .event-slide {
+      flex: 1 0 50%; 
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .event-slide {
+      flex: 1 0 100%; 
+      max-width: 100%;
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  #auto-scroll-slider {
+    animation: scroll 30s linear infinite; 
+    animation-play-state: running;
+  }
+  

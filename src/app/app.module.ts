@@ -51,6 +51,7 @@ import { FindEventComponent } from './gdg-chandigarh/home/find-event/find-event.
 import { JoinCommunityComponent } from './gdg-chandigarh/home/join-community/join-community.component';
 import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-touch.component';
 import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/call-for-speaker.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -106,7 +107,8 @@ import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/
     FormsModule, // Make sure to import FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
         AngularFireAnalyticsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   
   providers: [
