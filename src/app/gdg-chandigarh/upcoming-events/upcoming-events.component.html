@@ -1,4 +1,4 @@
-<section id="upcoming-events" class="upcoming-events py-5 google-sans-regular">
+<!-- <section id="upcoming-events" class="upcoming-events py-5 google-sans-regular">
   <div class="container">
     <div class="row text-center">
       <div class="col-12">
@@ -25,5 +25,33 @@
         <img src="https://developers.google.com/static/events/images/devfest-2023.webp" alt="" srcset="" width="100%">
       </div>
     </div>
+  </div>
+</section> -->
+
+<section id="upcoming-events" class="upcoming-events py-5 google-sans-regular">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <p class="section-title google-sans-bold mb-5">
+          Upcoming Events
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-around align-items-center" *ngIf="events.length > 0; else noEvents">
+      <div class="col-lg-7 text-content" *ngFor="let event of events">
+        <p class="section-title google-sans-bold">Join Us at
+          <br> {{ event.title }}
+        </p>
+        <p class="section-content">{{ event.description_short }}</p>
+        <p><strong>Date:</strong> {{ event.start_date | date: 'longDate' }}</p>
+        <button (click)="openEvent(event.url)" class="btn btn-primary btn-sm">Know More</button>
+      </div>
+      <div class="col-lg-4" *ngFor="let event of events">
+        <img class=" rounded-4 custom-border" [src]="event.cropped_picture_url" alt="{{ event.title }}" width="100%">
+      </div>
+    </div>
+    <ng-template #noEvents>
+      <p>No upcoming events available.</p>
+    </ng-template>
   </div>
 </section>
