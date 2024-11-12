@@ -11,7 +11,7 @@ export class EventSponsorsComponent {
   imageUrl = '../../../assets/Brand/GDGCloud.png'
   gdscUrl = '../../../assets/Brand/GDSCLogo.png'
 
-  brochureUrl = 'assets/Brand/DevFestChandigarh2023SponsorshipBrochure.pdf'
+  brochureUrl = 'assets/Brand/DevFestChandigarh2024SponsorshipBrochure.pdf'
   eventSponsors = {
     "ourSponsors": [
       {

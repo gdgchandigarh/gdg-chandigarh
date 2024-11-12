@@ -62,10 +62,10 @@ export class EventHeaderComponent {
                             It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.`; 
 
   eventName = `DevFest`;
-  eventYear = `2023`;
+  eventYear = `2024`;
   eventPlace = `Chandigarh`;
 
-  eventheaderBottom = ` DevFest opens for registration on October 2, 2023. Check back for updates!`;
+  eventheaderBottom = ` DevFest opens for registration on October 2, 2024. Check back for updates!`;
 
   constructor(private analytics: AngularFireAnalytics) {
   }

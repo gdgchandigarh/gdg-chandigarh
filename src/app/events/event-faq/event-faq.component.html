@@ -1,6 +1,6 @@
 <app-event-page-header></app-event-page-header>
 
-<section class="bg-light py-5">
+<!-- <section class="bg-light py-5">
     <div class="container accordion-container">
       <div class="accordion bg-transparent" id="accordionExample">
         <div class="accordion-item bg-transparent border-0" *ngFor="let item of faqQuestions; let i = index">
@@ -15,4 +15,26 @@
         </div>
       </div>
     </div>
+</section> -->
+
+
+<section class="event-faq-section">
+  <div class="faq-container">
+    <h2 class="faq-title my-5"></h2>
+    <div class="accordion-wrapper">
+      <div class="faq-item" *ngFor="let item of faqQuestions; let i = index">
+        <div class="faq-header" [class.active]="activeIndex === i" (click)="toggleItem(i)">
+          <h3 class="faq-question">{{ item.question }}</h3>
+          <div class="icon-container">
+            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M6 9l6 6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer" [class.expanded]="activeIndex === i">
+          <div class="answer-content" [innerHTML]="item.answer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

@@ -18,7 +18,7 @@ export class EventBadgesComponent implements OnInit {
   banner2: any;
 
   constructor() {
-    document.title = 'Badges | DevFest Chandigarh 2023';
+    document.title = 'Badges | DevFest Chandigarh 2024';
 
     this.banner = new Image();
     this.banner2 = new Image();
