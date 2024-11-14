@@ -7,7 +7,7 @@ import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
   styleUrls: ['./keep-in-touch.component.css']
 })
 export class KeepInTouchComponent {
-  imageUrl = '../../../assets/newImage.png'
+  imageUrl = '../../../assets/newImage2.png'
   constructor(private analytics: AngularFireAnalytics) {
     
   }

@@ -9,7 +9,7 @@ export class FeaturedProductsComponent {
 featuredTopics = [
   {
     topicName:  `Android`,
-    logo: `https://developer.android.com/images/brand/Android_Robot.png`,
+    logo: `https://developer.android.com/static/images/android-logo.svg`,
     description: `Modern tools and resources to help you build experiences that people love, faster and easier, across every Android device.`
   },
   {
@@ -23,9 +23,9 @@ featuredTopics = [
     description: `Firebase is an app development platform that helps you build and grow apps and games users love. Widely used in mobile, web.`
   },
   {
-    topicName:  `PaLM`,
-    logo: `../../../../assets/palm-logo.svg`,
-    description: `PaLM is Google's pioneering field in computer science, creating intelligent machines and enhancing various technologies.`
+    topicName:  `Gemini API`,
+    logo: `https://developers.google.com/static/focus/images/gemini-icon.png`,
+    description: `Gemini, an advanced AI language model, excels in generating human-quality text, translations, and code.`
   },
   {
     topicName:  `MakerSuite`,
