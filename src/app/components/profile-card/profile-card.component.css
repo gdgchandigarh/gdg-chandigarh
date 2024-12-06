@@ -1,0 +1,85 @@
+.volunteer-card img{
+  border-radius: 100%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 80%;
+  margin:auto;
+}
+.volunteer-card{
+  padding: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 7.5%;
+  height: 100%;
+
+}
+.volunteer-name{
+  font-size: 90%;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+.socials i{
+  margin-right: 5%;
+  font-size: 20px;
+  color: grey;
+}
+.volunteer-designation{
+  font-size: 80%;
+  margin-bottom: 3px;
+}
+
+.close-button{
+  text-align: right;
+  border: none;
+  background-color: transparent;
+}
+.modal-content{
+  padding: 5%;
+}
+
+img.volunteer-image-modal {
+  border-radius: 100%;
+}
+@media only screen and (max-width:768px){
+  .volunteer-image-modal{
+      width: 30% !important;
+      margin-right: 5%;
+  }
+}
+@media only screen and (max-width:425px){
+  .col-sm-6{
+      flex: auto 0 0;
+      width: 50%;
+  }
+  .volunteer-image-modal{
+      width: 30% !important;
+      margin-right: 5%;
+  }
+}
+.modal .volunteer-name{
+  margin-bottom: 0px;
+}
+.volunteer-image-modal{
+  width: 15%;
+  margin-right: 5%;
+}
+.custom-width{
+  width: fit-content;
+}
+.justified-text{
+  text-align: justify !important;
+}
+@media (max-width: 767px) {
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-2.col-sm-6 {
+  flex: 0 0 50%; /* Take full width on mobile */
+  max-width: 50%;
+  margin-bottom: 20px; /* Add spacing between cards */
+}
+.volunteer-card{
+  height: 100%;
+}
+}
