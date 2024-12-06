@@ -1,24 +1,21 @@
 <app-event-page-header></app-event-page-header>
 <section class="bg-light py-5">
-    <div class="container sponsors google-sans-regular">
-
-        <div class="row my-2">
-            <h2 class="section-title google-sans-bold text-dim text-center mb-4">
-                Our Partners 
-                <!-- & Sponsors -->
-            </h2>
-        </div>
-        <div class="row mb-3">
-            <p class="google-sans-regular text-grey text-center mb-4">
-                Partners & Sponsors dedicated to building remarkable experience!
-            </p>
-        </div>
-        <div class="row mt-5">
-            <h2 class="google-sans-bold text-dim text-center mb-4">
-                Title Sponsors
-            </h2>
-        </div>
-        <!-- <div class="row justify-content-center">
+  <div class="container sponsors google-sans-regular">
+    <div class="row my-2">
+      <h2 class="section-title google-sans-bold text-dim text-center mb-4">
+        Our Partners
+        <!-- & Sponsors -->
+      </h2>
+    </div>
+    <div class="row mb-3">
+      <p class="google-sans-regular text-grey text-center mb-4">
+        Partners & Sponsors dedicated to building remarkable experience!
+      </p>
+    </div>
+    <div class="row mt-5">
+      <h2 class="google-sans-bold text-dim text-center mb-4">Title Sponsors</h2>
+    </div>
+    <!-- <div class="row justify-content-center">
             <div class="col-lg-3w col-md-3 col-sm-3 col-xs-6">
                 <div class="sponsor-image">
                     <a target="_blank" href="https://developers.google.com">
@@ -28,26 +25,31 @@
                 </div>
             </div>
         </div> -->
-        <div class="row partners-grid justify-content-center mb-5">
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-4" 
-                 *ngFor="let community of eventSponsors.venuePartner">
-              <div class="venue-partner-card">
-                <a href="https://developers.google.com" target="_blank" class="venue-partner-link">
-                  <div class="venue-partner-card-inner">
-                    <div class="venue-partner-image-container">
-                      <img 
-                        src="https://devfest23-demo.web.app/img/googlefordevelopers.138bc0ce.svg"
-                        class="google"
-                      >
-                    </div>
-                  </div>
-                </a>
+    <div class="row partners-grid justify-content-center mb-5">
+      <div
+        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-4"
+        *ngFor="let community of eventSponsors.venuePartner"
+      >
+        <div class="venue-partner-card">
+          <a
+            href="https://developers.google.com"
+            target="_blank"
+            class="venue-partner-link"
+          >
+            <div class="venue-partner-card-inner">
+              <div class="venue-partner-image-container">
+                <img
+                  src="https://devfest23-demo.web.app/img/googlefordevelopers.138bc0ce.svg"
+                  class="google"
+                />
               </div>
             </div>
-          </div>
-        
-        
-        <!-- <div *ngFor="let sponsorCategory of eventSponsors.eventSponsors">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div *ngFor="let sponsorCategory of eventSponsors.eventSponsors">
             <div class="row mt-5">
               <p class="google-sans-bold text-dim">{{ sponsorCategory.sponsorCategory }} Sponsors</p>
             </div>
@@ -62,13 +64,12 @@
             </div>
         </div> -->
 
-       
-        <!-- <div class="row mt-5">
+    <!-- <div class="row mt-5">
             <p class="google-sans-bold text-dim">
                 Venue Partner
             </p>
         </div>
-        
+
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.venuePartner">
                 <div class="sponsor-image p-3">
@@ -79,32 +80,40 @@
             </div>
         </div> -->
 
-        <!-- venue-partners.component.html -->
-<div class="venue-partners-container">
-    <div class="section-title">
-      <h2 class="google-sans-bold text-dim text-center mb-4">Venue Partner</h2>
-    </div>
-    
-    <div class="row partners-grid">
-      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-4" 
-           *ngFor="let community of eventSponsors.venuePartner">
-        <div class="venue-partner-card">
-          <a [href]="community.communityUrl" target="_blank" class="venue-partner-link">
-            <div class="venue-partner-card-inner">
-              <div class="venue-partner-image-container">
-                <img 
-                  src="https://www.cuidol.in/new-assets/img/cu-logo.png"
-                  class="venue-partner-image"
-                >
+    <!-- venue-partners.component.html -->
+    <div class="venue-partners-container">
+      <div class="section-title">
+        <h2 class="google-sans-bold text-dim text-center mb-4">
+          Venue Partner
+        </h2>
+      </div>
+
+      <div class="row partners-grid">
+        <div
+          class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-4"
+          *ngFor="let community of eventSponsors.venuePartner"
+        >
+          <div class="venue-partner-card">
+            <a
+              [href]="community.communityUrl"
+              target="_blank"
+              class="venue-partner-link"
+            >
+              <div class="venue-partner-card-inner">
+                <div class="venue-partner-image-container">
+                  <img
+                    src="https://www.cuidol.in/new-assets/img/cu-logo.png"
+                    class="venue-partner-image"
+                  />
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-        <!-- <div class="row mt-5">
+    <!-- <div class="row mt-5">
             <p class="google-sans-bold text-dim">
                 Community Partners
             </p>
@@ -119,36 +128,42 @@
             </div>
         </div> -->
 
-        <!-- community-partners.component.html -->
-<div class="community-partners-container">
-    <div class="section-title">
-      <h2 class="text-center mb-4">Community Partners</h2>
-    </div>
-    
-    <div class="row partners-grid">
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4" 
-           *ngFor="let community of eventSponsors.communityPartners">
-        <div class="partner-card">
-          <a [href]="community.communityUrl" target="_blank" class="partner-link">
-            <div class="partner-card-inner">
-              <div class="partner-image-container">
-                <img 
-                  [src]="community.coummunityImage" 
-                  [alt]="community.communityName" 
-                  class="partner-image"
-                >
-              </div>
-              <!-- <div class="partner-name">
+    <!-- community-partners.component.html -->
+    <div class="community-partners-container">
+      <div class="section-title">
+        <h2 class="text-center mb-4">Community Partners</h2>
+      </div>
+
+      <div class="row partners-grid">
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+          *ngFor="let community of eventSponsors.communityPartners"
+        >
+          <div class="partner-card">
+            <a
+              [href]="community.communityUrl"
+              target="_blank"
+              class="partner-link"
+            >
+              <div class="partner-card-inner">
+                <div class="partner-image-container">
+                  <img
+                    [src]="community.coummunityImage"
+                    [alt]="community.communityName"
+                    class="partner-image"
+                  />
+                </div>
+                <!-- <div class="partner-name">
                 {{ community.communityName }}
               </div> -->
-            </div>
-          </a>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-        <!-- <div class="row mt-5">
+    <!-- <div class="row mt-5">
             <p class="google-sans-bold text-dim">
                 GDGoC Community Partners
             </p>
@@ -205,71 +220,92 @@
             </div>
         </div> -->
 
-        <section class="community-partners-container">
-            <div class="container">
-                <!-- Community Partners Section -->
-                <div class="section-title">
-                    <h2 class="google-sans-bold text-dim text-center mb-4">GDGoC Community Partners</h2>
-                </div>
-                <div class="partners-grid row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12" 
-                        *ngFor="let community of eventSponsors.gdscCommunityPartners">
-                        <a style="text-decoration: none !important;" href="community.communityUrl" target="_blank" class="partner-link">
-                            <div class="sponsor-image">
-                                <img 
-                                    [src]="community.coummunityImage" 
-                                    alt="{{ community.communityName }} logo" 
-                                    width="100%"
-                                >
-                                <p class="gdsc-name">
-                                    <span style="color: #4286f6; text-decoration: none !important;">On Campus </span>
-                                    {{ community.communityName }}
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-        
-                <!-- Ticketing Partner Section -->
-                <div class="section-title mt-5">
-                    <h2 class="google-sans-bold text-dim text-center mb-4">Ticketing Partner</h2>
-                </div>
-                <div class="row justify-content-center mb-4">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.ticketingPartner">
-                        <div class="p-0 mb-3">
-                            <a [href]="community.communityUrl" target="_blank">
-                                <img 
-                                    [src]="community.coummunityImage" 
-                                    alt="{{ community.communityName }} logo" 
-                                    width="100%" 
-                                    class="rounded-3"
-                                >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- CFS Partner Section -->
-                <div class="section-title mt-5">
-                    <h2 class="google-sans-bold text-dim text-center mb-4">CFS Partner</h2>
-                </div>
-                <div class="row justify-content-center mb-4">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" *ngFor="let community of eventSponsors.cfsPartner">
-                        <div class="p-0 mb-3">
-                            <a [href]="community.communityUrl" target="_blank">
-                                <img 
-                                    [src]="community.coummunityImage" 
-                                    alt="{{ community.communityName }} logo" 
-                                    width="100%" 
-                                    class="rounded-3"
-                                >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Brochure Download Section -->
-                <!-- <div class="d-flex justify-content-between mt-5">
+    <section class="community-partners-container">
+      <div class="container">
+        <!-- Community Partners Section -->
+        <div class="section-title">
+          <h2 class="google-sans-bold text-dim text-center mb-4">
+            GDGoC Community Partners
+          </h2>
+        </div>
+        <div class="partners-grid row">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 col-12"
+            *ngFor="let community of eventSponsors.gdscCommunityPartners"
+          >
+            <a
+              style="text-decoration: none !important"
+              [href]="community.communityUrl"
+              target="_blank"
+              class="partner-link"
+            >
+              <div class="sponsor-image">
+                <img
+                  [src]="community.coummunityImage"
+                  alt="{{ community.communityName }} logo"
+                  width="100%"
+                />
+                <p class="gdsc-name">
+                  <span style="color: #4286f6; text-decoration: none !important"
+                    >On Campus
+                  </span>
+                  {{ community.communityName }}
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Ticketing Partner Section -->
+        <div class="section-title mt-5">
+          <h2 class="google-sans-bold text-dim text-center mb-4">
+            Ticketing Partner
+          </h2>
+        </div>
+        <div class="row justify-content-center mb-4">
+          <div
+            class="col-lg-3 col-md-3 col-sm-3 col-xs-6"
+            *ngFor="let community of eventSponsors.ticketingPartner"
+          >
+            <div class="p-0 mb-3">
+              <a href="{{ community.communityUrl }}" target="_blank">
+                <img
+                  [src]="community.coummunityImage"
+                  alt="{{ community.communityName }} logo"
+                  width="100%"
+                  class="rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CFS Partner Section -->
+        <div class="section-title mt-5">
+          <h2 class="google-sans-bold text-dim text-center mb-4">
+            CFS Partner
+          </h2>
+        </div>
+        <div class="row justify-content-center mb-4">
+          <div
+            class="col-lg-3 col-md-3 col-sm-3 col-xs-6"
+            *ngFor="let community of eventSponsors.cfsPartner"
+          >
+            <div class="p-0 mb-3">
+              <a [href]="community.communityUrl" target="_blank">
+                <img
+                  [src]="community.coummunityImage"
+                  alt="{{ community.communityName }} logo"
+                  width="100%"
+                  class="rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brochure Download Section -->
+        <!-- <div class="d-flex justify-content-between mt-5">
                     <div>
                         <p>
                             For a complete overview of DevFest Chandigarh, click the button below to download our event brochure.
@@ -283,12 +319,11 @@
                         </a>
                     </div>
                 </div> -->
-            </div>
-        </section>
+      </div>
+    </section>
+  </div>
 
-    </div>
-
-    <!-- <div class="container pb-3">
+  <!-- <div class="container pb-3">
         <app-coming-soon></app-coming-soon>
     </div> -->
 </section>
