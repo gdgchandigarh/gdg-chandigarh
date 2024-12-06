@@ -4,7 +4,7 @@ export interface IPerson {
   name: string;
   company?: string;
   designation: string;
-  twitter: string;
+  twitter?: string;
   linkedin: string;
   instagram?: string;
   sessions?: any[];

@@ -10,7 +10,7 @@ import { IPerson } from 'src/app/models/IPerson.model';
 export class EventTeamComponent {
   constructor(private analytics: AngularFireAnalytics) {}
 
-  volunteers = [
+  volunteers: IPerson[] = [
     {
       id: 1,
       image: '../../../assets/volunteers/Zaid.jpg',
@@ -111,7 +111,7 @@ export class EventTeamComponent {
     },
   ];
 
-  organizers = [
+  organizers: IPerson[] = [
     {
       id: 1,
       image: '../../../assets/organizers/yatin.webp',
