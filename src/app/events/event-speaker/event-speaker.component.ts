@@ -65,7 +65,7 @@ export class EventSpeakerComponent implements OnInit {
       twitter: 'https://www.twitter.com/burhanrashid52',
       linkedin: 'https://www.linkedin.com/in/burhanuddin-rashid-a16959b1',
       instagram: '',
-      bio: 'With 10+ years of experience, Gaurav is responsible for implementing client software solutions with the highest degree of quality and consistency. He has substantial experience in solving client problems by developing high-performance, maintainable, and reliable solutions and has got the opportunity to develop solutions for the Telecom, Medical, and Insurance industries. He is passionate about learning new technologies and implementing solutions for business problems. Outside of work, He runs a meetup group to be able to share his knowledge with the technology professionals and to learn more from them. He is a poet (writes mostly in his native language) and a happy son, husband and father.',
+      bio: 'I am an Open-Source enthusiast from India. Being a Software Craftsman I love to write clean and readable code and currently been working on Android, Kotlin and Flutter. I am a movie freak. I try to help, learn and share my knowledge by writing blogs or speaking at conferences.',
     },
     {
       id: 6,

@@ -70,70 +70,70 @@ export class EventSponsorsComponent {
         "communityName": "Chandigarh University",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-chandigarh-university-chandigarh-india/"
       },
       {
         "communityId": "2",
         "communityName": "Chitkara University",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-chitkara-university-chandigarh-india/"
       },
       {
         "communityId": "3",
         "communityName": "GNIOT",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-greater-noida-institute-of-technology-greater-noida-india/"
       },
       {
         "communityId": "4",
         "communityName": "IGC",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-indo-global-college-mohali-india/"
       },
       {
         "communityId": "5",
         "communityName": "Maharishi Markandeshwar",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-maharishi-markandeshwar-deemed-to-be-university-mullana-india/"
       },
       {
         "communityId": "6",
         "communityName": "PUSSGRC",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-panjab-university-swami-sarvanand-giri-regional-centre-hoshiarpur-india/"
       },
       {
         "communityId": "7",
-        "communityName": "Shaheed Bhagat Singh Stae University",
+        "communityName": "SBSSU",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-shaheed-bhagat-singh-state-university-firozpur-india/"
       },
       {
         "communityId": "8",
         "communityName": "UIET kuk",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-university-institute-of-engineering-and-technology-kurukshetra-university-kurukshetra-india/"
       },
       {
         "communityId": "9",
         "communityName": "UIET Chandigarh",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-university-institute-of-engineering-technology-punjab-university-chandigarh-india/"
       },
       {
         "communityId": "11",
         "communityName": "SVIET",
         "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-swami-vivekanand-institute-of-engineering-technology-chandigarh-india/"
       },
     ],
 
@@ -171,35 +171,35 @@ export class EventSponsorsComponent {
         "communityName": "TFUG Ghaziabad",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/tfug-logo-horizontal - Vedansh Tripathi.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/tensorflow-user-group-ghaziabad/"
       },
       {
         "communityId": "5",
         "communityName": "DevLearn ",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/hb-1 - Ishan Kumar.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/groups/14374066/"
       },
       {
         "communityId": "6",
         "communityName": "Alexa Developer’s Community ",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/Alexa Logo - Gurnoor Kaur.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/alexadevscu/"
       },
       {
         "communityId": "7",
         "communityName": "Girls in Tech",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/girlsInTech.jpg",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/girls-in-tech-community/posts/?feedView=all"
       },
       {
         "communityId": "8",
         "communityName": "Lamit Club",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/Untitled design (5) - Manik.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/lamit-club/"
       },
       {
         "communityId": "9",
@@ -210,31 +210,24 @@ export class EventSponsorsComponent {
       },
       {
         "communityId": "10",
-        "communityName": "Chandigarh DAO",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/CHD DAo.png",
+        "communityName": "Innovation Mission Punjab",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/impunjab.webp",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.impunjab.org/"
       },
       {
         "communityId": "11",
         "communityName": "C Square",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/C Square Black - C Square.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/csquare-club/"
       },
       {
         "communityId": "12",
         "communityName": "Ads labs",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/al.jpg",
         "communityDescription": "",
-        "communityUrl": ""
-      },
-      {
-        "communityId": "13",
-        "communityName": "The Owl Code",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/WhatsApp Image 2024-11-15 at 16.23.42_5f867b64 - Anant Pratap Singh.jpg",
-        "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://adslabs.devxoshakya.xyz/"
       },
       {
         "communityId": "14",
@@ -255,7 +248,7 @@ export class EventSponsorsComponent {
         "communityName": "Bugbaar",
         "coummunityImage": "../../../assets/Brand/CommunityPartners/Bug Baar.png",
         "communityDescription": "",
-        "communityUrl": ""
+        "communityUrl": "https://www.linkedin.com/company/bugbaar/"
       },
     ],
 
