@@ -9,18 +9,8 @@ import { IPerson } from 'src/app/models/IPerson.model';
 })
 export class EventTeamComponent {
   constructor(private analytics: AngularFireAnalytics) {}
-  volunteers: IPerson[] = [
-    // {
-    //   id:1,
-    //   image:"../../../assets/volunteers/Ayush Kumar.jpeg",
-    //   name:"Ayush Kumar",
-    //   college:"CGC Jhanjeri",
-    //   designation:"Lead D4 Community",
-    //   profile:"",
-    //   twitter:"https://twitter.com/its_AKT_",
-    //   linkedin: "https://www.linkedin.com/in/ayush-kumar-432801206/",
-    //   bio: "Frontend Developer at Gravity Infinity, B.Tech student and D4 Community Lead. Crafting engaging digital experiences through code. Passionate about web development and innovation. Committed to bridging technology and creativity. Excited to shape the future of tech."
-    // },
+
+  volunteers = [
     {
       id: 1,
       image: '../../../assets/volunteers/Zaid.jpg',
@@ -33,9 +23,95 @@ export class EventTeamComponent {
         'https://www.linkedin.com/in/qazi-zaid?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       bio: "Zaid is a creative tech enthusiast pursuing Computer Science & Engineering, Specialized in UI/UX designing, Graphic Designing and Web Development. He's the Graphic Designing Lead at D4 Community, with a focus on community impact through design and innovation.",
     },
+    {
+      id: 2,
+      image: '../../../assets/volunteers/Riya.png',
+      name: 'Riya Singh',
+      college: 'Chandiagrh University',
+      designation: 'Asst. Co-Organizer',
+      profile: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/riyasinghs/',
+      bio: 'The Asst Co-Organizer of Google Developers Group Cloud Chandigarh. A professional web developer. Currently interning in Machine Learning @NCUE in Taiwan. Passionate about coding and creating a world of her own vision.',
+    },
+    {
+      id: 3,
+      image:
+        'https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/featured_attendees/WhatsApp%20Image%202023-01-11%20at%2013.07.47_ahpuwWw.jpg',
+      name: 'Sai Kumar Swarnpudi',
+      college: 'Chandiagrh University',
+      designation: 'Team Lead',
+      profile: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/saikumarswarnapudi/',
+
+      bio: 'The team lead of Google Developers Group Cloud Chandigarh. Providing stability and playing a pivotal role by handling the crew for the community.',
+    },
+    {
+      id: 4,
+      image: '../../../assets/volunteers/harsh.jpg',
+      name: 'Harsh Khatri',
+      college: 'CGC Jhanjeri',
+      designation: 'Graphics Designer, D4 Community',
+      profile: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/harsh-khatri-b52a07278/',
+
+      bio: 'Harsh Khatri tech enthusiast pursuing Computer Science & Engineering. Specialized in Web development and video editor',
+    },
+    {
+      id: 5,
+      // image:"https://media.licdn.com/dms/image/v2/D5603AQFP_TelJCeOGw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722012669211?e=1738195200&v=beta&t=LRWIZ-_bJlRRkpgJ0SnGpM9bKQ5OONR0YTNjmT8xtbc",
+      image: '../../../assets/volunteers/Yashika.jpg',
+      name: 'Yashika Mukhija',
+      college: 'QuadB Technologies',
+      designation: 'UX UI Designer',
+      profile: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/yashika-mukhija/',
+
+      bio: 'Yashika is a UX UI Designer who designs Web3 applications by profession. She loves solving design challenges and making digital experiences better for everyone. In her spare time, she enjoys immersing herself in different cultures and expressing her thoughts through digital storytelling.',
+    },
+    {
+      id: 6,
+      image: '../../../assets/volunteers/devansha.jpg',
+      name: 'Devansh Srivastava',
+      college: 'CGC Jhanjeri',
+      designation: 'Management Lead, D4 Community',
+      profile: '',
+      twitter: '',
+      linkedin:
+        'https://www.linkedin.com/in/devansh-srivastava-95a343204/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+
+      bio: 'Devansh is a passionate and self-motivated individual currently in the final year of graduation, with a strong foundation in Python and experience working with NoSQL databases. Currently serving as the Management Lead at D4 Community, showcasing strong managerial skills and driving initiatives focused on community growth and collaboration.',
+    },
+    {
+      id: 7,
+      image: '../../../assets/volunteers/Devishi.jpg',
+      name: 'Devishi Aggarwal',
+      college: 'Chandigarh University',
+      designation: 'Campus Lead CU, D4 Community',
+      profile: '',
+      twitter: '',
+      linkedin: 'http://linkedin.com/in/devishiaggarwal',
+
+      bio: 'Devishi Aggarwal, student at Chandigarh University, is a dynamic leader known for organizing impactful tech events and collaborating with global speakers. With expertise in pre-event planning, UI/UX design, and IoT projects, she has led over 10 successful initiatives. A mentor and host, Devishi inspires peers through workshops and community-building efforts.',
+    },
+    {
+      id: 8,
+      image: '../../../assets/volunteers/ashish.jpeg',
+      name: 'Ashish kumar Singh',
+      college: 'Chandigarh University',
+      designation: 'Video editor and cameraman ',
+      profile: '',
+      // twitter:"https://twitter.com/its_AKT_",
+      linkedin: 'http://linkedin.com/in/devishiaggarwal',
+
+      bio: 'Ashish Kumar Singh is a student at Chandigarh University, pursuing computer science and engineering, his passion for storytelling through video editing. As a dedicated video editor, he contributes his skills to the D4 Community, enhancing their visual content with creativity and precision.',
+    },
   ];
 
-  organizers: IPerson[] = [
+  organizers = [
     {
       id: 1,
       image: '../../../assets/organizers/yatin.webp',

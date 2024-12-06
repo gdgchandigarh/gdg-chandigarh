@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/gdg-chandigarh",
     "ignore": [
       "firebase.json",
       "**/.*",
