@@ -139,6 +139,12 @@ canvas {
     padding: 2rem 0rem;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0rem 0rem;
+    }
+}
+
 .c-container {
     background-color: #D9DADA;
     border-radius: 0.5rem;

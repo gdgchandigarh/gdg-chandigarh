@@ -1,9 +1,9 @@
 
-<app-event-page-header></app-event-page-header>
+<!-- <app-event-page-header></app-event-page-header>
 <section class="event-agenda py-5 bg-light google-sans-regular">
-    <div class="container py-3">
+    <div class="container py-3"> -->
 
-        <app-coming-soon></app-coming-soon>
+        <!-- <app-coming-soon></app-coming-soon> -->
         
         <!-- <div class="row">
             <div class="col-lg-3 text-center">
@@ -25,6 +25,122 @@
                 </div>
                 
             </div>
-        </div> -->
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+<app-event-page-header></app-event-page-header>
+<section class="event-agenda py-5 bg-light google-sans-regular">
+    <div class="container py-3">
+         <!-- <app-coming-soon></app-coming-soon> -->
+        <div class="row">
+            <div class="col-lg-3 text-center mb-4">
+                <h2 class="section-title google-sans-bold mt-lg-5 mt-md-3 pt-3 yellow-underline">
+                    Agenda
+                </h2>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div *ngFor="let item of agenda" class="col-12 mb-4">
+                        <div class="agenda-row shadow-sm rounded py-4 px-3 bg-white">
+                            <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+                                <p class="agenda-time google-sans-bold mb-2 mb-md-0 ">
+                                    {{item?.startTime}} - {{item?.endTime}}
+                                </p>
+                                <p class="agenda-title google-sans-bold mb-2 mb-md-0 text-dark h5">
+                                    {{item?.eventTitle}}
+                                </p>
+                            </div>
+                            <p class="agenda-speaker text-muted mt-2 mb-0">
+                                {{item?.eventSpeaker}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<style>
+    .event-agenda {
+        background-color: #f8f9fa;
+    }
+
+    .section-title {
+        color: #333;
+        position: relative;
+    }
+
+    .yellow-underline {
+        display: inline-block;
+        padding-bottom: 0.2rem;
+        /* border-bottom: 3px solid #ffc107; */
+    }
+
+    .agenda-row {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* .agenda-row:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    } */
+
+    .agenda-time {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .agenda-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #212529;
+    }
+
+    .agenda-speaker {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    @media (max-width: 768px) {
+        /* .agenda-time, .agenda-title {
+            text-align: center;
+        } */
+
+        .agenda-row {
+            padding: 1.5rem 1rem;
+        }
+
+        .section-title {
+            margin-top: 3.5rem !important;
+        }
+    }
+
+    @media (max-width: 576px) {
+        /* .section-title {
+            font-size: 1.2rem;
+        } */
+
+        .agenda-time {
+            font-size: 0.9rem;
+        }
+
+        .agenda-title {
+            font-size: 1rem;
+        }
+
+        .agenda-speaker {
+            font-size: 0.8rem;
+        }
+    }
+</style>

@@ -18,4 +18,6 @@ export class ProfileCardComponent {
     instagram: '',
     bio: '',
   };
+
+  @Input() type: string = 'person';
 }

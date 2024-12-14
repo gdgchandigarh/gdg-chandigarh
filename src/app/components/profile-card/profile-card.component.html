@@ -1,7 +1,7 @@
 <div
   class="volunteer-card bg-white rounded-3"
   data-bs-toggle="modal"
-  [attr.data-bs-target]="'#speakerModal' + person.id"
+  [attr.data-bs-target]="'#'+ type + person.id"
 >
   <div class="row d-flex justify-content-center">
     <img src="{{ person.image }}" srcset="" class="volunteer-image" />
@@ -20,7 +20,7 @@
 
 <div
   class="modal fade text-start"
-  [id]="'speakerModal' + person.id"
+  [id]="type + person.id"
   tabindex="-1"
   aria-labelledby="[add unique labels]"
   aria-hidden="true"
