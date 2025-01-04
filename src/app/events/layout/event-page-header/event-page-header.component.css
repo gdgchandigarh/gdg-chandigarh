@@ -1,5 +1,5 @@
-.page-header{
-    height: 40vh;
+/* .page-header{
+    height: 50vh;
 }
 .container-fluid{
     height: 100%;
@@ -74,4 +74,110 @@
         flex: auto 0 0;
         width: 60%;
     }
+} */
+
+
+
+.page-header {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+}
+
+.right-image {
+    background-image: url('../../../../assets/page-header-image2.png');
+    /* background-size: cover; */
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* border-radius: 8px;  */
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+.section-links {
+    font-size: 1.25rem;
+    color: #5f6368;
+}
+
+.page-header .row {
+    height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .right-image {
+        /* background-size: cover; */
+        background-position: center;
+    }
+    .page-title {
+        font-size: 2rem;
+    }
+    .section-links {
+        font-size: 1rem;
+    }
+    .one {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on smaller tablets */
+        text-align: center;
+    }
+    .two {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on smaller tablets */
+        height: 40vh; /* Adjust image height for better visibility */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-header {
+        height: 35vh; /* Adjust height for medium-sized devices */
+        padding-top: 1rem;
+    }
+    .right-image {
+        background-size: cover;
+        background-position: center;
+        height: 30vh; /* Reduce image height */
+    }
+    .page-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page-header {
+        height: 30vh; /* Further reduce height for small devices */
+    }
+    .pt-5 {
+        padding-top: 1rem !important;
+    }
+    .page-title {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+    .section-links {
+        font-size: 0.875rem; /* Adjusted font size */
+    }
+    .one {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on mobile */
+        text-align: center;
+    }
+    .two {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on mobile */
+        height: 20vh; /* Reduce image height */
+    }
+}
+
+.breadcrumbContent {
+    background-color: #eeeeee !important;
 }

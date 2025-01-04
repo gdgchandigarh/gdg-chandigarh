@@ -18,7 +18,7 @@ export class OrganizersComponent implements AfterViewInit {
       twitter:"https://twitter.com/hifiveyatin",
       linkedin: "https://www.linkedin.com/in/hifiveyatin/",
       
-      bio: "Yatin is a Project Engineer by profession having 2+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
+      bio: "Yatin is a Project Engineer by profession having 4+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
     },
     {
       id:2,
@@ -30,7 +30,7 @@ export class OrganizersComponent implements AfterViewInit {
       twitter:"https://twitter.com/iharneetsingh",
       linkedin: "https://www.linkedin.com/in/iharneetsingh/",
       
-      bio: "By profession I'm working as Associate Consultant in KPMG. I believe in the theory of sharing whatever you have learnt from everywhere."
+      bio: "By profession I'm working as Consultant in KPMG. I believe in the theory of sharing whatever you have learnt from everywhere."
     },
     {
       id:3,

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -43,8 +43,12 @@ import { EventHighlightsComponent } from './events/genericevent/event-highlights
 import { EventPageHeaderComponent } from './events/layout/event-page-header/event-page-header.component';
 import { ComingSoonComponent } from './events/layout/coming-soon/coming-soon.component';
 import { environment } from '../environments/environment';
-import {AngularFireAnalyticsModule, ScreenTrackingService, UserTrackingService} from "@angular/fire/compat/analytics";
-import {AngularFireModule} from "@angular/fire/compat";
+import {
+  AngularFireAnalyticsModule,
+  ScreenTrackingService,
+  UserTrackingService,
+} from '@angular/fire/compat/analytics';
+import { AngularFireModule } from '@angular/fire/compat';
 import { AboutGdgComponent } from './gdg-chandigarh/home/about-gdg/about-gdg.component';
 import { EventsGdgComponent } from './gdg-chandigarh/home/events-gdg/events-gdg.component';
 import { FindEventComponent } from './gdg-chandigarh/home/find-event/find-event.component';
@@ -52,6 +56,7 @@ import { JoinCommunityComponent } from './gdg-chandigarh/home/join-community/joi
 import { GetInTouchComponent } from './gdg-chandigarh/home/get-in-touch/get-in-touch.component';
 import { CallForSpeakerComponent } from './events/genericevent/call-for-speaker/call-for-speaker.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
@@ -97,24 +102,21 @@ import { HttpClientModule } from '@angular/common/http';
     FindEventComponent,
     JoinCommunityComponent,
     GetInTouchComponent,
-    CallForSpeakerComponent
-   
+    CallForSpeakerComponent,
   ],
   imports: [
     BrowserModule,
-     ModalModule.forRoot(), // Add ModalModule to imports
+    ModalModule.forRoot(), // Add ModalModule to imports
     AppRoutingModule,
     FormsModule, // Make sure to import FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
-        AngularFireAnalyticsModule,
+    AngularFireAnalyticsModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ComponentsModule,
   ],
-  
-  providers: [
-    ScreenTrackingService,
-        UserTrackingService
-  ],
-  bootstrap: [AppComponent]
+
+  providers: [ScreenTrackingService, UserTrackingService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

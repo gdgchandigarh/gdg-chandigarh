@@ -1,17 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
 @Component({
   selector: 'app-event-faq',
   templateUrl: './event-faq.component.html',
   styleUrls: ['./event-faq.component.css']
 })
 export class EventFaqComponent {
+  activeIndex: number = -1;
   faqQuestions = [
     {
       question: `What is DevFest?`,
       answer: `DevFest is an annual distributed tech conference hosted by the Google Developer Groups (GDG) community. GDGs host these events around the globe.
 
-      DevFest 2022 marked the 11th year of DevFest and represents the beginning of the second decade of the GDG community. Through DevFest, you can continue to explore how Google's suite of developer tools can expand the impact of local tech professionals and developers like you around the world.
+      DevFest 2024 marked the 12th year of DevFest and represents the beginning of the second decade of the GDG community. Through DevFest, you can continue to explore how Google's suite of developer tools can expand the impact of local tech professionals and developers like you around the world.
       
       Whether you're passionate about finding new opportunities, elevating your knowledge on the latest Google developer tools, or exploring how to use Google technologies to generate social and economic impact, DevFest offers an amazing platform for developers to connect locally, learn, and build on Google's tools.`
     },
@@ -24,8 +30,8 @@ export class EventFaqComponent {
       GDG communities coordinate community activities centered around helping developers learn, connect, and grow while building a strong sense of belonging to the local and global Google Developer Groups community.`
     },
     {
-      question: `When will DevFest 2023 events happen?`,
-      answer: `DevFests in 2023 will happen all over the world from October 1 to December 31. 
+      question: `When will DevFest 2024 events happen?`,
+      answer: `DevFests in 2024 will happen all over the world from October 1 to December 31. 
               We encourage you to <a target="_blank" href="https://developers.google.com/community/devfest#find-a-devfest-community-near-you">find a GDG community </a> 
               hosting a DevFest near you!`
     },
@@ -78,9 +84,13 @@ export class EventFaqComponent {
       <a target="_blank" href="https://developers.google.com/community/devfest#find-a-devfest-community-near-you"> Find an event </a> near you.`
     },
     {
-      question: ` Are the Devfest Chandigarh 2023 Ticket refundable?`,
-      answer: `No, the Ticket for GDG Chandigarh Devfest 2023 is non-refundable. Once purchased, it cannot be refunded or exchanged. Please ensure that you review your selection before completing the transaction.`
+      question: ` Are the Devfest Chandigarh 2024 Ticket refundable?`,
+      answer: `No, the Ticket for GDG Chandigarh Devfest 2024 is non-refundable. Once purchased, it cannot be refunded or exchanged. Please ensure that you review your selection before completing the transaction.`
     },
-  ]
+  ];
+
+  toggleItem(index: number) {
+    this.activeIndex = this.activeIndex === index ? -1 : index;
+  }
 }
 //

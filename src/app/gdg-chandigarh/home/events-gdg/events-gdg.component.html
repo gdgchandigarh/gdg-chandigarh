@@ -28,7 +28,7 @@
 
 
 
-  <section class="events bg-light py-5 google-sans-regular">
+  <!-- <section class="events bg-light py-5 google-sans-regular">
     <div class="container">
       <p class="section-title mb-5 google-sans-bold">Past Events</p>
   
@@ -46,6 +46,31 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+   -->
+
+
+   <section class="events bg-light py-5 google-sans-regular">
+    <div class="container">
+      <p class="section-title mb-5 google-sans-bold">Past Events</p>
+    
+      <div class="event-slider">
+        <div class="slider" id="auto-scroll-slider">
+          <div *ngFor="let event of pastEvents" class="event-slide">
+            <div class="events-card bg-white rounded-3 d-flex align-items-center">
+              <img [src]="event.cropped_picture_url" alt="{{ event.title }}" class="event-img">
+              <div class="event-info">
+                <p class="cc-date">{{ event.start_date | date: 'MMM d, y' }}</p>
+                <p class="cc-title google-sans-bold">{{ event.event_type_title }}</p>
+                <p class="cc-content">{{ event.title }}</p>
+                <a [href]="event.cohost_registration_url" target="_blank" class="cc-org">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button *ngIf="nextPageUrl" (click)="fetchEvents()">Load More Events</button> -->
       </div>
     </div>
   </section>

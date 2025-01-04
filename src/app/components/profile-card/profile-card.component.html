@@ -1,0 +1,78 @@
+<div
+  class="volunteer-card bg-white rounded-3"
+  data-bs-toggle="modal"
+  [attr.data-bs-target]="'#'+ type + person.id"
+>
+  <div class="row d-flex justify-content-center">
+    <img src="{{ person.image }}" srcset="" class="volunteer-image" />
+  </div>
+
+  <p class="volunteer-name text-center google-sans-bold">
+    {{ person.name }}
+  </p>
+  <p class="volunteer-designation google-sans-regular text-center">
+    {{ person.designation }}
+  </p>
+  <p class="volunteer-designation google-sans-regular text-center">
+    {{ person.company }}
+  </p>
+</div>
+
+<div
+  class="modal fade text-start"
+  [id]="type + person.id"
+  tabindex="-1"
+  aria-labelledby="[add unique labels]"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="row">
+        <div class="col-9">
+          <div class="d-flex justify-content-start">
+            <img
+              src="{{ person.image }}"
+              srcset=""
+              class="volunteer-image-modal"
+            />
+
+            <div class="d-flex align-items-center justify-content-start">
+              <div class="pt-2">
+                <p class="volunteer-name google-sans-bold">
+                  {{ person.name }}
+                </p>
+                <p class="volunteer-designation google-sans-regular">
+                  {{ person.designation }}
+                </p>
+                <p class="volunteer-designation google-sans-regular">
+                  {{ person.company }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 my-auto text-end">
+          <div class="row socials">
+            <p class="my-auto">
+              <a target="_blank" href="{{ person.twitter }}">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a target="_blank" href="{{ person.linkedin }}">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <p class="google-sans-regular">
+          {{ person.bio }}
+        </p>
+      </div>
+
+      <button type="button" class="close-button" data-bs-dismiss="modal">
+        <span class="google-sans-bold">CLOSE</span>
+      </button>
+    </div>
+  </div>
+</div>

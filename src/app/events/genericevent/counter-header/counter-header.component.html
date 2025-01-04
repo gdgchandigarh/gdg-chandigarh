@@ -1,13 +1,13 @@
-<section class="counter-header google-sans-regular">
-    <div class="container-fluid py-md-5">
-        <div class="row">
-            <div class="col-lg-6 my-auto written-content">
+<!-- <section class="counter-header google-sans-regular container pt-4">
+    <div class="py-md-5 pt-s-5">
+        <div class="row mt-5">
+            <div class="col-lg-6 my-auto ">
                 <div class="row">
                     <p class="section-title google-sans-bold">
-                        DevFest Chandigarh 2023
+                        DevFest Chandigarh 2024
                     </p>
                 </div>
-                <div class="row event-details google-sans-bold">
+                <div class="row event-details google-sans-bold gap-2">
                     <p>
                         <i class="fa fa-calendar disabled"></i> {{eventDate}}
                     </p>
@@ -26,13 +26,56 @@
                         technologies through lightning talks, sessions, workshops, etc.
                     </p>
                     <div class="d-flex my-3">
-                        <button data-event-id="80002712567929" style="color: black;" disabled data-ticket-id="0" class="ae-ticket-book-button btn btn-primary btn-sm">Registration Closed</button>
-                      </div>
+                        <button data-event-id="80008236703801" style="z-index: -1; " disabled data-ticket-id="0" class="ae-ticket-book-button btn btn-primary btn-sm text-white">Register Now</button>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img [src]="eventGif" alt="" srcset="" width="100%">
+                <img class="rounded-4" [src]="eventGif" alt="" srcset="" width="100%">
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
+
+<section class="counter-header google-sans-regular container pt-5">
+    <div class="py-md-5 pt-s-5">
+      <div class="row mt-5">
+        <div class="col-lg-6 my-auto">
+          <div class="row">
+            <p class="section-title google-sans-bold">DevFest Chandigarh 2024</p>
+          </div>
+          <div class="row event-details google-sans-bold gap-2">
+            <p><i class="fa fa-calendar disabled"></i> {{ eventDate }}</p>
+            <p><i class="fa fa-clock-o disabled"></i> {{ eventTime }}</p>
+            <p><i class="fa fa-map-marker-alt disabled"></i> {{ eventLocation }}</p>
+          </div>
+          <div class="row">
+            <p class="section-content">
+              An annual event hosted by Google Developer Groups to bring technology closer to developers. It is an all-day developer conference with talks, sessions, and workshops.
+            </p>
+            <div class="d-flex mt-3 mb-5">
+              <!-- <button (click)="onRegisterClick()" class="btn btn-primary btn-md text-white">Register Now</button> -->
+              <button class="btn btn-secondary btn-md text-white">Registration Closed</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="rounded-4" [src]="eventGif" alt="Event Image" width="100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal Structure -->
+  <div *ngIf="showModal" class="modal">
+    <div class="modal-content">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <iframe
+        src="https://allevents.in/manage/tickets/book.php?event_id=80008236703801&auto_fill=1&platform=iframe&hide_details=1&aff=u0"
+        width="100%"
+        height="600px"
+        style="border:none;"></iframe>
+    </div>
+  </div>
+  

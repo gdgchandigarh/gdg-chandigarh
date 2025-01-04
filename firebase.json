@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target":"staging",
     "public": "dist/gdg-chandigarh",
     "ignore": [
       "firebase.json",

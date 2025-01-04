@@ -9,9 +9,9 @@ export class EventSponsorsComponent {
 
 
   imageUrl = '../../../assets/Brand/GDGCloud.png'
-  gdscUrl = '../../../assets/Brand/GDSCLogo.png'
+  gdscUrl = '../../../assets/Brand/gdgoncampus.png'
 
-  brochureUrl = 'assets/Brand/DevFestChandigarh2023SponsorshipBrochure.pdf'
+  brochureUrl = 'assets/Brand/DevFestChandigarh2024SponsorshipBrochure.pdf'
   eventSponsors = {
     "ourSponsors": [
       {
@@ -67,273 +67,198 @@ export class EventSponsorsComponent {
     "gdscCommunityPartners": [
       {
         "communityId": "1",
-        "communityName": "SVIET",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "Chandigarh University",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-chandigarh-university-chandigarh-india/"
       },
       {
         "communityId": "2",
         "communityName": "Chitkara University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chitkara-university-chandigarh/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-chitkara-university-chandigarh-india/"
       },
       {
         "communityId": "3",
-        "communityName": "UIET, Panjab University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "GNIOT",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/university-institute-of-engineering-technology-punjab-university-chandigarh/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-greater-noida-institute-of-technology-greater-noida-india/"
       },
       {
         "communityId": "4",
-        "communityName": "Chandigarh University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "IGC",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chandigarh-university-chandigarh/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-indo-global-college-mohali-india/"
       },
       {
         "communityId": "5",
-        "communityName": "COE CGC, Landran",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "Maharishi Markandeshwar",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chandigarh-group-of-colleges-coe-landran/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-maharishi-markandeshwar-deemed-to-be-university-mullana-india/"
       },
       {
         "communityId": "6",
-        "communityName": "Chandigarh Group of Colleges (CEC)",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "PUSSGRC",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-panjab-university-swami-sarvanand-giri-regional-centre-hoshiarpur-india/"
       },
       {
         "communityId": "7",
-        "communityName": "Punjab Engineering College, Chandigarh",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "SBSSU",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/punjab-engineering-college-chandigarh/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-shaheed-bhagat-singh-state-university-firozpur-india/"
       },
       {
         "communityId": "8",
-        "communityName": "Shaheed Bhagat Singh State University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "UIET kuk",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/shaheed-bhagat-singh-state-university-firozpur/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-university-institute-of-engineering-and-technology-kurukshetra-university-kurukshetra-india/"
       },
       {
         "communityId": "9",
-        "communityName": "IK Gujral Punjab Technical University - Jalandhar",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "UIET Chandigarh",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/ik-gujral-punjab-technical-university-jalandhar/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-university-institute-of-engineering-technology-punjab-university-chandigarh-india/"
       },
       {
         "communityId": "11",
-        "communityName": "DAV Institute of Engineering & Technology",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
+        "communityName": "SVIET",
+        "coummunityImage": "../../../assets/Brand/gdgoncampus.png",
         "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/dav-institute-of-engineering-technology-jalandhar/"
-      },
-      {
-        "communityId": "12",
-        "communityName": "NIT Jalandhar",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"
-      },
-      {
-        "communityId": "13",
-        "communityName": "Lovely Professional University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/lovely-professional-university-jalandhar/"
-      },
-      {
-        "communityId": "14",
-        "communityName": "Chitkara University, Himachal Pradesh",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/chitkara-university-himachal-pradesh-solan/"
-      },
-      {
-        "communityId": "15",
-        "communityName": "IIT Ropar",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/indian-institute-of-technology-ropar/"
-      },
-      {
-        "communityId": "16",
-        "communityName": "MM (DU)",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/"
-      },
-      {
-        "communityId": "17",
-        "communityName": "NIT Kurukshetra",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/national-institute-of-technology-nit-kurukshetra/"
-      },
-      {
-        "communityId": "18",
-        "communityName": "Guru Nanak Dev University, RC - Jalandhar",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/guru-nanak-dev-university-regional-campus-jalandhar/"
-      },
-      {
-        "communityId": "19",
-        "communityName": "NIT Hamirpur",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/national-institute-of-technology-nit-hamirpur/"
-      },
-      {
-        "communityId": "20",
-        "communityName": "Guru Nanak Dev University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/guru-nanak-dev-university-amritsar/"
-      },
-      {
-        "communityId": "21",
-        "communityName": "SDMCET Dharwad",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/shri-dharmasthala-manjunatheshwara-college-of-engineering-technology-dharwad/"
-      },
-      {
-        "communityId": "21",
-        "communityName": "Baba Banda Singh Bahadur Engineering College",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
-      },
-      {
-        "communityId": "23",
-        "communityName": "Punjabi University",
-        "coummunityImage": "../../../assets/Brand/GDSCLogo.png",
-        "communityDescription": "",
-        "communityUrl": "https://gdsc.community.dev/punjabi-university-patiala/"
+        "communityUrl": "https://gdg.community.dev/gdg-on-campus-swami-vivekanand-institute-of-engineering-technology-chandigarh-india/"
       },
     ],
+
     "communityPartners": [
       {
         "communityId": "0",
+        "communityName": "TFUG Chandigarh",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfug.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.commudle.com/communities/tfug-chandigarh"
+      },
+      {
+        "communityId": "1",
+        "communityName": "GDG Jalandhar",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/gdgj.png",
+        "communityDescription": "",
+        "communityUrl": "https://gdg.community.dev/gdg-jalandhar/"
+      },
+      {
+        "communityId": "2",
         "communityName": "GDG Cloud Chandigarh",
         "coummunityImage": "../../../assets/Brand/gdgc.jpg",
         "communityDescription": "",
         "communityUrl": "https://gdg.community.dev/gdg-cloud-chandigarh/"
       },
       {
-        "communityId": "1",
-        "communityName": "TFUG Chandigarh",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfug.jpg",
-        "communityDescription": "",
-        "communityUrl": "https://www.meetup.com/tensorflow-user-group-chandigarh/"
-      },
-      {
-        "communityId": "2",
+        "communityId": "3",
         "communityName": "D4 Community",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/D4.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/d4.png",
         "communityDescription": "",
         "communityUrl": "https://www.linkedin.com/company/d4community/"
       },
       {
-        "communityId": "3",
-        "communityName": "Coding Bits",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/codingbits.jpg",
-        "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/coding-bits/"
-      },
-      {
         "communityId": "4",
-        "communityName": "Papaya Coders",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/papaya.jpg",
+        "communityName": "TFUG Ghaziabad",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfug-logo-horizontal - Vedansh Tripathi.png",
         "communityDescription": "",
-        "communityUrl": "https://papayacoders.in/"
+        "communityUrl": "https://www.linkedin.com/company/tensorflow-user-group-ghaziabad/"
       },
       {
         "communityId": "5",
-        "communityName": "Hack The Mountains",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/Hack.jpg",
+        "communityName": "DevLearn ",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/hb-1 - Ishan Kumar.png",
         "communityDescription": "",
-        "communityUrl": "https://hackthemountain.tech/"
+        "communityUrl": "https://www.linkedin.com/groups/14374066/"
       },
       {
         "communityId": "6",
-        "communityName": "Web 3 Punjab",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/w3.jpg",
+        "communityName": "Alexa Developer’s Community ",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/Alexa Logo - Gurnoor Kaur.png",
         "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/web3panjab/"
+        "communityUrl": "https://www.linkedin.com/company/alexadevscu/"
       },
       {
         "communityId": "7",
+        "communityName": "Girls in Tech",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/girlsInTech.jpg",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/girls-in-tech-community/posts/?feedView=all"
+      },
+      {
+        "communityId": "8",
+        "communityName": "Lamit Club",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/Untitled design (5) - Manik.png",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/lamit-club/"
+      },
+      {
+        "communityId": "9",
         "communityName": "CU IEEE",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/ieee.jpg",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/ieeeCU.png",
         "communityDescription": "",
         "communityUrl": "https://edu.ieee.org/in-cu/"
       },
       {
-        "communityId": "8",
-        "communityName": "Bizarre Coders",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/bizzare.jpg",
-        "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/bizarre-coders/"
-      },
-      {
-        "communityId": "9",
-        "communityName": "PandoraX",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/pandora.jpg",
-        "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/pandorax/"
-      },
-      {
         "communityId": "10",
-        "communityName": "Navan",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/navan.jpg",
+        "communityName": "Innovation Mission Punjab",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/impunjab.webp",
         "communityDescription": "",
-        "communityUrl": "https://navan.ai/"
+        "communityUrl": "https://www.impunjab.org/"
       },
       {
         "communityId": "11",
-        "communityName": "KUG",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/KUG.jpg",
+        "communityName": "C Square",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/C Square Black - C Square.png",
         "communityDescription": "",
-        "communityUrl": "https://www.meetup.com/kotlin-chandigarh-user-group/"
+        "communityUrl": "https://www.linkedin.com/company/csquare-club/"
       },
       {
         "communityId": "12",
-        "communityName": "Alexa's Developers Community",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/alexa.jpg",
+        "communityName": "Ads labs",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/al.jpg",
         "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/alexadevscu/?originalSubdomain=in"
-      },
-      {
-        "communityId": "13",
-        "communityName": "Alexa's Developers Community",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/gfg.jpg",
-        "communityDescription": "",
-        "communityUrl": "https://www.linkedin.com/company/geeksforgeeks-student-chapter-cu/?originalSubdomain=in"
+        "communityUrl": "https://adslabs.devxoshakya.xyz/"
       },
       {
         "communityId": "14",
-        "communityName": "TFUG Jalandhar",
-        "coummunityImage": "../../../assets/Brand/CommunityPartners/tfugj.jpg",
+        "communityName": "Campus Community",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/campus community.png",
         "communityDescription": "",
-        "communityUrl": "https://twitter.com/TFUGJalandhar"
+        "communityUrl": ""
+      },
+      {
+        "communityId": "15",
+        "communityName": "Spectrum Club ",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/Spectrum Club.jpg",
+        "communityDescription": "",
+        "communityUrl": ""
+      },
+      {
+        "communityId": "16",
+        "communityName": "Bugbaar",
+        "coummunityImage": "../../../assets/Brand/CommunityPartners/Bug Baar.png",
+        "communityDescription": "",
+        "communityUrl": "https://www.linkedin.com/company/bugbaar/"
       },
     ],
+
     "venuePartner": [
       {
         "communityId": "",
-        "communityName": "Amity University",
-        "coummunityImage": "https://images.collegedunia.com/public/college_data/images/logos/16250594561625031096logo.png",
+        "communityName": "Chandigarh University",
+        "coummunityImage": "https://www.cuidol.in/new-assets/img/cu-logo.png",
         "communityDescription": "",
-        "communityUrl": "https://amity.edu/WebCampaign/Punjab/default.aspx?WCID=A19052021A&utm_source=paraojhi&utm_medium=GoogleAd3&utm_campaign=PARADIRECT&utm_id=Paraojhi_Solutions_LLP&gad_source=1&gclid=CjwKCAjwnOipBhBQEiwACyGLuq4_Lo91cQxWPTqKtDStlg19vr32O2L5Rx2Nc2OExyr-QlWCU2wo9hoCdHsQAvD_BwE"
+        "communityUrl": "https://cucet.cuchd.in/"
       }
     ],
     "ticketingPartner": [
